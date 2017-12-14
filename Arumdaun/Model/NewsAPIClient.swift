@@ -1,0 +1,15 @@
+//
+//  NewsAPIClient.swift
+//  Arumdaun
+//
+//  Created by Park, Chanick on 9/7/17.
+//  Copyright © 2017 Chanick Park. All rights reserved.
+//
+
+import Foundation
+
+
+
+class NewsAPIClient : BaseAPIClient {
+    
+}

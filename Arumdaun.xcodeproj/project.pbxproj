@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102500E01F5A74A000B49C7B /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102500DE1F5A74A000B49C7B /* ENSideMenu.swift */; };
+		102500E11F5A74A000B49C7B /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102500DF1F5A74A000B49C7B /* ENSideMenuNavigationController.swift */; };
+		102B787E1F6A33B400837CF1 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787D1F6A33B400837CF1 /* AudioViewController.swift */; };
+		102B78801F6E10C700837CF1 /* DailyQTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */; };
+		102B78851F72366C00837CF1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 102B78821F72366C00837CF1 /* Assets.bundle */; };
+		102B78861F72366C00837CF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102B78831F72366C00837CF1 /* Info.plist */; };
+		102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B78881F7236B100837CF1 /* YTPlayerView.m */; };
+		102B788B1F777D4700837CF1 /* LiveBroadCastingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B788A1F777D4700837CF1 /* LiveBroadCastingViewController.swift */; };
+		10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */; };
+		10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */; };
+		10AAF90B1F60F32900C8AD46 /* MainAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */; };
+		10C8A3631EFCCDE300202579 /* ArDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A3621EFCCDE300202579 /* ArDefine.swift */; };
+		10C8A36B1F0201EA00202579 /* ArUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A36A1F0201EA00202579 /* ArUtils.swift */; };
+		10C8A36E1F02110000202579 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */; };
+		1AB98DADF769B165D4F7E328 /* Pods_Arumdaun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */; };
+		CB0667CC1F4CA50C008996D1 /* UIButton+ArButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */; };
+		CB0667CD1F4CA50C008996D1 /* UIColor+ArColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667C91F4CA50C008996D1 /* UIColor+ArColor.swift */; };
+		CB0667CE1F4CA50C008996D1 /* UIImage+ArImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667CA1F4CA50C008996D1 /* UIImage+ArImage.swift */; };
+		CB0667CF1F4CA50C008996D1 /* UIView+ArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667CB1F4CA50C008996D1 /* UIView+ArView.swift */; };
+		CB0667F41F4DDFD5008996D1 /* MainYoutubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667F31F4DDFD5008996D1 /* MainYoutubeCell.swift */; };
+		CB0667F91F4F555C008996D1 /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667F81F4F555C008996D1 /* CenterCellCollectionViewFlowLayout.swift */; };
+		CB0667FD1F506AD2008996D1 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667FC1F506AD2008996D1 /* NewsData.swift */; };
+		CB0A44E11F71A9200064A9A9 /* ArAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A44E01F71A9200064A9A9 /* ArAnalytics.swift */; };
+		CB0A44E31F71B6180064A9A9 /* Date+ArDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A44E21F71B6180064A9A9 /* Date+ArDate.swift */; };
+		CB0F84391EFAEA0F0024A15E /* ArAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F84381EFAEA0F0024A15E /* ArAppDelegate.swift */; };
+		CB0F843E1EFAEA0F0024A15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0F843C1EFAEA0F0024A15E /* Main.storyboard */; };
+		CB0F84401EFAEA0F0024A15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0F843F1EFAEA0F0024A15E /* Assets.xcassets */; };
+		CB0F84431EFAEA0F0024A15E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0F84411EFAEA0F0024A15E /* LaunchScreen.storyboard */; };
+		CB0F844E1EFAEA0F0024A15E /* ArumdaunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F844D1EFAEA0F0024A15E /* ArumdaunTests.swift */; };
+		CB0F84591EFAEA0F0024A15E /* ArumdaunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F84581EFAEA0F0024A15E /* ArumdaunUITests.swift */; };
+		CB2C4DD81F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C4DD71F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift */; };
+		CB38EEF71F3A31460088DD86 /* MorningQTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38EEF61F3A31460088DD86 /* MorningQTData.swift */; };
+		CB3C00C81F607AA500D750B3 /* NanumGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C21F607AA500D750B3 /* NanumGothic.ttf */; };
+		CB3C00C91F607AA500D750B3 /* NanumGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C31F607AA500D750B3 /* NanumGothicBold.ttf */; };
+		CB3C00CA1F607AA500D750B3 /* NanumGothicExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C41F607AA500D750B3 /* NanumGothicExtraBold.ttf */; };
+		CB3C00CB1F607AA500D750B3 /* NanumMyeongjo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C51F607AA500D750B3 /* NanumMyeongjo.ttf */; };
+		CB3C00CC1F607AA500D750B3 /* NanumMyeongjoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C61F607AA500D750B3 /* NanumMyeongjoBold.ttf */; };
+		CB3C00CD1F607AA500D750B3 /* NanumMyeongjoExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C71F607AA500D750B3 /* NanumMyeongjoExtraBold.ttf */; };
+		CB3C00D11F618EC800D750B3 /* BaseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C00D01F618EC800D750B3 /* BaseAPIClient.swift */; };
+		CB3C00D31F61B46900D750B3 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C00D21F61B46900D750B3 /* BaseViewModel.swift */; };
+		CB3C00D51F61B4F600D750B3 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C00D41F61B4F600D750B3 /* NewsViewModel.swift */; };
+		CB3C00D71F61B54400D750B3 /* NewsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C00D61F61B54400D750B3 /* NewsAPIClient.swift */; };
+		CB3C00D91F61DFF100D750B3 /* SermonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C00D81F61DFF100D750B3 /* SermonViewModel.swift */; };
+		CB3C00DB1F61E01800D750B3 /* SermonAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C00DA1F61E01800D750B3 /* SermonAPIClient.swift */; };
+		CB43F2F21F58586900270282 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2ED1F58586900270282 /* ExpandableCell.swift */; };
+		CB43F2F31F58586900270282 /* ExpandableCell.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB43F2EE1F58586900270282 /* ExpandableCell.xcassets */; };
+		CB43F2F41F58586900270282 /* ExpandableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2EF1F58586900270282 /* ExpandableDelegate.swift */; };
+		CB43F2F51F58586900270282 /* ExpandableProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2F01F58586900270282 /* ExpandableProcessor.swift */; };
+		CB43F2F61F58586900270282 /* ExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2F11F58586900270282 /* ExpandableTableView.swift */; };
+		CB43F2F81F589C6600270282 /* SermonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2F71F589C6600270282 /* SermonViewController.swift */; };
+		CB43F2FB1F589C9200270282 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2FA1F589C9200270282 /* NewsViewController.swift */; };
+		CB43F2FE1F59A96100270282 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F2FD1F59A96100270282 /* SideMenuViewController.swift */; };
+		CB43F3061F59C3A800270282 /* ArNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F3041F59C3A800270282 /* ArNavigationViewController.swift */; };
+		CB4F34611F50BFC0006680B8 /* Array+ArArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F34601F50BFC0006680B8 /* Array+ArArray.swift */; };
+		CB73F8821F6870FA00EFEC8D /* String+ArString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73F8811F6870FA00EFEC8D /* String+ArString.swift */; };
+		CB8A59BF1F69D23800C33EA4 /* empty_status.json in Resources */ = {isa = PBXBuildFile; fileRef = CB8A59BE1F69D23800C33EA4 /* empty_status.json */; };
+		CB8A59C11F6AE15800C33EA4 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */; };
+		CB8A59C31F6AF65800C33EA4 /* ArStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */; };
+		CB8A5AC61F6C610500C33EA4 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = CB8A5AC51F6C610500C33EA4 /* Assets */; };
+		CB9582681F71C26900A79A50 /* LottieHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */; };
+		CB9624441FCF3E0D00210D5E /* Bundle+ArBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */; };
+		CB9624621FD05C2F00210D5E /* no_internet_connection.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9624611FD05C2F00210D5E /* no_internet_connection.json */; };
+		CB9624641FD06C0E00210D5E /* UIViewController+ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */; };
+		CB9E14011F2FB5810055AB01 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */; };
+		CB9E14031F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */; };
+		CB9E14051F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */; };
+		CB9F8DF81F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F8DF71F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift */; };
+		CBA485271F54A879003519C0 /* MainQTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA485261F54A879003519C0 /* MainQTCell.swift */; };
+		CBA485291F54AD6F003519C0 /* DailyQTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA485281F54AD6F003519C0 /* DailyQTData.swift */; };
+		CBA4852D1F55B12E003519C0 /* ArNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4852C1F55B12E003519C0 /* ArNetwork.swift */; };
+		CBB08E2B1F5F1D58001C10E5 /* snap_loader_black.json in Resources */ = {isa = PBXBuildFile; fileRef = CBB08E291F5F1D58001C10E5 /* snap_loader_black.json */; };
+		CBB08E2C1F5F1D58001C10E5 /* snap_loader_white.json in Resources */ = {isa = PBXBuildFile; fileRef = CBB08E2A1F5F1D58001C10E5 /* snap_loader_white.json */; };
+		CBB08E371F604CD4001C10E5 /* YTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB08E361F604CD4001C10E5 /* YTPlayerViewController.swift */; };
+		CBB08E431F604D3E001C10E5 /* MainViewController+Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB08E3D1F604D3E001C10E5 /* MainViewController+Contents.swift */; };
+		CBB08E441F604D3E001C10E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB08E3E1F604D3E001C10E5 /* MainViewController.swift */; };
+		CBB08E461F604D74001C10E5 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB08E451F604D74001C10E5 /* PDFViewController.swift */; };
+		CBB293821F671958007BEA85 /* WorshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB293811F671958007BEA85 /* WorshipViewController.swift */; };
+		CBB293841F671A88007BEA85 /* WorshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB293831F671A88007BEA85 /* WorshipViewModel.swift */; };
+		CBB293861F671B7A007BEA85 /* WorshipAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB293851F671B7A007BEA85 /* WorshipAPIClient.swift */; };
+		CBB293881F672AD2007BEA85 /* SermonAudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB293871F672AD2007BEA85 /* SermonAudioTableViewCell.swift */; };
+		CBC2CE391F72C6ED00FA19F2 /* UITableView+ArTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2CE381F72C6ED00FA19F2 /* UITableView+ArTableView.swift */; };
+		CBC2CE3B1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC2CE3A1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift */; };
+		CBD7A54E1F165F6C0058BF0D /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7A54D1F165F6C0058BF0D /* YoutubeData.swift */; };
+		CBD7E5121F91035500AA106D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD7E5111F91035500AA106D /* libz.tbd */; };
+		CBD7E5141F91036600AA106D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD7E5131F91036600AA106D /* libstdc++.tbd */; };
+		CBDCF82F1F01452200D038C4 /* SMTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDCF8271F01452200D038C4 /* SMTabbar.swift */; };
+		CBDCF83D1F01A21B00D038C4 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDCF83C1F01A21B00D038C4 /* LaunchScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0F844A1EFAEA0F0024A15E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0F842D1EFAEA0F0024A15E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0F84341EFAEA0F0024A15E;
+			remoteInfo = Arumdaun;
+		};
+		CB0F84551EFAEA0F0024A15E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0F842D1EFAEA0F0024A15E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0F84341EFAEA0F0024A15E;
+			remoteInfo = Arumdaun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102500DE1F5A74A000B49C7B /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		102500DF1F5A74A000B49C7B /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		102B787D1F6A33B400837CF1 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioViewController.swift; path = Arumdaun/Controller/Sermon/AudioViewController.swift; sourceTree = SOURCE_ROOT; };
+		102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyQTViewController.swift; path = QT/DailyQTViewController.swift; sourceTree = "<group>"; };
+		102B78821F72366C00837CF1 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		102B78831F72366C00837CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeiOSPlayerHelper.h; sourceTree = "<group>"; };
+		102B78871F7236B100837CF1 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		102B78881F7236B100837CF1 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		102B788A1F777D4700837CF1 /* LiveBroadCastingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveBroadCastingViewController.swift; sourceTree = "<group>"; };
+		10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SermonYoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
+		10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAPIClient.swift; sourceTree = "<group>"; };
+		10C8A3621EFCCDE300202579 /* ArDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArDefine.swift; sourceTree = "<group>"; };
+		10C8A36A1F0201EA00202579 /* ArUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArUtils.swift; sourceTree = "<group>"; };
+		10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.debug.xcconfig"; sourceTree = "<group>"; };
+		451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arumdaun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.release.xcconfig"; sourceTree = "<group>"; };
+		CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ArButton.swift"; sourceTree = "<group>"; };
+		CB0667C91F4CA50C008996D1 /* UIColor+ArColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ArColor.swift"; sourceTree = "<group>"; };
+		CB0667CA1F4CA50C008996D1 /* UIImage+ArImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ArImage.swift"; sourceTree = "<group>"; };
+		CB0667CB1F4CA50C008996D1 /* UIView+ArView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ArView.swift"; sourceTree = "<group>"; };
+		CB0667F31F4DDFD5008996D1 /* MainYoutubeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainYoutubeCell.swift; sourceTree = "<group>"; };
+		CB0667F81F4F555C008996D1 /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CB0667FC1F506AD2008996D1 /* NewsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		CB0A44E01F71A9200064A9A9 /* ArAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArAnalytics.swift; sourceTree = "<group>"; };
+		CB0A44E21F71B6180064A9A9 /* Date+ArDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ArDate.swift"; sourceTree = "<group>"; };
+		CB0F84351EFAEA0F0024A15E /* Arumdaun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arumdaun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0F84381EFAEA0F0024A15E /* ArAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArAppDelegate.swift; sourceTree = "<group>"; };
+		CB0F843D1EFAEA0F0024A15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0F843F1EFAEA0F0024A15E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Arumdaun/Assets.xcassets; sourceTree = "<group>"; };
+		CB0F84421EFAEA0F0024A15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB0F84441EFAEA0F0024A15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Arumdaun/Info.plist; sourceTree = "<group>"; };
+		CB0F84491EFAEA0F0024A15E /* ArumdaunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArumdaunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0F844D1EFAEA0F0024A15E /* ArumdaunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArumdaunTests.swift; sourceTree = "<group>"; };
+		CB0F844F1EFAEA0F0024A15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0F84541EFAEA0F0024A15E /* ArumdaunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArumdaunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0F84581EFAEA0F0024A15E /* ArumdaunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArumdaunUITests.swift; sourceTree = "<group>"; };
+		CB0F845A1EFAEA0F0024A15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2C4DD71F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVisualEffect+ArVisualEffect.swift"; sourceTree = "<group>"; };
+		CB38EEF61F3A31460088DD86 /* MorningQTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningQTData.swift; sourceTree = "<group>"; };
+		CB3C00C21F607AA500D750B3 /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
+		CB3C00C31F607AA500D750B3 /* NanumGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicBold.ttf; sourceTree = "<group>"; };
+		CB3C00C41F607AA500D750B3 /* NanumGothicExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicExtraBold.ttf; sourceTree = "<group>"; };
+		CB3C00C51F607AA500D750B3 /* NanumMyeongjo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjo.ttf; sourceTree = "<group>"; };
+		CB3C00C61F607AA500D750B3 /* NanumMyeongjoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjoBold.ttf; sourceTree = "<group>"; };
+		CB3C00C71F607AA500D750B3 /* NanumMyeongjoExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumMyeongjoExtraBold.ttf; sourceTree = "<group>"; };
+		CB3C00D01F618EC800D750B3 /* BaseAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPIClient.swift; sourceTree = "<group>"; };
+		CB3C00D21F61B46900D750B3 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		CB3C00D41F61B4F600D750B3 /* NewsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		CB3C00D61F61B54400D750B3 /* NewsAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsAPIClient.swift; sourceTree = "<group>"; };
+		CB3C00D81F61DFF100D750B3 /* SermonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SermonViewModel.swift; sourceTree = "<group>"; };
+		CB3C00DA1F61E01800D750B3 /* SermonAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SermonAPIClient.swift; sourceTree = "<group>"; };
+		CB43F2ED1F58586900270282 /* ExpandableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		CB43F2EE1F58586900270282 /* ExpandableCell.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExpandableCell.xcassets; sourceTree = "<group>"; };
+		CB43F2EF1F58586900270282 /* ExpandableDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableDelegate.swift; sourceTree = "<group>"; };
+		CB43F2F01F58586900270282 /* ExpandableProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableProcessor.swift; sourceTree = "<group>"; };
+		CB43F2F11F58586900270282 /* ExpandableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTableView.swift; sourceTree = "<group>"; };
+		CB43F2F71F589C6600270282 /* SermonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SermonViewController.swift; path = Arumdaun/Controller/Sermon/SermonViewController.swift; sourceTree = SOURCE_ROOT; };
+		CB43F2FA1F589C9200270282 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		CB43F2FD1F59A96100270282 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		CB43F3041F59C3A800270282 /* ArNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArNavigationViewController.swift; sourceTree = "<group>"; };
+		CB4F34601F50BFC0006680B8 /* Array+ArArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+ArArray.swift"; sourceTree = "<group>"; };
+		CB73F8811F6870FA00EFEC8D /* String+ArString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ArString.swift"; sourceTree = "<group>"; };
+		CB8A59BE1F69D23800C33EA4 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
+		CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArStoryBoard.swift; sourceTree = "<group>"; };
+		CB8A5AC51F6C610500C33EA4 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieHUDViewController.swift; sourceTree = "<group>"; };
+		CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ArBundle.swift"; sourceTree = "<group>"; };
+		CB9624611FD05C2F00210D5E /* no_internet_connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = no_internet_connection.json; path = ../../../../../../Downloads/no_internet_connection.json; sourceTree = "<group>"; };
+		CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ArViewController.swift"; sourceTree = "<group>"; };
+		CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewHeaderCell.swift; sourceTree = "<group>"; };
+		CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewFooterCell.swift; sourceTree = "<group>"; };
+		CB9F8DF71F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainYoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBA485261F54A879003519C0 /* MainQTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQTCell.swift; sourceTree = "<group>"; };
+		CBA485281F54AD6F003519C0 /* DailyQTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyQTData.swift; sourceTree = "<group>"; };
+		CBA4852C1F55B12E003519C0 /* ArNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArNetwork.swift; sourceTree = "<group>"; };
+		CBA7A9161F0ED8A900C0D73F /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Util/Bridging-Header.h"; sourceTree = "<group>"; };
+		CBB08E291F5F1D58001C10E5 /* snap_loader_black.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = snap_loader_black.json; sourceTree = "<group>"; };
+		CBB08E2A1F5F1D58001C10E5 /* snap_loader_white.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = snap_loader_white.json; sourceTree = "<group>"; };
+		CBB08E361F604CD4001C10E5 /* YTPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPlayerViewController.swift; sourceTree = "<group>"; };
+		CBB08E3D1F604D3E001C10E5 /* MainViewController+Contents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+Contents.swift"; sourceTree = "<group>"; };
+		CBB08E3E1F604D3E001C10E5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CBB08E451F604D74001C10E5 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		CBB293811F671958007BEA85 /* WorshipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorshipViewController.swift; path = Worship/WorshipViewController.swift; sourceTree = "<group>"; };
+		CBB293831F671A88007BEA85 /* WorshipViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipViewModel.swift; sourceTree = "<group>"; };
+		CBB293851F671B7A007BEA85 /* WorshipAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorshipAPIClient.swift; sourceTree = "<group>"; };
+		CBB293871F672AD2007BEA85 /* SermonAudioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SermonAudioTableViewCell.swift; sourceTree = "<group>"; };
+		CBB9A5D91F6C6EF10081F689 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CBC2CE381F72C6ED00FA19F2 /* UITableView+ArTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ArTableView.swift"; sourceTree = "<group>"; };
+		CBC2CE3A1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ArCollectionView.swift"; sourceTree = "<group>"; };
+		CBD7A54D1F165F6C0058BF0D /* YoutubeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
+		CBD7A6BC1F87CD3F00962C76 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		CBD7A6BD1F87CD3F00962C76 /* CustomProgressSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressSlider.swift; sourceTree = "<group>"; };
+		CBD7A6BE1F87CD3F00962C76 /* YTFAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFAnimation.swift; sourceTree = "<group>"; };
+		CBD7A6BF1F87CD3F00962C76 /* YTFPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFPlayer.swift; sourceTree = "<group>"; };
+		CBD7A6C01F87CD3F00962C76 /* YTFPlayerControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFPlayerControls.swift; sourceTree = "<group>"; };
+		CBD7A6C11F87CD3F00962C76 /* YTFPopupCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFPopupCloseButton.swift; sourceTree = "<group>"; };
+		CBD7A6C21F87CD3F00962C76 /* YTFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFViewController.swift; sourceTree = "<group>"; };
+		CBD7A6C41F87CD3F00962C76 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		CBD7A6C51F87CD3F00962C76 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CBD7A6C61F87CD3F00962C76 /* YTFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YTFViewController.xib; sourceTree = "<group>"; };
+		CBD7E5111F91035500AA106D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CBD7E5131F91036600AA106D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		CBD7E5151F91048500AA106D /* Arumdaun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arumdaun.entitlements; sourceTree = "<group>"; };
+		CBDCF8271F01452200D038C4 /* SMTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTabbar.swift; sourceTree = "<group>"; };
+		CBDCF83C1F01A21B00D038C4 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreenViewController.swift; path = ../LaunchScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0F84321EFAEA0F0024A15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD7E5141F91036600AA106D /* libstdc++.tbd in Frameworks */,
+				CBD7E5121F91035500AA106D /* libz.tbd in Frameworks */,
+				1AB98DADF769B165D4F7E328 /* Pods_Arumdaun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F84461EFAEA0F0024A15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F84511EFAEA0F0024A15E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102500DD1F5A74A000B49C7B /* ENSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				102500DE1F5A74A000B49C7B /* ENSideMenu.swift */,
+				102500DF1F5A74A000B49C7B /* ENSideMenuNavigationController.swift */,
+			);
+			path = ENSideMenu;
+			sourceTree = "<group>";
+		};
+		102B78811F72366C00837CF1 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				102B78821F72366C00837CF1 /* Assets.bundle */,
+				102B78831F72366C00837CF1 /* Info.plist */,
+				102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */,
+				102B78871F7236B100837CF1 /* YTPlayerView.h */,
+				102B78881F7236B100837CF1 /* YTPlayerView.m */,
+			);
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		10C8A3591EFCCC0D00202579 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB43F3031F59C3A800270282 /* Base */,
+				CB43F2FC1F59A94200270282 /* SideMenu */,
+				CBB08E381F604D3E001C10E5 /* MainView */,
+				CBB08E351F604CD4001C10E5 /* Youtube */,
+				CB43F2E91F58510F00270282 /* Sermon */,
+				CB38EEF51F3A30DE0088DD86 /* QT */,
+				CB38EEF41F3A30A10088DD86 /* Worship */,
+				CB43F2F91F589C7100270282 /* News */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10C8A35A1EFCCC0D00202579 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				10C8A36A1F0201EA00202579 /* ArUtils.swift */,
+				CBA4852C1F55B12E003519C0 /* ArNetwork.swift */,
+				CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */,
+				CB0A44E01F71A9200064A9A9 /* ArAnalytics.swift */,
+				CB0667C71F4CA50C008996D1 /* extension */,
+				102500DD1F5A74A000B49C7B /* ENSideMenu */,
+				CB0667F71F4F555C008996D1 /* CenterCellCollectionViewFlowLayout */,
+				102B78811F72366C00837CF1 /* youtube-ios-player-helper */,
+				CBD7A6BA1F87CD3F00962C76 /* YouTubeFloatingPlayer */,
+				CB8A5A451F6C506C00C33EA4 /* JPlayer */,
+				CBDCF8261F01452200D038C4 /* SMTabbar */,
+				CB43F2EC1F58586900270282 /* ExpandableCell */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		10C8A3611EFCCDAD00202579 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				10C8A3621EFCCDE300202579 /* ArDefine.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		10C8A36C1F0210AD00202579 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */,
+				CB0667F31F4DDFD5008996D1 /* MainYoutubeCell.swift */,
+				CBA485261F54A879003519C0 /* MainQTCell.swift */,
+				CB9F8DF71F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift */,
+				CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */,
+				CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */,
+				CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */,
+				10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */,
+				CBB293871F672AD2007BEA85 /* SermonAudioTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D01E6D1FB0FFC7BACD2DCB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */,
+				56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E9C98B1BAAC1EB15F706C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7E5131F91036600AA106D /* libstdc++.tbd */,
+				CBD7E5111F91035500AA106D /* libz.tbd */,
+				CBB9A5D91F6C6EF10081F689 /* WebKit.framework */,
+				451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0667C71F4CA50C008996D1 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */,
+				CB0667C91F4CA50C008996D1 /* UIColor+ArColor.swift */,
+				CB0667CA1F4CA50C008996D1 /* UIImage+ArImage.swift */,
+				CB0667CB1F4CA50C008996D1 /* UIView+ArView.swift */,
+				CB4F34601F50BFC0006680B8 /* Array+ArArray.swift */,
+				CB73F8811F6870FA00EFEC8D /* String+ArString.swift */,
+				CB0A44E21F71B6180064A9A9 /* Date+ArDate.swift */,
+				CBC2CE381F72C6ED00FA19F2 /* UITableView+ArTableView.swift */,
+				CBC2CE3A1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift */,
+				CB2C4DD71F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift */,
+				CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */,
+				CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		CB0667F71F4F555C008996D1 /* CenterCellCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CB0667F81F4F555C008996D1 /* CenterCellCollectionViewFlowLayout.swift */,
+			);
+			path = CenterCellCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		CB0F842C1EFAEA0F0024A15E = {
+			isa = PBXGroup;
+			children = (
+				CB0F84371EFAEA0F0024A15E /* Arumdaun */,
+				CB0F844C1EFAEA0F0024A15E /* ArumdaunTests */,
+				CB0F84571EFAEA0F0024A15E /* ArumdaunUITests */,
+				CB0F84361EFAEA0F0024A15E /* Products */,
+				1D01E6D1FB0FFC7BACD2DCB3 /* Pods */,
+				1E9C98B1BAAC1EB15F706C78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0F84361EFAEA0F0024A15E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F84351EFAEA0F0024A15E /* Arumdaun.app */,
+				CB0F84491EFAEA0F0024A15E /* ArumdaunTests.xctest */,
+				CB0F84541EFAEA0F0024A15E /* ArumdaunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0F84371EFAEA0F0024A15E /* Arumdaun */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7E5151F91048500AA106D /* Arumdaun.entitlements */,
+				CB0F84381EFAEA0F0024A15E /* ArAppDelegate.swift */,
+				CBA7A9161F0ED8A900C0D73F /* Bridging-Header.h */,
+				CB0F84661EFAEA4E0024A15E /* Resources */,
+				10C8A3591EFCCC0D00202579 /* Controller */,
+				CBD7A54A1F154FFA0058BF0D /* Model */,
+				10C8A36C1F0210AD00202579 /* View */,
+				10C8A3611EFCCDAD00202579 /* Define */,
+				10C8A35A1EFCCC0D00202579 /* Util */,
+			);
+			path = Arumdaun;
+			sourceTree = "<group>";
+		};
+		CB0F844C1EFAEA0F0024A15E /* ArumdaunTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F844D1EFAEA0F0024A15E /* ArumdaunTests.swift */,
+				CB0F844F1EFAEA0F0024A15E /* Info.plist */,
+			);
+			path = ArumdaunTests;
+			sourceTree = "<group>";
+		};
+		CB0F84571EFAEA0F0024A15E /* ArumdaunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F84581EFAEA0F0024A15E /* ArumdaunUITests.swift */,
+				CB0F845A1EFAEA0F0024A15E /* Info.plist */,
+			);
+			path = ArumdaunUITests;
+			sourceTree = "<group>";
+		};
+		CB0F84661EFAEA4E0024A15E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB3C00C11F607AA500D750B3 /* NanumFont */,
+				CBB08E281F5F1D58001C10E5 /* Lottie */,
+				CB0F843C1EFAEA0F0024A15E /* Main.storyboard */,
+				CB0F84411EFAEA0F0024A15E /* LaunchScreen.storyboard */,
+				CB0F843F1EFAEA0F0024A15E /* Assets.xcassets */,
+				CB0F84441EFAEA0F0024A15E /* Info.plist */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB38EEF41F3A30A10088DD86 /* Worship */ = {
+			isa = PBXGroup;
+			children = (
+				CBB293811F671958007BEA85 /* WorshipViewController.swift */,
+			);
+			name = Worship;
+			sourceTree = "<group>";
+		};
+		CB38EEF51F3A30DE0088DD86 /* QT */ = {
+			isa = PBXGroup;
+			children = (
+				102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */,
+			);
+			name = QT;
+			sourceTree = "<group>";
+		};
+		CB3C00C11F607AA500D750B3 /* NanumFont */ = {
+			isa = PBXGroup;
+			children = (
+				CB3C00C21F607AA500D750B3 /* NanumGothic.ttf */,
+				CB3C00C31F607AA500D750B3 /* NanumGothicBold.ttf */,
+				CB3C00C41F607AA500D750B3 /* NanumGothicExtraBold.ttf */,
+				CB3C00C51F607AA500D750B3 /* NanumMyeongjo.ttf */,
+				CB3C00C61F607AA500D750B3 /* NanumMyeongjoBold.ttf */,
+				CB3C00C71F607AA500D750B3 /* NanumMyeongjoExtraBold.ttf */,
+			);
+			name = NanumFont;
+			path = Arumdaun/Resources/NanumFont;
+			sourceTree = "<group>";
+		};
+		CB43F2E91F58510F00270282 /* Sermon */ = {
+			isa = PBXGroup;
+			children = (
+				CB43F2F71F589C6600270282 /* SermonViewController.swift */,
+				102B787D1F6A33B400837CF1 /* AudioViewController.swift */,
+			);
+			name = Sermon;
+			path = ../../../Arumdaun.ori/Arumdaun/Controller/Sermon;
+			sourceTree = "<group>";
+		};
+		CB43F2EC1F58586900270282 /* ExpandableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB43F2ED1F58586900270282 /* ExpandableCell.swift */,
+				CB43F2EE1F58586900270282 /* ExpandableCell.xcassets */,
+				CB43F2EF1F58586900270282 /* ExpandableDelegate.swift */,
+				CB43F2F01F58586900270282 /* ExpandableProcessor.swift */,
+				CB43F2F11F58586900270282 /* ExpandableTableView.swift */,
+			);
+			path = ExpandableCell;
+			sourceTree = "<group>";
+		};
+		CB43F2F91F589C7100270282 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CB43F2FA1F589C9200270282 /* NewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CB43F2FC1F59A94200270282 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CB43F2FD1F59A96100270282 /* SideMenuViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		CB43F3031F59C3A800270282 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CB43F3041F59C3A800270282 /* ArNavigationViewController.swift */,
+				CBDCF83C1F01A21B00D038C4 /* LaunchScreenViewController.swift */,
+				CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CB8A5A451F6C506C00C33EA4 /* JPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CB8A5AC51F6C610500C33EA4 /* Assets */,
+			);
+			path = JPlayer;
+			sourceTree = "<group>";
+		};
+		CBB08E281F5F1D58001C10E5 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				CB9624611FD05C2F00210D5E /* no_internet_connection.json */,
+				CB8A59BE1F69D23800C33EA4 /* empty_status.json */,
+				CBB08E291F5F1D58001C10E5 /* snap_loader_black.json */,
+				CBB08E2A1F5F1D58001C10E5 /* snap_loader_white.json */,
+			);
+			name = Lottie;
+			path = Arumdaun/Resources/Lottie;
+			sourceTree = "<group>";
+		};
+		CBB08E351F604CD4001C10E5 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				CBB08E361F604CD4001C10E5 /* YTPlayerViewController.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		CBB08E381F604D3E001C10E5 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				CBB08E3E1F604D3E001C10E5 /* MainViewController.swift */,
+				CBB08E3D1F604D3E001C10E5 /* MainViewController+Contents.swift */,
+				CBB08E451F604D74001C10E5 /* PDFViewController.swift */,
+				102B788A1F777D4700837CF1 /* LiveBroadCastingViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		CBD7A54A1F154FFA0058BF0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */,
+				CBD7A54D1F165F6C0058BF0D /* YoutubeData.swift */,
+				CB38EEF61F3A31460088DD86 /* MorningQTData.swift */,
+				CBA485281F54AD6F003519C0 /* DailyQTData.swift */,
+				CB0667FC1F506AD2008996D1 /* NewsData.swift */,
+				CB3C00D21F61B46900D750B3 /* BaseViewModel.swift */,
+				10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */,
+				CB3C00D81F61DFF100D750B3 /* SermonViewModel.swift */,
+				CBB293831F671A88007BEA85 /* WorshipViewModel.swift */,
+				CB3C00D41F61B4F600D750B3 /* NewsViewModel.swift */,
+				CB3C00D01F618EC800D750B3 /* BaseAPIClient.swift */,
+				10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */,
+				CB3C00D61F61B54400D750B3 /* NewsAPIClient.swift */,
+				CB3C00DA1F61E01800D750B3 /* SermonAPIClient.swift */,
+				CBB293851F671B7A007BEA85 /* WorshipAPIClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBD7A6BA1F87CD3F00962C76 /* YouTubeFloatingPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7A6BB1F87CD3F00962C76 /* Classes */,
+				CBD7A6C31F87CD3F00962C76 /* Resources */,
+			);
+			path = YouTubeFloatingPlayer;
+			sourceTree = "<group>";
+		};
+		CBD7A6BB1F87CD3F00962C76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7A6BC1F87CD3F00962C76 /* .gitkeep */,
+				CBD7A6BD1F87CD3F00962C76 /* CustomProgressSlider.swift */,
+				CBD7A6BE1F87CD3F00962C76 /* YTFAnimation.swift */,
+				CBD7A6BF1F87CD3F00962C76 /* YTFPlayer.swift */,
+				CBD7A6C01F87CD3F00962C76 /* YTFPlayerControls.swift */,
+				CBD7A6C11F87CD3F00962C76 /* YTFPopupCloseButton.swift */,
+				CBD7A6C21F87CD3F00962C76 /* YTFViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CBD7A6C31F87CD3F00962C76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7A6C41F87CD3F00962C76 /* .gitkeep */,
+				CBD7A6C51F87CD3F00962C76 /* Media.xcassets */,
+				CBD7A6C61F87CD3F00962C76 /* YTFViewController.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBDCF8261F01452200D038C4 /* SMTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCF8271F01452200D038C4 /* SMTabbar.swift */,
+			);
+			path = SMTabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0F84341EFAEA0F0024A15E /* Arumdaun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "Arumdaun" */;
+			buildPhases = (
+				7434C6C678E706D42F3FA207 /* [CP] Check Pods Manifest.lock */,
+				CB0F84311EFAEA0F0024A15E /* Sources */,
+				CB0F84321EFAEA0F0024A15E /* Frameworks */,
+				CB0F84331EFAEA0F0024A15E /* Resources */,
+				08EE4D57BC21E72F49702433 /* [CP] Embed Pods Frameworks */,
+				0A55D529F26C5E41D04D1C38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arumdaun;
+			productName = Arumdaun;
+			productReference = CB0F84351EFAEA0F0024A15E /* Arumdaun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0F84481EFAEA0F0024A15E /* ArumdaunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0F84601EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "ArumdaunTests" */;
+			buildPhases = (
+				CB0F84451EFAEA0F0024A15E /* Sources */,
+				CB0F84461EFAEA0F0024A15E /* Frameworks */,
+				CB0F84471EFAEA0F0024A15E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0F844B1EFAEA0F0024A15E /* PBXTargetDependency */,
+			);
+			name = ArumdaunTests;
+			productName = ArumdaunTests;
+			productReference = CB0F84491EFAEA0F0024A15E /* ArumdaunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB0F84531EFAEA0F0024A15E /* ArumdaunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0F84631EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "ArumdaunUITests" */;
+			buildPhases = (
+				CB0F84501EFAEA0F0024A15E /* Sources */,
+				CB0F84511EFAEA0F0024A15E /* Frameworks */,
+				CB0F84521EFAEA0F0024A15E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0F84561EFAEA0F0024A15E /* PBXTargetDependency */,
+			);
+			name = ArumdaunUITests;
+			productName = ArumdaunUITests;
+			productReference = CB0F84541EFAEA0F0024A15E /* ArumdaunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0F842D1EFAEA0F0024A15E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chanick Park";
+				TargetAttributes = {
+					CB0F84341EFAEA0F0024A15E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6J4VT574EH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CB0F84481EFAEA0F0024A15E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB0F84341EFAEA0F0024A15E;
+					};
+					CB0F84531EFAEA0F0024A15E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB0F84341EFAEA0F0024A15E;
+					};
+				};
+			};
+			buildConfigurationList = CB0F84301EFAEA0F0024A15E /* Build configuration list for PBXProject "Arumdaun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0F842C1EFAEA0F0024A15E;
+			productRefGroup = CB0F84361EFAEA0F0024A15E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0F84341EFAEA0F0024A15E /* Arumdaun */,
+				CB0F84481EFAEA0F0024A15E /* ArumdaunTests */,
+				CB0F84531EFAEA0F0024A15E /* ArumdaunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0F84331EFAEA0F0024A15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3C00C91F607AA500D750B3 /* NanumGothicBold.ttf in Resources */,
+				CB8A59BF1F69D23800C33EA4 /* empty_status.json in Resources */,
+				CB3C00CD1F607AA500D750B3 /* NanumMyeongjoExtraBold.ttf in Resources */,
+				CB3C00CB1F607AA500D750B3 /* NanumMyeongjo.ttf in Resources */,
+				CBB08E2C1F5F1D58001C10E5 /* snap_loader_white.json in Resources */,
+				CBB08E2B1F5F1D58001C10E5 /* snap_loader_black.json in Resources */,
+				CB3C00C81F607AA500D750B3 /* NanumGothic.ttf in Resources */,
+				102B78851F72366C00837CF1 /* Assets.bundle in Resources */,
+				CB3C00CA1F607AA500D750B3 /* NanumGothicExtraBold.ttf in Resources */,
+				102B78861F72366C00837CF1 /* Info.plist in Resources */,
+				CB0F84431EFAEA0F0024A15E /* LaunchScreen.storyboard in Resources */,
+				CB8A5AC61F6C610500C33EA4 /* Assets in Resources */,
+				CB3C00CC1F607AA500D750B3 /* NanumMyeongjoBold.ttf in Resources */,
+				CB0F84401EFAEA0F0024A15E /* Assets.xcassets in Resources */,
+				CB0F843E1EFAEA0F0024A15E /* Main.storyboard in Resources */,
+				CB9624621FD05C2F00210D5E /* no_internet_connection.json in Resources */,
+				CB43F2F31F58586900270282 /* ExpandableCell.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F84471EFAEA0F0024A15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F84521EFAEA0F0024A15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08EE4D57BC21E72F49702433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A55D529F26C5E41D04D1C38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7434C6C678E706D42F3FA207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0F84311EFAEA0F0024A15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0667CD1F4CA50C008996D1 /* UIColor+ArColor.swift in Sources */,
+				CB9E14031F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift in Sources */,
+				CB9624441FCF3E0D00210D5E /* Bundle+ArBundle.swift in Sources */,
+				CB3C00D11F618EC800D750B3 /* BaseAPIClient.swift in Sources */,
+				CB38EEF71F3A31460088DD86 /* MorningQTData.swift in Sources */,
+				CB0F84391EFAEA0F0024A15E /* ArAppDelegate.swift in Sources */,
+				CB8A59C31F6AF65800C33EA4 /* ArStoryBoard.swift in Sources */,
+				CB0A44E31F71B6180064A9A9 /* Date+ArDate.swift in Sources */,
+				CB4F34611F50BFC0006680B8 /* Array+ArArray.swift in Sources */,
+				CBB08E461F604D74001C10E5 /* PDFViewController.swift in Sources */,
+				102500E01F5A74A000B49C7B /* ENSideMenu.swift in Sources */,
+				CBA485291F54AD6F003519C0 /* DailyQTData.swift in Sources */,
+				CB2C4DD81F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift in Sources */,
+				CBDCF82F1F01452200D038C4 /* SMTabbar.swift in Sources */,
+				CBA485271F54A879003519C0 /* MainQTCell.swift in Sources */,
+				CB9624641FD06C0E00210D5E /* UIViewController+ArViewController.swift in Sources */,
+				CB73F8821F6870FA00EFEC8D /* String+ArString.swift in Sources */,
+				CB0A44E11F71A9200064A9A9 /* ArAnalytics.swift in Sources */,
+				CBB293841F671A88007BEA85 /* WorshipViewModel.swift in Sources */,
+				CB0667CC1F4CA50C008996D1 /* UIButton+ArButton.swift in Sources */,
+				CB9E14051F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift in Sources */,
+				CB0667CF1F4CA50C008996D1 /* UIView+ArView.swift in Sources */,
+				CB43F2FB1F589C9200270282 /* NewsViewController.swift in Sources */,
+				CBB293881F672AD2007BEA85 /* SermonAudioTableViewCell.swift in Sources */,
+				CBB293821F671958007BEA85 /* WorshipViewController.swift in Sources */,
+				CB43F2F21F58586900270282 /* ExpandableCell.swift in Sources */,
+				102B78801F6E10C700837CF1 /* DailyQTViewController.swift in Sources */,
+				CB43F2FE1F59A96100270282 /* SideMenuViewController.swift in Sources */,
+				102B788B1F777D4700837CF1 /* LiveBroadCastingViewController.swift in Sources */,
+				CB3C00D51F61B4F600D750B3 /* NewsViewModel.swift in Sources */,
+				10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */,
+				CB9582681F71C26900A79A50 /* LottieHUDViewController.swift in Sources */,
+				10AAF90B1F60F32900C8AD46 /* MainAPIClient.swift in Sources */,
+				CB0667FD1F506AD2008996D1 /* NewsData.swift in Sources */,
+				10C8A36E1F02110000202579 /* SideMenuTableViewCell.swift in Sources */,
+				CBB08E441F604D3E001C10E5 /* MainViewController.swift in Sources */,
+				10C8A3631EFCCDE300202579 /* ArDefine.swift in Sources */,
+				CBDCF83D1F01A21B00D038C4 /* LaunchScreenViewController.swift in Sources */,
+				CB43F2F51F58586900270282 /* ExpandableProcessor.swift in Sources */,
+				CB43F2F81F589C6600270282 /* SermonViewController.swift in Sources */,
+				CBC2CE3B1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift in Sources */,
+				CB0667F41F4DDFD5008996D1 /* MainYoutubeCell.swift in Sources */,
+				10C8A36B1F0201EA00202579 /* ArUtils.swift in Sources */,
+				102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */,
+				CB3C00D91F61DFF100D750B3 /* SermonViewModel.swift in Sources */,
+				CB3C00DB1F61E01800D750B3 /* SermonAPIClient.swift in Sources */,
+				CB8A59C11F6AE15800C33EA4 /* Dynamic.swift in Sources */,
+				CBC2CE391F72C6ED00FA19F2 /* UITableView+ArTableView.swift in Sources */,
+				CB9E14011F2FB5810055AB01 /* NewsTableViewCell.swift in Sources */,
+				CB3C00D71F61B54400D750B3 /* NewsAPIClient.swift in Sources */,
+				CB0667F91F4F555C008996D1 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				CB43F3061F59C3A800270282 /* ArNavigationViewController.swift in Sources */,
+				CBB08E371F604CD4001C10E5 /* YTPlayerViewController.swift in Sources */,
+				CB0667CE1F4CA50C008996D1 /* UIImage+ArImage.swift in Sources */,
+				CBA4852D1F55B12E003519C0 /* ArNetwork.swift in Sources */,
+				CB9F8DF81F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift in Sources */,
+				CBD7A54E1F165F6C0058BF0D /* YoutubeData.swift in Sources */,
+				102B787E1F6A33B400837CF1 /* AudioViewController.swift in Sources */,
+				102500E11F5A74A000B49C7B /* ENSideMenuNavigationController.swift in Sources */,
+				CBB08E431F604D3E001C10E5 /* MainViewController+Contents.swift in Sources */,
+				10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */,
+				CB43F2F61F58586900270282 /* ExpandableTableView.swift in Sources */,
+				CB3C00D31F61B46900D750B3 /* BaseViewModel.swift in Sources */,
+				CB43F2F41F58586900270282 /* ExpandableDelegate.swift in Sources */,
+				CBB293861F671B7A007BEA85 /* WorshipAPIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F84451EFAEA0F0024A15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0F844E1EFAEA0F0024A15E /* ArumdaunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F84501EFAEA0F0024A15E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0F84591EFAEA0F0024A15E /* ArumdaunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0F844B1EFAEA0F0024A15E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0F84341EFAEA0F0024A15E /* Arumdaun */;
+			targetProxy = CB0F844A1EFAEA0F0024A15E /* PBXContainerItemProxy */;
+		};
+		CB0F84561EFAEA0F0024A15E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0F84341EFAEA0F0024A15E /* Arumdaun */;
+			targetProxy = CB0F84551EFAEA0F0024A15E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB0F843C1EFAEA0F0024A15E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0F843D1EFAEA0F0024A15E /* Base */,
+			);
+			name = Main.storyboard;
+			path = Arumdaun;
+			sourceTree = "<group>";
+		};
+		CB0F84411EFAEA0F0024A15E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0F84421EFAEA0F0024A15E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Arumdaun;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0F845B1EFAEA0F0024A15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB0F845C1EFAEA0F0024A15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0F845E1EFAEA0F0024A15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Arumdaun/Arumdaun.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Arumdaun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arumdaun/Util/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB0F845F1EFAEA0F0024A15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Arumdaun/Arumdaun.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Arumdaun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Arumdaun/Util/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB0F84611EFAEA0F0024A15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArumdaunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanick.park.ArumdaunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arumdaun.app/Arumdaun";
+			};
+			name = Debug;
+		};
+		CB0F84621EFAEA0F0024A15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArumdaunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanick.park.ArumdaunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arumdaun.app/Arumdaun";
+			};
+			name = Release;
+		};
+		CB0F84641EFAEA0F0024A15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ArumdaunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanick.park.ArumdaunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Arumdaun;
+			};
+			name = Debug;
+		};
+		CB0F84651EFAEA0F0024A15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ArumdaunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanick.park.ArumdaunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Arumdaun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0F84301EFAEA0F0024A15E /* Build configuration list for PBXProject "Arumdaun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0F845B1EFAEA0F0024A15E /* Debug */,
+				CB0F845C1EFAEA0F0024A15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "Arumdaun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0F845E1EFAEA0F0024A15E /* Debug */,
+				CB0F845F1EFAEA0F0024A15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0F84601EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "ArumdaunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0F84611EFAEA0F0024A15E /* Debug */,
+				CB0F84621EFAEA0F0024A15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0F84631EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "ArumdaunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0F84641EFAEA0F0024A15E /* Debug */,
+				CB0F84651EFAEA0F0024A15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB0F842D1EFAEA0F0024A15E /* Project object */;
+}
