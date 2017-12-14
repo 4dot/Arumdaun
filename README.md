@@ -1,5 +1,5 @@
 # Arumdaun
-Arumdaun Church
+Arumdaun Church App
 
 App Store:
 https://itunes.apple.com/us/app/apc-arumdaun-church/id1324081450
