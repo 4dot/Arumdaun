@@ -68,8 +68,8 @@
 		CB8A5AC61F6C610500C33EA4 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = CB8A5AC51F6C610500C33EA4 /* Assets */; };
 		CB9582681F71C26900A79A50 /* LottieHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */; };
 		CB9624441FCF3E0D00210D5E /* Bundle+ArBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */; };
-		CB9624621FD05C2F00210D5E /* no_internet_connection.json in Resources */ = {isa = PBXBuildFile; fileRef = CB9624611FD05C2F00210D5E /* no_internet_connection.json */; };
 		CB9624641FD06C0E00210D5E /* UIViewController+ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */; };
+		CB98F7A81FE4170100EBAE11 /* no_internet_connection.json in Resources */ = {isa = PBXBuildFile; fileRef = CB98F7A71FE4170100EBAE11 /* no_internet_connection.json */; };
 		CB9E14011F2FB5810055AB01 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */; };
 		CB9E14031F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */; };
 		CB9E14051F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */; };
@@ -185,8 +185,8 @@
 		CB8A5AC51F6C610500C33EA4 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieHUDViewController.swift; sourceTree = "<group>"; };
 		CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ArBundle.swift"; sourceTree = "<group>"; };
-		CB9624611FD05C2F00210D5E /* no_internet_connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = no_internet_connection.json; path = ../../../../../../Downloads/no_internet_connection.json; sourceTree = "<group>"; };
 		CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ArViewController.swift"; sourceTree = "<group>"; };
+		CB98F7A71FE4170100EBAE11 /* no_internet_connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = no_internet_connection.json; sourceTree = "<group>"; };
 		CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewHeaderCell.swift; sourceTree = "<group>"; };
 		CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewFooterCell.swift; sourceTree = "<group>"; };
@@ -539,7 +539,7 @@
 		CBB08E281F5F1D58001C10E5 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				CB9624611FD05C2F00210D5E /* no_internet_connection.json */,
+				CB98F7A71FE4170100EBAE11 /* no_internet_connection.json */,
 				CB8A59BE1F69D23800C33EA4 /* empty_status.json */,
 				CBB08E291F5F1D58001C10E5 /* snap_loader_black.json */,
 				CBB08E2A1F5F1D58001C10E5 /* snap_loader_white.json */,
@@ -764,7 +764,7 @@
 				CB3C00CC1F607AA500D750B3 /* NanumMyeongjoBold.ttf in Resources */,
 				CB0F84401EFAEA0F0024A15E /* Assets.xcassets in Resources */,
 				CB0F843E1EFAEA0F0024A15E /* Main.storyboard in Resources */,
-				CB9624621FD05C2F00210D5E /* no_internet_connection.json in Resources */,
+				CB98F7A81FE4170100EBAE11 /* no_internet_connection.json in Resources */,
 				CB43F2F31F58586900270282 /* ExpandableCell.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
