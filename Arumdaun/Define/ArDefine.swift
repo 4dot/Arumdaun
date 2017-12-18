@@ -17,7 +17,11 @@ let NEWS_WEB_PAGE = AR_MAIN_PAGE + "%EA%B3%B5%EB%8F%99%EC%B2%B4%EC%99%80%EA%B5%9
 // Youtube API
 let YT_API_KEY = "AIzaSyCa7dAbw2Oai90RvbOSpjNrLbwELK78r6M"
 let YT_PLAYLIST_ITEM = "https://www.googleapis.com/youtube/v3/playlistItems"
-let YT_LIVEVIDEO_ID = "woCpPZw9wzs"
+
+let YT_SEARCH = "https://www.googleapis.com/youtube/v3/search"
+let YT_LIVEVIDEO_CHANNEL_ID = "UC_SMi4TOmGvZnVb2SLpbGyw"
+let YT_LIVEVIDEO_ID = "4v0ex7VtjxQ"
+
 
 // google drive for morning sermons
 let GOOGLE_DRIVE_FILE_URL = "https://www.googleapis.com/drive/v3/files"
