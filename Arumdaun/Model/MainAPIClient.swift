@@ -19,7 +19,7 @@ class MainAPIClient : BaseAPIClient {
     func loadPlaceHolderContent(complete: @escaping (_ data: [MainViewContentType : Any])->Void) {
         
         // youtube default preview list
-        let kYoutubePreviewIdList = [YTPlayList.WeekendSermon, YTPlayList.FridaySermon, YTPlayList.SpecialSermon]
+        let kYoutubePreviewIdList = [YTPlayList.WeekendSermon, YTPlayList.FridaySermon]
         
         // content data
         var contentsData: [MainViewContentType : Any] = [:]

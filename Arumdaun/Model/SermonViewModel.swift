@@ -34,7 +34,7 @@ class SermonModel : NSObject {
         
         // update
         switch type {
-        case .Weekend, .Friday, .Special:
+        case .Weekend, .Friday:
             // request to youtube
             guard let playListId = YTPlayList(rawValue: type.desc)?.ids.playListId else {
                 completion()

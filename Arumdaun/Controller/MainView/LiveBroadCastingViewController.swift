@@ -10,7 +10,7 @@ import UIKit
 
 
 class LiveBroadCastingViewController : UIViewController {
-    @IBOutlet var liveStreamingModel : LiveStreamingViewModel!
+    static var liveStreamingModel = LiveStreamingViewModel()
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -21,15 +21,20 @@ class LiveBroadCastingViewController : UIViewController {
     
     // MARK: - Actions
     @IBAction func watchNowButtonTapped(_ sender: Any) {
+        LiveBroadCastingViewController.openLiveStreamingContent(target: self)
+    }
+    
+    // MARK: - global
+    static func openLiveStreamingContent(target: UIViewController) {
         // request live streaming video id
         liveStreamingModel.loadLiveStreamingContent { (streamings) in
             guard let streaming = streamings.first else {
                 // open full screen youtube player
-                ArNavigationViewController.openYoutubeContentView(self, youtubeData: YoutubeData(item: ["videoId" : YT_LIVEVIDEO_ID]))
+                ArNavigationViewController.openYoutubeContentView(target, youtubeData: YoutubeData(item: ["videoId" : YT_LIVEVIDEO_ID]))
                 return
             }
             // open full screen youtube player
-            ArNavigationViewController.openYoutubeContentView(self, youtubeData: YoutubeData(item: ["videoId" : streaming.videoId]))
+            ArNavigationViewController.openYoutubeContentView(target, youtubeData: YoutubeData(item: ["videoId" : streaming.videoId]))
         }
     }
 }

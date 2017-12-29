@@ -14,7 +14,7 @@ import Alamofire
 
 // side menu list
 enum SideMenuType : Int {
-    case HomeScreen, Sermon, Worship, QT, News
+    case HomeScreen, Sermon, Worship, QT, News, InternetLive
     case OpenPDF, OpenWeb
     case Count
     
@@ -26,6 +26,7 @@ enum SideMenuType : Int {
         case .Worship: return "찬양 동영상"
         case .QT: return "매일성경 QT"
         case .News: return "교회소식"
+        case .InternetLive: return "인터넷 생방송"
         case .OpenPDF: return "(이번주 주보 보기(PDF)"
         case .OpenWeb: return "arumdaunchurch.org"
         default: return ""
@@ -39,19 +40,19 @@ enum SideMenuType : Int {
         case .Worship: return .MenuYellow
         case .QT: return .MenuPink
         case .News: return .MenuGray
+        case .InternetLive: return .MenuBlue
         default: return .clear
         }
     }
     enum SermonSub : Int {
-        case Weekend, MorningQT, Friday, Special
+        case Weekend, MorningQT, Friday
         
-        static var count: Int { return SermonSub.Special.rawValue + 1 }
+        static var count: Int { return SermonSub.Friday.rawValue + 1 }
         var desc: String {
             switch self {
             case .Weekend: return YTPlayList.WeekendSermon.ids.title // "주일예배 설교"
             case .MorningQT: return "새벽기도 QT 말씀"
             case .Friday: return YTPlayList.FridaySermon.ids.title //"금요예배 설교"
-            case .Special: return YTPlayList.SpecialSermon.ids.title // "특별예배 설교"
             }
         }
     }
@@ -171,7 +172,12 @@ class SideMenuViewController : UIViewController {
             // open newsView controller
             let news = UIStoryboard.loadNewsViewController()
             destViewController = news
-        
+        case .InternetLive:
+            // open
+            LiveBroadCastingViewController.openLiveStreamingContent(target: self)
+            open(false)
+            return
+            
         case .QT:
             // open web page
             UIApplication.shared.openURL(URL(string: SU_DAILY_QT_URL)!)

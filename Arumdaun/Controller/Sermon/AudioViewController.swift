@@ -27,7 +27,7 @@ class AudioViewController : UIViewController {
         // find file path
         let path = Bundle.main.url(forResource: "SermonPlayer", withExtension: "html", subdirectory: "Assets")
         do {
-            let content = try String(contentsOf: path!, encoding: .utf8)
+            let content = try String(contentsOf: path!, encoding: .utf16)
             
             // replace title and link in th html text
             var html = content.replacingOccurrences(of: "{title}", with: audioName)

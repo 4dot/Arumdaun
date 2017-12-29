@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -89,12 +89,8 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="50"/>
-                    <connections>
-                        <outlet property="liveStreamingModel" destination="Acr-mS-C0C" id="3CX-pF-kcR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lby-CP-Frs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="Acr-mS-C0C" customClass="LiveStreamingViewModel" customModule="Arumdaun" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="-2634.4000000000001" y="-233.88305847076464"/>
         </scene>
@@ -169,7 +165,7 @@
                                                                 <rect key="frame" x="0.0" y="167" width="278" height="111"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이번주 주일설교" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0F-dR-9mC">
-                                                                        <rect key="frame" x="8" y="8" width="82.5" height="21"/>
+                                                                        <rect key="frame" x="8" y="8" width="76" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="21" id="HhE-NI-zwX"/>
                                                                         </constraints>
@@ -187,7 +183,7 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Say-1K-Tr2">
-                                                                        <rect key="frame" x="8" y="58" width="61" height="45"/>
+                                                                        <rect key="frame" x="8" y="58" width="57" height="45"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="45" id="2SW-oR-9XO"/>
                                                                         </constraints>
@@ -369,7 +365,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(7월 22일)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyi-CS-c4U">
-                                                    <rect key="frame" x="277.5" y="13" width="61.5" height="15"/>
+                                                    <rect key="frame" x="284" y="13" width="55" height="15"/>
                                                     <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="13"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
