@@ -165,7 +165,7 @@
                                                                 <rect key="frame" x="0.0" y="167" width="278" height="111"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이번주 주일설교" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0F-dR-9mC">
-                                                                        <rect key="frame" x="8" y="8" width="76" height="21"/>
+                                                                        <rect key="frame" x="8" y="8" width="82.5" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="21" id="HhE-NI-zwX"/>
                                                                         </constraints>
@@ -183,7 +183,7 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Say-1K-Tr2">
-                                                                        <rect key="frame" x="8" y="58" width="57" height="45"/>
+                                                                        <rect key="frame" x="8" y="58" width="61" height="45"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="45" id="2SW-oR-9XO"/>
                                                                         </constraints>
@@ -365,7 +365,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(7월 22일)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyi-CS-c4U">
-                                                    <rect key="frame" x="284" y="13" width="55" height="15"/>
+                                                    <rect key="frame" x="277.5" y="13" width="61.5" height="15"/>
                                                     <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="13"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -550,6 +550,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IVE-nG-gG5" userLabel="alpha layer">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_arundaun logo" translatesAutoresizingMaskIntoConstraints="NO" id="vLa-pM-Gp7">
                                 <rect key="frame" x="74.5" y="288" width="225" height="90"/>
                                 <constraints>
@@ -560,9 +565,13 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vLa-pM-Gp7" firstAttribute="centerX" secondItem="jK8-9a-kvs" secondAttribute="centerX" id="6ja-Ss-Dwy"/>
+                            <constraint firstItem="IVE-nG-gG5" firstAttribute="centerY" secondItem="40M-vW-E8f" secondAttribute="centerY" id="87n-YS-uQV"/>
                             <constraint firstItem="vLa-pM-Gp7" firstAttribute="width" secondItem="jK8-9a-kvs" secondAttribute="width" multiplier="0.6:1" id="GOE-uB-n2L"/>
+                            <constraint firstItem="IVE-nG-gG5" firstAttribute="centerX" secondItem="40M-vW-E8f" secondAttribute="centerX" id="JLE-Fi-XDr"/>
+                            <constraint firstItem="IVE-nG-gG5" firstAttribute="height" secondItem="40M-vW-E8f" secondAttribute="height" id="TaR-Ds-hM8"/>
                             <constraint firstItem="A7U-wv-rTD" firstAttribute="top" secondItem="40M-vW-E8f" secondAttribute="bottom" id="UG2-oB-6hI"/>
                             <constraint firstItem="40M-vW-E8f" firstAttribute="top" secondItem="jK8-9a-kvs" secondAttribute="top" id="lfx-CJ-5XR"/>
+                            <constraint firstItem="IVE-nG-gG5" firstAttribute="width" secondItem="40M-vW-E8f" secondAttribute="width" id="liV-eB-txx"/>
                             <constraint firstAttribute="trailing" secondItem="40M-vW-E8f" secondAttribute="trailing" id="nYJ-lN-ghZ"/>
                             <constraint firstItem="40M-vW-E8f" firstAttribute="leading" secondItem="jK8-9a-kvs" secondAttribute="leading" id="ra1-dl-Fqp"/>
                             <constraint firstItem="vLa-pM-Gp7" firstAttribute="centerY" secondItem="jK8-9a-kvs" secondAttribute="centerY" id="v10-Id-SyD"/>

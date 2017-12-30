@@ -10,7 +10,7 @@ import UIKit
 
 
 class LiveBroadCastingViewController : UIViewController {
-    static var liveStreamingModel = LiveStreamingViewModel()
+    var liveStreamingModel = LiveStreamingViewModel()
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -21,11 +21,11 @@ class LiveBroadCastingViewController : UIViewController {
     
     // MARK: - Actions
     @IBAction func watchNowButtonTapped(_ sender: Any) {
-        LiveBroadCastingViewController.openLiveStreamingContent(target: self)
+        openLiveStreamingContent(target: self)
     }
     
-    // MARK: - global
-    static func openLiveStreamingContent(target: UIViewController) {
+    // MARK: - public
+    func openLiveStreamingContent(target: UIViewController) {
         // request live streaming video id
         liveStreamingModel.loadLiveStreamingContent { (streamings) in
             guard let streaming = streamings.first else {

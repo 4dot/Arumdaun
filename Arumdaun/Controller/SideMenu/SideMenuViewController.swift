@@ -14,7 +14,7 @@ import Alamofire
 
 // side menu list
 enum SideMenuType : Int {
-    case HomeScreen, Sermon, Worship, QT, News, InternetLive
+    case HomeScreen, Sermon, Worship, QT, News
     case OpenPDF, OpenWeb
     case Count
     
@@ -26,7 +26,6 @@ enum SideMenuType : Int {
         case .Worship: return "찬양 동영상"
         case .QT: return "매일성경 QT"
         case .News: return "교회소식"
-        case .InternetLive: return "인터넷 생방송"
         case .OpenPDF: return "(이번주 주보 보기(PDF)"
         case .OpenWeb: return "arumdaunchurch.org"
         default: return ""
@@ -40,7 +39,6 @@ enum SideMenuType : Int {
         case .Worship: return .MenuYellow
         case .QT: return .MenuPink
         case .News: return .MenuGray
-        case .InternetLive: return .MenuBlue
         default: return .clear
         }
     }
@@ -172,12 +170,7 @@ class SideMenuViewController : UIViewController {
             // open newsView controller
             let news = UIStoryboard.loadNewsViewController()
             destViewController = news
-        case .InternetLive:
-            // open
-            LiveBroadCastingViewController.openLiveStreamingContent(target: self)
-            open(false)
-            return
-            
+        
         case .QT:
             // open web page
             UIApplication.shared.openURL(URL(string: SU_DAILY_QT_URL)!)
