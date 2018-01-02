@@ -12,6 +12,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Arial.ttf">
+            <string>ArialMT</string>
+        </array>
+        <array key="ArialBold.ttf">
+            <string>Arial-BoldMT</string>
+        </array>
         <array key="ChalkboardSE.ttc">
             <string>ChalkboardSE-Regular</string>
         </array>
@@ -165,7 +171,7 @@
                                                                 <rect key="frame" x="0.0" y="167" width="278" height="111"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이번주 주일설교" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0F-dR-9mC">
-                                                                        <rect key="frame" x="8" y="8" width="82.5" height="21"/>
+                                                                        <rect key="frame" x="8" y="8" width="76" height="21"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="21" id="HhE-NI-zwX"/>
                                                                         </constraints>
@@ -178,16 +184,16 @@
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="21" id="9tN-6j-I51"/>
                                                                         </constraints>
-                                                                        <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="15"/>
+                                                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Say-1K-Tr2">
-                                                                        <rect key="frame" x="8" y="58" width="61" height="45"/>
+                                                                        <rect key="frame" x="8" y="58" width="61.5" height="45"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="45" id="2SW-oR-9XO"/>
                                                                         </constraints>
-                                                                        <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="11"/>
+                                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -262,8 +268,8 @@
                                                     <rect key="frame" x="175" y="0.0" width="174" height="150"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="레인위의 생명값으로 주어진 예배" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="87C-s6-Yql">
-                                                            <rect key="frame" x="20" y="10" width="134" height="30"/>
-                                                            <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="13"/>
+                                                            <rect key="frame" x="20" y="10" width="134" height="31.5"/>
+                                                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -294,8 +300,8 @@
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="민18:21-32" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="y8y-XJ-kP5">
-                                                            <rect key="frame" x="20" y="52" width="134" height="13"/>
-                                                            <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="11"/>
+                                                            <rect key="frame" x="20" y="53.5" width="134" height="13.5"/>
+                                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -365,7 +371,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(7월 22일)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyi-CS-c4U">
-                                                    <rect key="frame" x="277.5" y="13" width="61.5" height="15"/>
+                                                    <rect key="frame" x="284" y="13" width="55" height="15"/>
                                                     <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="13"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -450,7 +456,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="b0l-k9-DSQ"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -459,7 +465,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22.5" id="jPf-nN-0bK"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="11"/>
+                                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -997,13 +1003,13 @@
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="Cfs-dD-5i6"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="11"/>
+                                                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="양성필 목사" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWD-Bt-bEm">
                                                             <rect key="frame" x="28" y="37" width="319" height="11"/>
-                                                            <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="9"/>
+                                                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="10"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -1301,16 +1307,16 @@
                                         <rect key="frame" x="0.0" y="60" width="375" height="587"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고난과 함께 전해진 복음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-ms-N53">
-                                                <rect key="frame" x="20" y="301" width="335" height="17.5"/>
-                                                <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="15"/>
+                                                <rect key="frame" x="20" y="301" width="335" height="18"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017년 7월 23일 / 작성자: Arumdaun Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-7O-kAG">
-                                                <rect key="frame" x="20" y="322.5" width="335" height="12"/>
+                                                <rect key="frame" x="20" y="323" width="335" height="12"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="12" id="cGD-7H-ZEk"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="9"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="10"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1322,10 +1328,10 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="말씀: 황인철 목사 날짜: 2017년 9월 3일 성경: 행 16:1~5  1 바울이 더베와 루스드라에도 이르매 거기 디모데라 하는 제자가 있으니 그 어머니는 믿는 유대 여자요 아버지는 헬라인이라" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IV7-Ea-ue6">
-                                                <rect key="frame" x="20" y="349.5" width="335" height="229.5"/>
+                                                <rect key="frame" x="20" y="350" width="335" height="229"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="10"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -1485,7 +1491,7 @@
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="21" id="Z4g-NB-S35"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="14"/>
+                                                                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="15"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -1494,7 +1500,7 @@
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="23" id="DFU-tK-y2Z"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="11"/>
+                                                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
@@ -1767,13 +1773,26 @@
                                     <constraint firstAttribute="trailing" secondItem="XTW-Tq-N07" secondAttribute="trailing" id="wK9-If-6fo"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaA-XD-Dr0">
+                                <rect key="frame" x="137" y="319" width="100" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="QAm-Ff-Rjo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <state key="normal" title="SHOW ALL"/>
+                                <connections>
+                                    <action selector="openAllAudioList" destination="6fh-MX-vCr" eventType="touchUpInside" id="moV-Cc-XnT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4aB-F8-lEl" firstAttribute="bottom" secondItem="hVR-1R-iTz" secondAttribute="top" id="35C-g1-IWG"/>
                             <constraint firstItem="4aB-F8-lEl" firstAttribute="top" secondItem="lQ1-MN-6Rw" secondAttribute="bottom" id="BAJ-mU-Bjf"/>
+                            <constraint firstItem="PaA-XD-Dr0" firstAttribute="centerX" secondItem="NIn-0p-rWu" secondAttribute="centerX" id="O1x-dA-jNR"/>
                             <constraint firstAttribute="trailing" secondItem="4aB-F8-lEl" secondAttribute="trailing" id="QCr-vF-dnZ"/>
                             <constraint firstItem="4aB-F8-lEl" firstAttribute="leading" secondItem="NIn-0p-rWu" secondAttribute="leading" id="cJa-Vg-QPm"/>
+                            <constraint firstItem="PaA-XD-Dr0" firstAttribute="centerY" secondItem="NIn-0p-rWu" secondAttribute="centerY" id="sSd-jt-Xkw"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -1782,6 +1801,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
+                        <outlet property="showAllBtn" destination="PaA-XD-Dr0" id="iiu-ir-RNK"/>
                         <outlet property="webView" destination="XTW-Tq-N07" id="Nkf-DP-Bzh"/>
                     </connections>
                 </viewController>

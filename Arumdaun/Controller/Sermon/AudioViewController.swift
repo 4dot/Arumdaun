@@ -9,17 +9,30 @@
 import UIKit
 import WebKit
 
+
+protocol AudioViewControllerDelegate : class {
+    func openAllAudioList()
+}
+
+//
+// AudioViewController
+//
 class AudioViewController : UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var showAllBtn: UIButton!
     
     var audioId: String = ""
     var audioName: String = ""
     
+    weak var delegate: AudioViewControllerDelegate?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // button outline
+        showAllBtn.outline(1, bgColor: .clear, radius: showAllBtn.frame.size.height/2, borderColor: .blue)
         
         // send track event
         ArAnalytics.sendTrackEvent("pv", properties: ["title" : "QT Play", "subTitle" : audioName])
@@ -49,5 +62,13 @@ class AudioViewController : UIViewController {
     // MARK: - IBActions
     @IBAction func closeButtonTapped(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func openAllAudioList() {
+        self.dismiss(animated: true, completion: nil)
+        // open
+        if let sideMenuVC = sideMenuController()?.sideMenu?.menuViewController as? SideMenuViewController {
+            sideMenuVC.selectSideMenu(SideMenuType.SermonSub.MorningQT.rawValue, SideMenuType.Sermon.rawValue)
+        }
     }
 }
