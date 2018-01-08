@@ -14,11 +14,11 @@ import UIKit
 //
 //
 //
-extension MainViewController {
+extension MainViewController : UITableViewDelegate {
     
     // MARK: - UITableViewDelegate
     
-    override public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         guard let cellType = MainViewContentType(rawValue: indexPath.section) else {
             return 0
         }
@@ -39,7 +39,7 @@ extension MainViewController {
     /**
      * @desc set collectionview data source delegate for nested collectionview cell in the tableview cell
      */
-    override public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         guard let cellType = MainViewContentType(rawValue: indexPath.section) else {
             return
         }
@@ -58,25 +58,25 @@ extension MainViewController {
     /**
      * @desc set tableview's section space
      */
-    override public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 10
     }
     
-    override public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         guard let cellType = MainViewContentType(rawValue: section) else {
             return 10
         }
         return cellType == .Youtube ? 0.1 : 10
     }
     
-    override public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+    public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let footerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: tableView.sectionHeaderHeight))
         footerView.backgroundColor = .white
         
         return footerView
     }
     
-    override public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         guard let cellType = MainViewContentType(rawValue: section) else {
             return nil
         }
@@ -86,7 +86,7 @@ extension MainViewController {
         return headerView
     }
     
-    override public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // when pressed news cell
         guard let cellType = MainViewContentType(rawValue: indexPath.section),
                   cellType == .News,
@@ -100,14 +100,14 @@ extension MainViewController {
 //
 //
 //
-extension MainViewController {
+extension MainViewController : UITableViewDataSource {
     
     // MARK: - UITableViewDataSource
-    override public func numberOfSections(in tableView: UITableView) -> Int {
+    public func numberOfSections(in tableView: UITableView) -> Int {
         return mainModel.contentTypeCount()
     }
     
-    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         guard let cellType = MainViewContentType(rawValue: section) else {
             return 0
         }
@@ -118,7 +118,7 @@ extension MainViewController {
         }
     }
     
-    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cellType = MainViewContentType(rawValue: indexPath.section) else {
             return UITableViewCell()
         }
@@ -144,6 +144,7 @@ extension MainViewController {
             
         case .DailyQT:
             let cell = tableView.dequeueReusable(cellClass: MainQTCell.self, for: indexPath)
+            cell.delegate = self
             cell.setQTData(.DailyQT)
             
             // request preview qt (top one)
@@ -221,10 +222,8 @@ extension MainViewController : NewsTableViewFooterCellDelegate {
         if url.isEmpty {
             return
         }
-        
         let vc = UIStoryboard.loadPDFViewController()
         vc.modalPresentationStyle = .overFullScreen
-        //vc.delegate = self
         vc.webLink = url
 
         present(vc, animated: true, completion: nil)
@@ -290,12 +289,12 @@ extension MainViewController : UICollectionViewDelegate, UICollectionViewDataSou
 }
 
 extension MainViewController : MainQTCellDelegate {
-    func openMoringQTAll() {
-        // open
-        if let sideMenuVC = sideMenuController()?.sideMenu?.menuViewController as? SideMenuViewController {
-            sideMenuVC.selectSideMenu(SideMenuType.SermonSub.MorningQT.rawValue, SideMenuType.Sermon.rawValue)
+    func openQT(contentType: MainViewContentType, audioId: String, audioName: String) {
+        if contentType == .MorningQT {
+            ArNavigationViewController.openAudioContentView(self, audioId: audioId, audioName: audioName)
+        } else if contentType == .DailyQT {
+            // open safari
+            UIApplication.shared.openURL(URL(string: SU_DAILY_QT_URL)!)
         }
     }
-    
-    
 }

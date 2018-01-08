@@ -8,10 +8,9 @@
 
 import UIKit
 import HockeySDK
-import Pushwoosh
+import OneSignal
 import UserNotifications
-
-
+import AVFoundation
 
 var isLandscape = false
 
@@ -28,8 +27,8 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
         // init tracker
         ArAnalytics.initWoopra()
         
-        // init pushwoosh
-        initPushNotification()
+        // init OpenSignal
+        initPushNotification(launchOptions: launchOptions)
         
         return true
     }
@@ -42,6 +41,13 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            // Handle setCategory failure
+            print(error)
+        }
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -97,49 +103,32 @@ extension ArAppDelegate : BITHockeyManagerDelegate {
     }
 }
 
-extension ArAppDelegate : PushNotificationDelegate {
-    func initPushNotification() {
-        // set custom delegate for push handling, in our case AppDelegate
-        PushNotificationManager.push().delegate = self
+extension ArAppDelegate {
+    func initPushNotification(launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
+        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
         
-        // set default Pushwoosh delegate for iOS10 foreground push handling
-        if #available(iOS 10.0, *) {
-            UNUserNotificationCenter.current().delegate = PushNotificationManager.push().notificationCenterDelegate
-        }
+        // Replace 'YOUR_APP_ID' with your OneSignal App ID.
+        OneSignal.initWithLaunchOptions(launchOptions,
+                                        appId: "908b6d2c-7d75-4d3d-ad24-02904d8581a0",
+                                        handleNotificationAction: nil,
+                                        settings: onesignalInitSettings)
         
-        // track application open statistics
-        PushNotificationManager.push().sendAppOpen()
+        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
         
-        // register for push notifications!
-        PushNotificationManager.push().registerForPushNotifications()
+        // Recommend moving the below line to prompt for push after informing the user about
+        //   how your app will use them.
+        OneSignal.promptForPushNotifications(userResponse: { accepted in
+            print("User accepted notifications: \(accepted)")
+        })
+        
+        // Sync hashed email if you have a login system or collect it.
+        //   Will be used to reach the user at the most optimal time of day.
+        // OneSignal.syncHashedEmail(userEmail)
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let   tokenString = deviceToken.reduce("", {$0 + String(format: "%02X",    $1)})
         // kDeviceToken=tokenString
         print("deviceToken: \(tokenString)")
-        PushNotificationManager.push().handlePushRegistration(deviceToken as Data!)
-    }
-    
-    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        PushNotificationManager.push().handlePushRegistrationFailure(error)
-    }
-    
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any],
-                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        PushNotificationManager.push().handlePushReceived(userInfo)
-        completionHandler(UIBackgroundFetchResult.noData)
-    }
-    
-    // this event is fired when the push is received in the app
-    func onPushReceived(_ pushManager: PushNotificationManager!, withNotification pushNotification: [AnyHashable : Any]!, onStart: Bool) {
-        print("Push notification received: \(pushNotification)")
-        // shows a push is received. Implement passive reaction to a push, such as UI update or data download.
-    }
-    
-    // this event is fired when user clicks on notification
-    func onPushAccepted(_ pushManager: PushNotificationManager!, withNotification pushNotification: [AnyHashable : Any]!, onStart: Bool) {
-        print("Push notification accepted: \(pushNotification)")
-        // shows a user tapped the notification. Implement user interaction, such as showing push details
     }
 }

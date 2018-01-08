@@ -60,4 +60,8 @@ extension String {
         }
         return self
     }
+    
+    func encodingQueryAllowed() -> String? {
+        return self.addingPercentEncoding(withAllowedCharacters:NSCharacterSet.urlQueryAllowed)
+    }
 }

@@ -7,9 +7,9 @@ PODS:
     - HockeySDK/DefaultLib (= 5.0.0)
   - HockeySDK/DefaultLib (5.0.0)
   - Kanna (2.1.1)
-  - lottie-ios (2.1.3)
-  - Pushwoosh (5.3.7)
-  - SwiftyXMLParser (3.0.3)
+  - lottie-ios (2.1.4)
+  - OneSignal (2.5.7)
+  - SwiftyXMLParser (4.1.0)
   - Woopra (0.0.1)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ DEPENDENCIES:
   - HockeySDK
   - Kanna (~> 2.1.0)
   - lottie-ios
-  - Pushwoosh
+  - OneSignal (< 3.0, >= 2.5.2)
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
   - Woopra
 
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SwiftyXMLParser:
-    :commit: 717181c312510135be4724a33e37fa9e3af76548
+    :commit: 1ddcad0a09efb85f2325d994c2169cd9ba116ae3
     :git: https://github.com/yahoojapan/SwiftyXMLParser.git
 
 SPEC CHECKSUMS:
@@ -38,11 +38,11 @@ SPEC CHECKSUMS:
   CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
   HockeySDK: 82bf8dcbe1af3c87c24dc98924fcf2e2ba5be8c4
   Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
-  lottie-ios: 8c150606598931621e927377f1426d2d3e99282d
-  Pushwoosh: 91a4a341a37a5ce9f23cba68a909950fced10a8f
-  SwiftyXMLParser: acca46f5a8f0728cf0e618736d8a7fc7822abcbe
+  lottie-ios: 94fa2d82547ce3adf1e61157653ba99999fd279f
+  OneSignal: 5be2eb3394e654b7467a190fe4d58147fc46bb78
+  SwiftyXMLParser: b5a79fb8a730903703d0a92d30752a0b05158967
   Woopra: 1e0e6eefe0b7965e251c52c198c20bad95e90e0c
 
-PODFILE CHECKSUM: c3fa2b5c744df8eeb16332a74d92b72350aa6d1e
+PODFILE CHECKSUM: 1c695cab5333c8c69e36b73bbc3cb23379219612
 
 COCOAPODS: 1.3.1

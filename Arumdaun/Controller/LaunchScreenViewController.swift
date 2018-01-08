@@ -45,8 +45,8 @@ class LaunchScreenViewController : LottieHUDViewController {
         showHUDAnimation(true, .loadingWhite)
         
         loadBGImgFromWeb { (imgURL) in
-            LaunchScreenViewController.imgURL = imgURL
-            self.setBGImg(imgURL, completion: { (success) in
+            LaunchScreenViewController.imgURL = imgURL.encodingQueryAllowed() ?? ""
+            self.setBGImg(LaunchScreenViewController.imgURL, completion: { (success) in
                 self.showHUDAnimation(false)
                 
                 UIView.transition(with: self.mainTitleImageView, duration: 2, options: .curveEaseInOut, animations: {

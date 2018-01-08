@@ -28,7 +28,9 @@ class PDFViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url : URL! = URL(string: webLink)
+        guard let url = URL(string: webLink.encodingQueryAllowed() ?? "") else {
+            return
+        }
         webView.loadRequest(URLRequest(url: url))
     }
     

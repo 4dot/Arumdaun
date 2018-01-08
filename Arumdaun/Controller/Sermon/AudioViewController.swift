@@ -9,14 +9,6 @@
 import UIKit
 import WebKit
 
-
-protocol AudioViewControllerDelegate : class {
-    func openAllAudioList()
-}
-
-//
-// AudioViewController
-//
 class AudioViewController : UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
@@ -24,12 +16,16 @@ class AudioViewController : UIViewController {
     
     var audioId: String = ""
     var audioName: String = ""
-    
-    weak var delegate: AudioViewControllerDelegate?
+    weak var targetParent: UIViewController?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        webView.allowsInlineMediaPlayback = true
+        webView.mediaPlaybackAllowsAirPlay = true
+        webView.mediaPlaybackRequiresUserAction = false
+        webView.allowsPictureInPictureMediaPlayback = true
         
         // button outline
         showAllBtn.outline(1, bgColor: .clear, radius: showAllBtn.frame.size.height/2, borderColor: .blue)
@@ -40,7 +36,7 @@ class AudioViewController : UIViewController {
         // find file path
         let path = Bundle.main.url(forResource: "SermonPlayer", withExtension: "html", subdirectory: "Assets")
         do {
-            let content = try String(contentsOf: path!, encoding: .utf16)
+            let content = try String(contentsOf: path!, encoding: .utf8)
             
             // replace title and link in th html text
             var html = content.replacingOccurrences(of: "{title}", with: audioName)
@@ -64,11 +60,16 @@ class AudioViewController : UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func openAllAudioList() {
-        self.dismiss(animated: true, completion: nil)
-        // open
-        if let sideMenuVC = sideMenuController()?.sideMenu?.menuViewController as? SideMenuViewController {
-            sideMenuVC.selectSideMenu(SideMenuType.SermonSub.MorningQT.rawValue, SideMenuType.Sermon.rawValue)
-        }
+    @IBAction func showAllButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: {
+            if self.targetParent is SermonViewController {
+                return
+            }
+            
+            // find main view
+            if let sideMenuVC = self.targetParent?.sideMenuController()?.sideMenu?.menuViewController as? SideMenuViewController {
+                sideMenuVC.selectSideMenu(SideMenuType.SermonSub.MorningQT.rawValue, SideMenuType.Sermon.rawValue)
+            }
+        })
     }
 }

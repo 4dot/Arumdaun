@@ -22,6 +22,7 @@
 		10C8A36B1F0201EA00202579 /* ArUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A36A1F0201EA00202579 /* ArUtils.swift */; };
 		10C8A36E1F02110000202579 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */; };
 		1AB98DADF769B165D4F7E328 /* Pods_Arumdaun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */; };
+		824D9DADC975BFFADE61E6C1 /* Pods_ArumdaunNotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B41C9EB8ACB6A56452214C /* Pods_ArumdaunNotificationExtension.framework */; };
 		CB0667CC1F4CA50C008996D1 /* UIButton+ArButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */; };
 		CB0667CD1F4CA50C008996D1 /* UIColor+ArColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667C91F4CA50C008996D1 /* UIColor+ArColor.swift */; };
 		CB0667CE1F4CA50C008996D1 /* UIImage+ArImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667CA1F4CA50C008996D1 /* UIImage+ArImage.swift */; };
@@ -62,6 +63,8 @@
 		CB43F3061F59C3A800270282 /* ArNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB43F3041F59C3A800270282 /* ArNavigationViewController.swift */; };
 		CB4F34611F50BFC0006680B8 /* Array+ArArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F34601F50BFC0006680B8 /* Array+ArArray.swift */; };
 		CB73F8821F6870FA00EFEC8D /* String+ArString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB73F8811F6870FA00EFEC8D /* String+ArString.swift */; };
+		CB75FC4F1FFFE8F900D1A1DE /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */; };
+		CB75FC531FFFE8FA00D1A1DE /* ArumdaunNotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB75FC4C1FFFE8F900D1A1DE /* ArumdaunNotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CB8A59BF1F69D23800C33EA4 /* empty_status.json in Resources */ = {isa = PBXBuildFile; fileRef = CB8A59BE1F69D23800C33EA4 /* empty_status.json */; };
 		CB8A59C11F6AE15800C33EA4 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */; };
 		CB8A59C31F6AF65800C33EA4 /* ArStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */; };
@@ -69,12 +72,12 @@
 		CB9582681F71C26900A79A50 /* LottieHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */; };
 		CB9624441FCF3E0D00210D5E /* Bundle+ArBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */; };
 		CB9624641FD06C0E00210D5E /* UIViewController+ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */; };
-		CB98F7A81FE4170100EBAE11 /* no_internet_connection.json in Resources */ = {isa = PBXBuildFile; fileRef = CB98F7A71FE4170100EBAE11 /* no_internet_connection.json */; };
-		CB98F7AC1FE8116C00EBAE11 /* LiveStreamingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB98F7AB1FE8116C00EBAE11 /* LiveStreamingViewModel.swift */; };
+		CB98F7AA1FE4173A00EBAE11 /* no_internet_connection.json in Resources */ = {isa = PBXBuildFile; fileRef = CB98F7A91FE4173A00EBAE11 /* no_internet_connection.json */; };
 		CB9E14011F2FB5810055AB01 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */; };
 		CB9E14031F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */; };
 		CB9E14051F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */; };
 		CB9F8DF81F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F8DF71F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift */; };
+		CBA472971FFBE88600E6E29C /* LiveStreamingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA472961FFBE88500E6E29C /* LiveStreamingViewModel.swift */; };
 		CBA485271F54A879003519C0 /* MainQTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA485261F54A879003519C0 /* MainQTCell.swift */; };
 		CBA485291F54AD6F003519C0 /* DailyQTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA485281F54AD6F003519C0 /* DailyQTData.swift */; };
 		CBA4852D1F55B12E003519C0 /* ArNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA4852C1F55B12E003519C0 /* ArNetwork.swift */; };
@@ -112,7 +115,28 @@
 			remoteGlobalIDString = CB0F84341EFAEA0F0024A15E;
 			remoteInfo = Arumdaun;
 		};
+		CB75FC511FFFE8FA00D1A1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0F842D1EFAEA0F0024A15E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB75FC4B1FFFE8F900D1A1DE;
+			remoteInfo = ArumdaunNotificationExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB75FC571FFFE8FA00D1A1DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CB75FC531FFFE8FA00D1A1DE /* ArumdaunNotificationExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		102500DE1F5A74A000B49C7B /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
@@ -131,7 +155,9 @@
 		10C8A3621EFCCDE300202579 /* ArDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArDefine.swift; sourceTree = "<group>"; };
 		10C8A36A1F0201EA00202579 /* ArUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArUtils.swift; sourceTree = "<group>"; };
 		10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		16B41C9EB8ACB6A56452214C /* Pods_ArumdaunNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArumdaunNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.debug.xcconfig"; sourceTree = "<group>"; };
+		39994CB8D61B7235C65C22DB /* Pods-ArumdaunNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArumdaunNotificationExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arumdaun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.release.xcconfig"; sourceTree = "<group>"; };
 		CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ArButton.swift"; sourceTree = "<group>"; };
@@ -180,6 +206,9 @@
 		CB43F3041F59C3A800270282 /* ArNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArNavigationViewController.swift; sourceTree = "<group>"; };
 		CB4F34601F50BFC0006680B8 /* Array+ArArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+ArArray.swift"; sourceTree = "<group>"; };
 		CB73F8811F6870FA00EFEC8D /* String+ArString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ArString.swift"; sourceTree = "<group>"; };
+		CB75FC4C1FFFE8F900D1A1DE /* ArumdaunNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArumdaunNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CB75FC501FFFE8FA00D1A1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8A59BE1F69D23800C33EA4 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
 		CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArStoryBoard.swift; sourceTree = "<group>"; };
@@ -187,12 +216,12 @@
 		CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieHUDViewController.swift; sourceTree = "<group>"; };
 		CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ArBundle.swift"; sourceTree = "<group>"; };
 		CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ArViewController.swift"; sourceTree = "<group>"; };
-		CB98F7A71FE4170100EBAE11 /* no_internet_connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = no_internet_connection.json; sourceTree = "<group>"; };
-		CB98F7AB1FE8116C00EBAE11 /* LiveStreamingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStreamingViewModel.swift; sourceTree = "<group>"; };
+		CB98F7A91FE4173A00EBAE11 /* no_internet_connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = no_internet_connection.json; sourceTree = "<group>"; };
 		CB9E14001F2FB5810055AB01 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		CB9E14021F2FB59C0055AB01 /* NewsTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewHeaderCell.swift; sourceTree = "<group>"; };
 		CB9E14041F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewFooterCell.swift; sourceTree = "<group>"; };
 		CB9F8DF71F2FB742005D4CD8 /* MainYoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainYoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBA472961FFBE88500E6E29C /* LiveStreamingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveStreamingViewModel.swift; sourceTree = "<group>"; };
 		CBA485261F54A879003519C0 /* MainQTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQTCell.swift; sourceTree = "<group>"; };
 		CBA485281F54AD6F003519C0 /* DailyQTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyQTData.swift; sourceTree = "<group>"; };
 		CBA4852C1F55B12E003519C0 /* ArNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArNetwork.swift; sourceTree = "<group>"; };
@@ -226,6 +255,7 @@
 		CBD7E5151F91048500AA106D /* Arumdaun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arumdaun.entitlements; sourceTree = "<group>"; };
 		CBDCF8271F01452200D038C4 /* SMTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTabbar.swift; sourceTree = "<group>"; };
 		CBDCF83C1F01A21B00D038C4 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreenViewController.swift; path = ../LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		F790850321579A724CC27724 /* Pods-ArumdaunNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArumdaunNotificationExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +280,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB75FC491FFFE8F900D1A1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824D9DADC975BFFADE61E6C1 /* Pods_ArumdaunNotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +378,8 @@
 			children = (
 				21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */,
 				56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */,
+				39994CB8D61B7235C65C22DB /* Pods-ArumdaunNotificationExtension.debug.xcconfig */,
+				F790850321579A724CC27724 /* Pods-ArumdaunNotificationExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -351,6 +391,7 @@
 				CBD7E5111F91035500AA106D /* libz.tbd */,
 				CBB9A5D91F6C6EF10081F689 /* WebKit.framework */,
 				451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */,
+				16B41C9EB8ACB6A56452214C /* Pods_ArumdaunNotificationExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -388,6 +429,7 @@
 				CB0F84371EFAEA0F0024A15E /* Arumdaun */,
 				CB0F844C1EFAEA0F0024A15E /* ArumdaunTests */,
 				CB0F84571EFAEA0F0024A15E /* ArumdaunUITests */,
+				CB75FC4D1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */,
 				CB0F84361EFAEA0F0024A15E /* Products */,
 				1D01E6D1FB0FFC7BACD2DCB3 /* Pods */,
 				1E9C98B1BAAC1EB15F706C78 /* Frameworks */,
@@ -400,6 +442,7 @@
 				CB0F84351EFAEA0F0024A15E /* Arumdaun.app */,
 				CB0F84491EFAEA0F0024A15E /* ArumdaunTests.xctest */,
 				CB0F84541EFAEA0F0024A15E /* ArumdaunUITests.xctest */,
+				CB75FC4C1FFFE8F900D1A1DE /* ArumdaunNotificationExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -530,6 +573,15 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		CB75FC4D1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */,
+				CB75FC501FFFE8FA00D1A1DE /* Info.plist */,
+			);
+			path = ArumdaunNotificationExtension;
+			sourceTree = "<group>";
+		};
 		CB8A5A451F6C506C00C33EA4 /* JPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -541,7 +593,7 @@
 		CBB08E281F5F1D58001C10E5 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				CB98F7A71FE4170100EBAE11 /* no_internet_connection.json */,
+				CB98F7A91FE4173A00EBAE11 /* no_internet_connection.json */,
 				CB8A59BE1F69D23800C33EA4 /* empty_status.json */,
 				CBB08E291F5F1D58001C10E5 /* snap_loader_black.json */,
 				CBB08E2A1F5F1D58001C10E5 /* snap_loader_white.json */,
@@ -582,12 +634,12 @@
 				CB3C00D81F61DFF100D750B3 /* SermonViewModel.swift */,
 				CBB293831F671A88007BEA85 /* WorshipViewModel.swift */,
 				CB3C00D41F61B4F600D750B3 /* NewsViewModel.swift */,
-				CB98F7AB1FE8116C00EBAE11 /* LiveStreamingViewModel.swift */,
 				CB3C00D01F618EC800D750B3 /* BaseAPIClient.swift */,
 				10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */,
 				CB3C00D61F61B54400D750B3 /* NewsAPIClient.swift */,
 				CB3C00DA1F61E01800D750B3 /* SermonAPIClient.swift */,
 				CBB293851F671B7A007BEA85 /* WorshipAPIClient.swift */,
+				CBA472961FFBE88500E6E29C /* LiveStreamingViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -646,10 +698,12 @@
 				CB0F84331EFAEA0F0024A15E /* Resources */,
 				08EE4D57BC21E72F49702433 /* [CP] Embed Pods Frameworks */,
 				0A55D529F26C5E41D04D1C38 /* [CP] Copy Pods Resources */,
+				CB75FC571FFFE8FA00D1A1DE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CB75FC521FFFE8FA00D1A1DE /* PBXTargetDependency */,
 			);
 			name = Arumdaun;
 			productName = Arumdaun;
@@ -692,13 +746,32 @@
 			productReference = CB0F84541EFAEA0F0024A15E /* ArumdaunUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CB75FC4B1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB75FC561FFFE8FA00D1A1DE /* Build configuration list for PBXNativeTarget "ArumdaunNotificationExtension" */;
+			buildPhases = (
+				4520D983BDE2470A43C0BA9D /* [CP] Check Pods Manifest.lock */,
+				CB75FC481FFFE8F900D1A1DE /* Sources */,
+				CB75FC491FFFE8F900D1A1DE /* Frameworks */,
+				CB75FC4A1FFFE8F900D1A1DE /* Resources */,
+				2A7DF139A988F896EA4006B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArumdaunNotificationExtension;
+			productName = ArumdaunNotificationExtension;
+			productReference = CB75FC4C1FFFE8F900D1A1DE /* ArumdaunNotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		CB0F842D1EFAEA0F0024A15E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Chanick Park";
 				TargetAttributes = {
@@ -725,6 +798,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = CB0F84341EFAEA0F0024A15E;
 					};
+					CB75FC4B1FFFE8F900D1A1DE = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 6J4VT574EH;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = CB0F84301EFAEA0F0024A15E /* Build configuration list for PBXProject "Arumdaun" */;
@@ -743,6 +821,7 @@
 				CB0F84341EFAEA0F0024A15E /* Arumdaun */,
 				CB0F84481EFAEA0F0024A15E /* ArumdaunTests */,
 				CB0F84531EFAEA0F0024A15E /* ArumdaunUITests */,
+				CB75FC4B1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -767,7 +846,7 @@
 				CB3C00CC1F607AA500D750B3 /* NanumMyeongjoBold.ttf in Resources */,
 				CB0F84401EFAEA0F0024A15E /* Assets.xcassets in Resources */,
 				CB0F843E1EFAEA0F0024A15E /* Main.storyboard in Resources */,
-				CB98F7A81FE4170100EBAE11 /* no_internet_connection.json in Resources */,
+				CB98F7AA1FE4173A00EBAE11 /* no_internet_connection.json in Resources */,
 				CB43F2F31F58586900270282 /* ExpandableCell.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -780,6 +859,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CB0F84521EFAEA0F0024A15E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB75FC4A1FFFE8F900D1A1DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -835,6 +921,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A7DF139A988F896EA4006B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4520D983BDE2470A43C0BA9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArumdaunNotificationExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7434C6C678E706D42F3FA207 /* [CP] Check Pods Manifest.lock */ = {
@@ -902,7 +1021,6 @@
 				CBDCF83D1F01A21B00D038C4 /* LaunchScreenViewController.swift in Sources */,
 				CB43F2F51F58586900270282 /* ExpandableProcessor.swift in Sources */,
 				CB43F2F81F589C6600270282 /* SermonViewController.swift in Sources */,
-				CB98F7AC1FE8116C00EBAE11 /* LiveStreamingViewModel.swift in Sources */,
 				CBC2CE3B1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift in Sources */,
 				CB0667F41F4DDFD5008996D1 /* MainYoutubeCell.swift in Sources */,
 				10C8A36B1F0201EA00202579 /* ArUtils.swift in Sources */,
@@ -922,6 +1040,7 @@
 				CBD7A54E1F165F6C0058BF0D /* YoutubeData.swift in Sources */,
 				102B787E1F6A33B400837CF1 /* AudioViewController.swift in Sources */,
 				102500E11F5A74A000B49C7B /* ENSideMenuNavigationController.swift in Sources */,
+				CBA472971FFBE88600E6E29C /* LiveStreamingViewModel.swift in Sources */,
 				CBB08E431F604D3E001C10E5 /* MainViewController+Contents.swift in Sources */,
 				10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */,
 				CB43F2F61F58586900270282 /* ExpandableTableView.swift in Sources */,
@@ -947,6 +1066,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB75FC481FFFE8F900D1A1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB75FC4F1FFFE8F900D1A1DE /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -959,6 +1086,11 @@
 			isa = PBXTargetDependency;
 			target = CB0F84341EFAEA0F0024A15E /* Arumdaun */;
 			targetProxy = CB0F84551EFAEA0F0024A15E /* PBXContainerItemProxy */;
+		};
+		CB75FC521FFFE8FA00D1A1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB75FC4B1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */;
+			targetProxy = CB75FC511FFFE8FA00D1A1DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1081,6 +1213,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Arumdaun/Arumdaun.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
@@ -1103,6 +1236,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Arumdaun/Arumdaun.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
@@ -1175,6 +1309,64 @@
 			};
 			name = Release;
 		};
+		CB75FC541FFFE8FA00D1A1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39994CB8D61B7235C65C22DB /* Pods-ArumdaunNotificationExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J4VT574EH;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ArumdaunNotificationExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp.ArumdaunNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		CB75FC551FFFE8FA00D1A1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F790850321579A724CC27724 /* Pods-ArumdaunNotificationExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J4VT574EH;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ArumdaunNotificationExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp.ArumdaunNotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1210,6 +1402,15 @@
 			buildConfigurations = (
 				CB0F84641EFAEA0F0024A15E /* Debug */,
 				CB0F84651EFAEA0F0024A15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB75FC561FFFE8FA00D1A1DE /* Build configuration list for PBXNativeTarget "ArumdaunNotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB75FC541FFFE8FA00D1A1DE /* Debug */,
+				CB75FC551FFFE8FA00D1A1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

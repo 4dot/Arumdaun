@@ -69,6 +69,7 @@ extension ArNavigationViewController {
         vc.modalPresentationStyle = .overFullScreen
         vc.audioId = audioId
         vc.audioName = audioName
+        vc.targetParent = parent
         
         parent.present(vc, animated: true, completion: nil)
     }

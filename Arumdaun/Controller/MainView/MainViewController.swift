@@ -17,10 +17,12 @@ let CHECK_LIVE_BROADCASTING_IDLE = 30    // sec
 //
 // MainViewController class
 //
-public class MainViewController : UITableViewController {
+public class MainViewController : UIViewController {
     
     // main model object
     @IBOutlet var mainModel : MainViewModel!
+    
+    @IBOutlet var tableView : UITableView!
     
     // live broadcasting view
     var liveBroadcastingView: LiveBroadCastingViewController?
@@ -62,7 +64,8 @@ public class MainViewController : UITableViewController {
         // create sidemenu
         createMenuListButton()
         
-        // start timer
+        // start timer after checking
+        updateLiveBroadCasting()
         startCheckLiveTimer()
         
         // start network connection checking
@@ -172,8 +175,8 @@ extension MainViewController {
         
         if show == true && liveBroadcastingView == nil {
             liveBroadcastingView = UIStoryboard.loadLiveBroadCastingViewController()
-            liveBroadcastingView!.view.frame = showPos
-            self.view.superview?.addSubview(liveBroadcastingView!.view)
+            liveBroadcastingView!.view.frame = hidePos
+            self.view.addSubview(liveBroadcastingView!.view)
         }
         
         guard let livePopup = liveBroadcastingView else { return }

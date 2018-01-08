@@ -20,7 +20,7 @@ let YT_PLAYLIST_ITEM = "https://www.googleapis.com/youtube/v3/playlistItems"
 
 let YT_SEARCH = "https://www.googleapis.com/youtube/v3/search"
 let YT_LIVEVIDEO_CHANNEL_ID = "UC_SMi4TOmGvZnVb2SLpbGyw"
-let YT_LIVEVIDEO_ID = "4v0ex7VtjxQ"
+let YT_LIVEVIDEO_ID = "uod4YBW9Cv0"
 
 
 // google drive for morning sermons

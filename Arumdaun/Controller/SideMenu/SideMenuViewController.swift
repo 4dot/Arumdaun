@@ -347,7 +347,12 @@ extension SideMenuViewController : SideMenuTableButtonCellDelegate {
             let vc = UIStoryboard.loadPDFViewController()
             vc.modalPresentationStyle = .overFullScreen
             vc.webLink = MainViewController.thisWeekPdfUrl
-            present(vc, animated: true, completion: nil)
+            
+            // get top view
+            guard let topView = UIApplication.shared.keyWindow?.rootViewController else {
+                return
+            }
+            topView.present(vc, animated: true, completion: nil)
             
         case .OpenWeb:
             // open safari
