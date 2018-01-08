@@ -38,6 +38,7 @@ class YTPlayerViewController : UIViewController {
         titleLabel.text = videoTitle
         subTitleLabel.text = videoSubTitle
         descTextView.text = videoDesc
+        descTextView.scrollRangeToVisible(NSMakeRange(0, 0))
         
         // youtube moview load using iframe
         YTPlayer.load(withVideoId: videoId)
