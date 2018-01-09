@@ -15,6 +15,10 @@ extension String {
     var stringByRemovingWhitespaceAndNewlineCharacterSet: String {
         return components(separatedBy: NSCharacterSet.whitespacesAndNewlines).joined(separator: "")
     }
+    /// trim first and last empty spaces
+    var trim: String {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
     
     // get filename only(exclue file extension)
     func fileName() -> String {

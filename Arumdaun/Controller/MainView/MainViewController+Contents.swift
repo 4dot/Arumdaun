@@ -261,7 +261,8 @@ extension MainViewController : UICollectionViewDelegate, UICollectionViewDataSou
             // split by '-'
             // ex. 아름다운교회 2017/09/03 - 새 일꾼 디모데
             data.subTitle = "이번주 " + (YTPlayList.getType(with: ytPreview.playListId)?.ids.title ?? "")
-            data.title = data.title.components(separatedBy: "-").getElementBy(1) ?? data.title
+            let title = data.title.components(separatedBy: "-").getElementBy(1) ?? data.title
+            data.title = title.trim
             
             // upate UI
             DispatchQueue.main.async {

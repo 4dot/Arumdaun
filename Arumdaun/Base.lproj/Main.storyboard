@@ -1311,13 +1311,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHb-x5-9qu" userLabel="youtube view">
                                         <rect key="frame" x="0.0" y="60" width="375" height="587"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고난과 함께 전해진 복음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-ms-N53">
-                                                <rect key="frame" x="20" y="301" width="335" height="19"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고난과 함께 전해진 복음" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-ms-N53">
+                                                <rect key="frame" x="20" y="301" width="335" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="19"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017년 7월 23일 / 작성자: Arumdaun Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-7O-kAG">
-                                                <rect key="frame" x="20" y="324" width="335" height="12"/>
+                                                <rect key="frame" x="20" y="328.5" width="335" height="12"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="12" id="cGD-7H-ZEk"/>
                                                 </constraints>
@@ -1325,6 +1325,13 @@
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VyG-OZ-Yoz" userLabel="line">
+                                                <rect key="frame" x="20" y="354.5" width="335" height="1"/>
+                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="ZJ0-Rh-934"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CS7-iI-Gtd" customClass="YTPlayerView">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="281"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -1333,9 +1340,9 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="말씀: 황인철 목사 날짜: 2017년 9월 3일 성경: 행 16:1~5  1 바울이 더베와 루스드라에도 이르매 거기 디모데라 하는 제자가 있으니 그 어머니는 믿는 유대 여자요 아버지는 헬라인이라" translatesAutoresizingMaskIntoConstraints="NO" id="IV7-Ea-ue6">
-                                                <rect key="frame" x="20" y="351" width="335" height="228"/>
+                                                <rect key="frame" x="20" y="365.5" width="335" height="213.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -1344,18 +1351,21 @@
                                         <constraints>
                                             <constraint firstItem="Ucl-ms-N53" firstAttribute="top" secondItem="CS7-iI-Gtd" secondAttribute="bottom" constant="20" id="0HM-Br-rRY"/>
                                             <constraint firstItem="kcD-7O-kAG" firstAttribute="leading" secondItem="UHb-x5-9qu" secondAttribute="leading" constant="20" id="2Gw-Zq-l3L"/>
-                                            <constraint firstItem="IV7-Ea-ue6" firstAttribute="top" secondItem="kcD-7O-kAG" secondAttribute="bottom" constant="15" id="8m3-Mj-tIq"/>
                                             <constraint firstItem="CS7-iI-Gtd" firstAttribute="leading" secondItem="UHb-x5-9qu" secondAttribute="leading" id="99S-A3-niq"/>
                                             <constraint firstItem="IV7-Ea-ue6" firstAttribute="leading" secondItem="UHb-x5-9qu" secondAttribute="leading" constant="20" id="CS2-OS-KYe"/>
                                             <constraint firstItem="CS7-iI-Gtd" firstAttribute="top" secondItem="UHb-x5-9qu" secondAttribute="top" id="Jvy-fW-jSq"/>
                                             <constraint firstAttribute="trailing" secondItem="Ucl-ms-N53" secondAttribute="trailing" constant="20" id="LFS-zt-s6e"/>
+                                            <constraint firstItem="VyG-OZ-Yoz" firstAttribute="leading" secondItem="UHb-x5-9qu" secondAttribute="leading" constant="20" id="Mvd-FW-A3m"/>
                                             <constraint firstAttribute="trailing" secondItem="CS7-iI-Gtd" secondAttribute="trailing" id="Os9-Rg-uh3"/>
-                                            <constraint firstItem="kcD-7O-kAG" firstAttribute="top" secondItem="Ucl-ms-N53" secondAttribute="bottom" constant="4" id="X1u-bd-Lw1"/>
+                                            <constraint firstAttribute="trailing" secondItem="VyG-OZ-Yoz" secondAttribute="trailing" constant="20" id="VtK-a7-Ye8"/>
+                                            <constraint firstItem="kcD-7O-kAG" firstAttribute="top" secondItem="Ucl-ms-N53" secondAttribute="bottom" constant="6" id="X1u-bd-Lw1"/>
+                                            <constraint firstItem="VyG-OZ-Yoz" firstAttribute="top" secondItem="kcD-7O-kAG" secondAttribute="bottom" constant="14" id="eC4-Fk-k3U"/>
                                             <constraint firstAttribute="trailing" secondItem="kcD-7O-kAG" secondAttribute="trailing" constant="20" id="ie2-Yb-Cnr"/>
                                             <constraint firstItem="Ucl-ms-N53" firstAttribute="leading" secondItem="UHb-x5-9qu" secondAttribute="leading" constant="20" id="jIs-IN-Gfz"/>
                                             <constraint firstAttribute="trailing" secondItem="IV7-Ea-ue6" secondAttribute="trailing" constant="20" id="qm5-IN-R0A"/>
                                             <constraint firstAttribute="bottom" secondItem="IV7-Ea-ue6" secondAttribute="bottom" constant="8" id="tlZ-dp-Q5i"/>
                                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CS7-iI-Gtd" secondAttribute="bottom" id="vjB-Vr-zFy"/>
+                                            <constraint firstItem="IV7-Ea-ue6" firstAttribute="top" secondItem="VyG-OZ-Yoz" secondAttribute="bottom" constant="10" id="x7F-5L-bvR"/>
                                         </constraints>
                                     </view>
                                 </subviews>
