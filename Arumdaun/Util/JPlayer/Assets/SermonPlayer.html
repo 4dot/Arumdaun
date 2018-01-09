@@ -24,7 +24,7 @@ $(document).ready(function(){
 			$(this).jPlayer("setMedia", stream);
 		},
 		pause: function() {
-			$(this).jPlayer("clearMedia");
+			$(this).jPlayer("pause");
 		},
 		error: function(event) {
 			if(ready && event.jPlayer.error.type === $.jPlayer.error.URL_NOT_SET) {
