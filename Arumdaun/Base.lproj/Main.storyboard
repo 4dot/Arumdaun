@@ -29,82 +29,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Live Broad Casting View Controller-->
-        <scene sceneID="MhI-Hz-De3">
-            <objects>
-                <viewController storyboardIdentifier="LiveBroadCastingViewController" id="IQ3-FO-34J" customClass="LiveBroadCastingViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Fl3-Sk-zs2"/>
-                        <viewControllerLayoutGuide type="bottom" id="1DI-Jv-alL"/>
-                    </layoutGuides>
-                    <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="ZDK-2a-YVR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_live" translatesAutoresizingMaskIntoConstraints="NO" id="g58-Ar-8o1">
-                                <rect key="frame" x="20" y="12" width="34" height="26"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="34" id="FEt-Ct-i7z"/>
-                                    <constraint firstAttribute="height" constant="26" id="SMl-ae-hnq"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="주일 인터넷 생방송 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qjn-9x-5l3">
-                                <rect key="frame" x="64" y="12" width="125.5" height="17.5"/>
-                                <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:30AM-12:30PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWt-rT-V7x">
-                                <rect key="frame" x="64" y="31.5" width="85" height="12"/>
-                                <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="10"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVD-tD-TXk">
-                                <rect key="frame" x="251" y="10" width="103" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="m9k-3N-Ki6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="NanumGothicExtraBold" family="NanumGothic" pointSize="12"/>
-                                <state key="normal" title="WATCH LIVE NOW">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="watchNowButtonTapped:" destination="IQ3-FO-34J" eventType="touchUpInside" id="NJZ-h5-wI8"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="expandableCell_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="mgh-ef-Ako" userLabel="arrow">
-                                <rect key="frame" x="358" y="15" width="8" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="4QW-Kl-05H"/>
-                                    <constraint firstAttribute="width" constant="8" id="phV-ME-EDt"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="g58-Ar-8o1" firstAttribute="leading" secondItem="ZDK-2a-YVR" secondAttribute="leading" constant="20" id="1kW-oe-8kT"/>
-                            <constraint firstAttribute="trailing" secondItem="mgh-ef-Ako" secondAttribute="trailing" constant="9" id="Cyy-cs-EqL"/>
-                            <constraint firstItem="g58-Ar-8o1" firstAttribute="centerY" secondItem="ZDK-2a-YVR" secondAttribute="centerY" id="ETS-y2-gtX"/>
-                            <constraint firstItem="kWt-rT-V7x" firstAttribute="leading" secondItem="Qjn-9x-5l3" secondAttribute="leading" id="MOm-jn-b4k"/>
-                            <constraint firstItem="kWt-rT-V7x" firstAttribute="top" secondItem="Qjn-9x-5l3" secondAttribute="bottom" constant="2" id="R8b-D0-Ro4"/>
-                            <constraint firstItem="Qjn-9x-5l3" firstAttribute="leading" secondItem="g58-Ar-8o1" secondAttribute="trailing" constant="10" id="XE9-O4-BlS"/>
-                            <constraint firstItem="mgh-ef-Ako" firstAttribute="centerY" secondItem="ZDK-2a-YVR" secondAttribute="centerY" id="bok-lr-pGh"/>
-                            <constraint firstItem="mVD-tD-TXk" firstAttribute="centerY" secondItem="ZDK-2a-YVR" secondAttribute="centerY" id="ePg-te-d5r"/>
-                            <constraint firstItem="mgh-ef-Ako" firstAttribute="leading" secondItem="mVD-tD-TXk" secondAttribute="trailing" constant="4" id="ktF-9F-AFw"/>
-                            <constraint firstItem="Qjn-9x-5l3" firstAttribute="top" secondItem="Fl3-Sk-zs2" secondAttribute="bottom" constant="12" id="qTk-Id-eCY"/>
-                        </constraints>
-                    </view>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="50"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lby-CP-Frs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2634.4000000000001" y="-233.88305847076464"/>
-        </scene>
         <!--Launch Screen View Controller-->
         <scene sceneID="9GQ-Ba-5HT">
             <objects>
@@ -414,9 +338,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="featured_video_bg" translatesAutoresizingMaskIntoConstraints="NO" id="a50-pN-IIH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="224"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="224" id="XGe-Xf-wLL"/>
+                                </constraints>
+                            </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z41-aj-FjA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainYoutubeCellID" rowHeight="320" id="FiH-mr-pCU" customClass="MainYoutubeCell" customModule="Arumdaun" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="375" height="320"/>
@@ -425,12 +357,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="featured_video_bg" translatesAutoresizingMaskIntoConstraints="NO" id="a50-pN-IIH">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="224"/>
-                                                </imageView>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RyY-YP-Cou">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="320"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MuN-bQ-jGF" customClass="CenterCellCollectionViewFlowLayout" customModule="Arumdaun" customModuleProvider="target">
                                                         <size key="itemSize" width="278" height="278"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -543,18 +472,15 @@
                                                     </cells>
                                                 </collectionView>
                                             </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="RyY-YP-Cou" firstAttribute="top" secondItem="sg5-JF-MnJ" secondAttribute="top" id="0dD-LB-zh5"/>
                                                 <constraint firstAttribute="bottom" secondItem="RyY-YP-Cou" secondAttribute="bottom" id="6i7-dk-wfm"/>
-                                                <constraint firstItem="a50-pN-IIH" firstAttribute="height" secondItem="sg5-JF-MnJ" secondAttribute="height" multiplier="0.7:1" id="6wZ-FD-sVL"/>
-                                                <constraint firstItem="a50-pN-IIH" firstAttribute="top" secondItem="sg5-JF-MnJ" secondAttribute="top" id="Jgj-H4-aYO"/>
                                                 <constraint firstAttribute="trailing" secondItem="RyY-YP-Cou" secondAttribute="trailing" id="Ljm-be-ffj"/>
-                                                <constraint firstItem="a50-pN-IIH" firstAttribute="leading" secondItem="sg5-JF-MnJ" secondAttribute="leading" id="d4g-wd-bjf"/>
                                                 <constraint firstItem="RyY-YP-Cou" firstAttribute="leading" secondItem="sg5-JF-MnJ" secondAttribute="leading" id="off-bD-coi"/>
-                                                <constraint firstAttribute="trailing" secondItem="a50-pN-IIH" secondAttribute="trailing" id="xp4-aG-KdC"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="bgImgView" destination="a50-pN-IIH" id="jp1-bx-cwd"/>
                                             <outlet property="youtubeCollectionView" destination="RyY-YP-Cou" id="8rA-uM-iMQ"/>
@@ -818,17 +744,75 @@
                                     <outlet property="delegate" destination="Rzd-kP-Def" id="pVH-cT-1KN"/>
                                 </connections>
                             </tableView>
+                            <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EQn-fQ-jcc" userLabel="liveBroadcasting">
+                                <rect key="frame" x="0.0" y="667" width="375" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_live" translatesAutoresizingMaskIntoConstraints="NO" id="iJl-jR-JKW">
+                                        <rect key="frame" x="20" y="12" width="34" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="KZ8-QY-6Sm"/>
+                                            <constraint firstAttribute="width" constant="34" id="qJp-D2-dd1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인터넷 생방송 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wi9-5a-Jhp">
+                                        <rect key="frame" x="66" y="16.5" width="93" height="17.5"/>
+                                        <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gox-TL-e9k">
+                                        <rect key="frame" x="251" y="10" width="103" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="ijv-ax-BlX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NanumGothicExtraBold" family="NanumGothic" pointSize="12"/>
+                                        <state key="normal" title="WATCH LIVE NOW">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="watchNowButtonTapped:" destination="Rzd-kP-Def" eventType="touchUpInside" id="NUP-M2-d3O"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="expandableCell_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="hlv-Df-gah" userLabel="arrow">
+                                        <rect key="frame" x="358" y="15" width="8" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="8" id="ZgR-mU-Viv"/>
+                                            <constraint firstAttribute="height" constant="21" id="x1f-jH-fqR"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="iJl-jR-JKW" firstAttribute="leading" secondItem="EQn-fQ-jcc" secondAttribute="leading" constant="20" id="1Cs-Pr-7OL"/>
+                                    <constraint firstItem="iJl-jR-JKW" firstAttribute="centerY" secondItem="EQn-fQ-jcc" secondAttribute="centerY" id="1y6-14-0LJ"/>
+                                    <constraint firstItem="hlv-Df-gah" firstAttribute="leading" secondItem="Gox-TL-e9k" secondAttribute="trailing" constant="4" id="6Db-cy-3GT"/>
+                                    <constraint firstItem="Gox-TL-e9k" firstAttribute="centerY" secondItem="EQn-fQ-jcc" secondAttribute="centerY" id="9vZ-v6-yQG"/>
+                                    <constraint firstItem="hlv-Df-gah" firstAttribute="centerY" secondItem="EQn-fQ-jcc" secondAttribute="centerY" id="EZp-zQ-RMG"/>
+                                    <constraint firstAttribute="height" constant="50" id="OCj-Gu-BON"/>
+                                    <constraint firstAttribute="trailing" secondItem="hlv-Df-gah" secondAttribute="trailing" constant="9" id="W0F-an-9nG"/>
+                                    <constraint firstItem="Wi9-5a-Jhp" firstAttribute="centerY" secondItem="iJl-jR-JKW" secondAttribute="centerY" id="ZI3-WF-53c"/>
+                                    <constraint firstItem="Wi9-5a-Jhp" firstAttribute="leading" secondItem="iJl-jR-JKW" secondAttribute="trailing" constant="12" id="iiy-cg-znX"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="a50-pN-IIH" firstAttribute="top" secondItem="Ob9-V9-i64" secondAttribute="bottom" id="8ig-9k-aOD"/>
                             <constraint firstAttribute="trailing" secondItem="Z41-aj-FjA" secondAttribute="trailing" id="GPC-nP-kR8"/>
-                            <constraint firstItem="oHx-Xx-fpJ" firstAttribute="top" secondItem="Z41-aj-FjA" secondAttribute="bottom" id="l6T-r7-8A3"/>
+                            <constraint firstItem="oHx-Xx-fpJ" firstAttribute="top" secondItem="EQn-fQ-jcc" secondAttribute="bottom" constant="-50" id="SMo-Lz-98V"/>
+                            <constraint firstItem="EQn-fQ-jcc" firstAttribute="leading" secondItem="Iu4-lh-3xy" secondAttribute="leading" id="dQ3-Me-jlm"/>
+                            <constraint firstItem="a50-pN-IIH" firstAttribute="leading" secondItem="Iu4-lh-3xy" secondAttribute="leading" id="hje-7q-G13"/>
+                            <constraint firstAttribute="trailing" secondItem="a50-pN-IIH" secondAttribute="trailing" id="hkd-Vt-3LT"/>
+                            <constraint firstAttribute="trailing" secondItem="EQn-fQ-jcc" secondAttribute="trailing" id="nVD-9n-q4y"/>
                             <constraint firstItem="Z41-aj-FjA" firstAttribute="top" secondItem="Iu4-lh-3xy" secondAttribute="top" id="qNc-JF-Hdh"/>
                             <constraint firstItem="Z41-aj-FjA" firstAttribute="leading" secondItem="Iu4-lh-3xy" secondAttribute="leading" id="uzl-LR-0Wi"/>
+                            <constraint firstItem="EQn-fQ-jcc" firstAttribute="top" secondItem="Z41-aj-FjA" secondAttribute="bottom" id="xD9-7Q-KoG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="p1e-xz-hl3"/>
                     <connections>
+                        <outlet property="liveBroadCastingView" destination="EQn-fQ-jcc" id="gjH-eC-5qm"/>
+                        <outlet property="liveBroadCastingViewBottomConstraint" destination="SMo-Lz-98V" id="DZs-m1-GeW"/>
                         <outlet property="mainModel" destination="oS7-97-aWY" id="7zX-ix-Dr4"/>
                         <outlet property="tableView" destination="Z41-aj-FjA" id="11a-vs-3ms"/>
                     </connections>
@@ -1167,25 +1151,25 @@
                                                             <rect key="frame" x="0.0" y="132" width="160" height="88"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017년 7월 30일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLV-77-srj">
-                                                                    <rect key="frame" x="8" y="4" width="67" height="21"/>
+                                                                    <rect key="frame" x="8" y="4" width="67" height="16"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="21" id="6FO-kG-6ps"/>
+                                                                        <constraint firstAttribute="height" constant="16" id="6FO-kG-6ps"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구원이 작정된 자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AGB-Lm-HVZ">
-                                                                    <rect key="frame" x="8" y="26" width="144" height="21"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구원이 작정된 자" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AGB-Lm-HVZ">
+                                                                    <rect key="frame" x="8" y="21" width="144" height="30"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="21" id="PHE-pE-FdC"/>
+                                                                        <constraint firstAttribute="height" constant="30" id="PHE-pE-FdC"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVa-jK-VqH">
-                                                                    <rect key="frame" x="8" y="54" width="144" height="26"/>
+                                                                    <rect key="frame" x="8" y="55" width="144" height="25"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -1194,7 +1178,7 @@
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstItem="AGB-Lm-HVZ" firstAttribute="leading" secondItem="4gj-ri-WOm" secondAttribute="leading" constant="8" id="8bQ-xy-D6u"/>
-                                                                <constraint firstItem="AVa-jK-VqH" firstAttribute="top" secondItem="AGB-Lm-HVZ" secondAttribute="bottom" constant="7" id="aKf-DA-ldU"/>
+                                                                <constraint firstItem="AVa-jK-VqH" firstAttribute="top" secondItem="AGB-Lm-HVZ" secondAttribute="bottom" constant="4" id="aKf-DA-ldU"/>
                                                                 <constraint firstItem="MLV-77-srj" firstAttribute="top" secondItem="4gj-ri-WOm" secondAttribute="top" constant="4" id="aNI-KT-kma"/>
                                                                 <constraint firstAttribute="bottom" secondItem="AVa-jK-VqH" secondAttribute="bottom" constant="8" id="d8g-V4-DNV"/>
                                                                 <constraint firstAttribute="trailing" secondItem="AGB-Lm-HVZ" secondAttribute="trailing" constant="8" id="dW3-L3-z8T"/>
@@ -1312,12 +1296,12 @@
                                         <rect key="frame" x="0.0" y="60" width="375" height="587"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고난과 함께 전해진 복음" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-ms-N53">
-                                                <rect key="frame" x="20" y="301" width="335" height="21.5"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="19"/>
+                                                <rect key="frame" x="20" y="301" width="335" height="22.5"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017년 7월 23일 / 작성자: Arumdaun Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcD-7O-kAG">
-                                                <rect key="frame" x="20" y="328.5" width="335" height="12"/>
+                                                <rect key="frame" x="20" y="329.5" width="335" height="12"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="12" id="cGD-7H-ZEk"/>
                                                 </constraints>
@@ -1326,7 +1310,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VyG-OZ-Yoz" userLabel="line">
-                                                <rect key="frame" x="20" y="354.5" width="335" height="1"/>
+                                                <rect key="frame" x="20" y="355.5" width="335" height="1"/>
                                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="ZJ0-Rh-934"/>
@@ -1340,7 +1324,7 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="말씀: 황인철 목사 날짜: 2017년 9월 3일 성경: 행 16:1~5  1 바울이 더베와 루스드라에도 이르매 거기 디모데라 하는 제자가 있으니 그 어머니는 믿는 유대 여자요 아버지는 헬라인이라" translatesAutoresizingMaskIntoConstraints="NO" id="IV7-Ea-ue6">
-                                                <rect key="frame" x="20" y="365.5" width="335" height="213.5"/>
+                                                <rect key="frame" x="20" y="366.5" width="335" height="212.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>

@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 
-
 //
 //
 //
@@ -59,14 +58,14 @@ extension MainViewController : UITableViewDelegate {
      * @desc set tableview's section space
      */
     public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 10
+        return 8
     }
     
     public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         guard let cellType = MainViewContentType(rawValue: section) else {
-            return 10
+            return 8
         }
-        return cellType == .Youtube ? 0.1 : 10
+        return cellType == .Youtube ? 0.1 : 8
     }
     
     public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
@@ -80,7 +79,7 @@ extension MainViewController : UITableViewDelegate {
         guard let cellType = MainViewContentType(rawValue: section) else {
             return nil
         }
-        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: cellType == .Youtube ? 0 : 10))
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: cellType == .Youtube ? 0 : 8))
         headerView.backgroundColor = .white
         
         return headerView
@@ -276,7 +275,7 @@ extension MainViewController : UICollectionViewDelegate, UICollectionViewDataSou
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         // 80% - inset(20)
         let percent = collectionView.frame.size.width * 3/4
-        let cellW = percent - 20
+        let cellW = percent - 16 // left + right margin
         let cellH = percent - 3 // shadow offset
         
         return CGSize(width: cellW, height: cellH)

@@ -72,7 +72,4 @@ extension UIStoryboard {
     class func loadAudioViewController() -> AudioViewController {
         return loadFromMain("AudioViewController") as! AudioViewController
     }
-    class func loadLiveBroadCastingViewController() -> LiveBroadCastingViewController {
-        return loadFromMain("LiveBroadCastingViewController") as! LiveBroadCastingViewController
-    }
 }

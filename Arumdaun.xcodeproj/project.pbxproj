@@ -14,7 +14,6 @@
 		102B78851F72366C00837CF1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 102B78821F72366C00837CF1 /* Assets.bundle */; };
 		102B78861F72366C00837CF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102B78831F72366C00837CF1 /* Info.plist */; };
 		102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B78881F7236B100837CF1 /* YTPlayerView.m */; };
-		102B788B1F777D4700837CF1 /* LiveBroadCastingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B788A1F777D4700837CF1 /* LiveBroadCastingViewController.swift */; };
 		10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */; };
 		10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */; };
 		10AAF90B1F60F32900C8AD46 /* MainAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */; };
@@ -39,6 +38,7 @@
 		CB0F844E1EFAEA0F0024A15E /* ArumdaunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F844D1EFAEA0F0024A15E /* ArumdaunTests.swift */; };
 		CB0F84591EFAEA0F0024A15E /* ArumdaunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0F84581EFAEA0F0024A15E /* ArumdaunUITests.swift */; };
 		CB2C4DD81F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C4DD71F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift */; };
+		CB328415200E412D00451710 /* MainViewController+LiveBroadCasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB328414200E412D00451710 /* MainViewController+LiveBroadCasting.swift */; };
 		CB38EEF71F3A31460088DD86 /* MorningQTData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38EEF61F3A31460088DD86 /* MorningQTData.swift */; };
 		CB3C00C81F607AA500D750B3 /* NanumGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C21F607AA500D750B3 /* NanumGothic.ttf */; };
 		CB3C00C91F607AA500D750B3 /* NanumGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3C00C31F607AA500D750B3 /* NanumGothicBold.ttf */; };
@@ -148,7 +148,6 @@
 		102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeiOSPlayerHelper.h; sourceTree = "<group>"; };
 		102B78871F7236B100837CF1 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		102B78881F7236B100837CF1 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
-		102B788A1F777D4700837CF1 /* LiveBroadCastingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveBroadCastingViewController.swift; sourceTree = "<group>"; };
 		10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SermonYoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
 		10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAPIClient.swift; sourceTree = "<group>"; };
@@ -182,6 +181,7 @@
 		CB0F84581EFAEA0F0024A15E /* ArumdaunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArumdaunUITests.swift; sourceTree = "<group>"; };
 		CB0F845A1EFAEA0F0024A15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB2C4DD71F7AEED4002A6E7C /* UIVisualEffect+ArVisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVisualEffect+ArVisualEffect.swift"; sourceTree = "<group>"; };
+		CB328414200E412D00451710 /* MainViewController+LiveBroadCasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+LiveBroadCasting.swift"; sourceTree = "<group>"; };
 		CB38EEF61F3A31460088DD86 /* MorningQTData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningQTData.swift; sourceTree = "<group>"; };
 		CB3C00C21F607AA500D750B3 /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
 		CB3C00C31F607AA500D750B3 /* NanumGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicBold.ttf; sourceTree = "<group>"; };
@@ -615,8 +615,8 @@
 			children = (
 				CBB08E3E1F604D3E001C10E5 /* MainViewController.swift */,
 				CBB08E3D1F604D3E001C10E5 /* MainViewController+Contents.swift */,
+				CB328414200E412D00451710 /* MainViewController+LiveBroadCasting.swift */,
 				CBB08E451F604D74001C10E5 /* PDFViewController.swift */,
-				102B788A1F777D4700837CF1 /* LiveBroadCastingViewController.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -1009,7 +1009,6 @@
 				CB43F2F21F58586900270282 /* ExpandableCell.swift in Sources */,
 				102B78801F6E10C700837CF1 /* DailyQTViewController.swift in Sources */,
 				CB43F2FE1F59A96100270282 /* SideMenuViewController.swift in Sources */,
-				102B788B1F777D4700837CF1 /* LiveBroadCastingViewController.swift in Sources */,
 				CB3C00D51F61B4F600D750B3 /* NewsViewModel.swift in Sources */,
 				10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */,
 				CB9582681F71C26900A79A50 /* LottieHUDViewController.swift in Sources */,
@@ -1030,6 +1029,7 @@
 				CB8A59C11F6AE15800C33EA4 /* Dynamic.swift in Sources */,
 				CBC2CE391F72C6ED00FA19F2 /* UITableView+ArTableView.swift in Sources */,
 				CB9E14011F2FB5810055AB01 /* NewsTableViewCell.swift in Sources */,
+				CB328415200E412D00451710 /* MainViewController+LiveBroadCasting.swift in Sources */,
 				CB3C00D71F61B54400D750B3 /* NewsAPIClient.swift in Sources */,
 				CB0667F91F4F555C008996D1 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
 				CB43F3061F59C3A800270282 /* ArNavigationViewController.swift in Sources */,

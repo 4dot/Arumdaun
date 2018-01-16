@@ -12,8 +12,6 @@ import Lottie
 
 
 
-let CHECK_LIVE_BROADCASTING_IDLE = 30    // sec
-
 //
 // MainViewController class
 //
@@ -25,21 +23,27 @@ public class MainViewController : UIViewController {
     @IBOutlet var tableView : UITableView!
     
     // live broadcasting view
-    var liveBroadcastingView: LiveBroadCastingViewController?
+    @IBOutlet weak var liveBroadCastingView: UIView!
+    @IBOutlet weak var liveBroadCastingViewBottomConstraint: NSLayoutConstraint!
+    
+    var liveStreamingModel = LiveStreamingViewModel()
     var liveBroadcastringIsShown: Bool = false
+    
+    // live broadcasting timer
+    var checkLiveBroadcasting: Timer?
+    
     
     // show just one time launch view
     static var isShowLaunchedView: Bool = false
     
-    // check live broadcasting timer
-    var checkLiveBroadcasting: Timer?
-    
     // for access from outside (sidemenu)
     static var thisWeekPdfUrl: String = ""
     
+    
+    
     deinit {
-        // stop update timer
-        stopUpdateTimer()
+        // stop timer
+        stopCheckLiveTimer()
     }
     
     var reachabilityMgr = NetworkReachabilityManager()
@@ -57,6 +61,7 @@ public class MainViewController : UIViewController {
             createMainView()
         }
         
+        // init UI
         self.tableView.tableFooterView = UIView()
         self.tableView.estimatedRowHeight = 100
         self.tableView.rowHeight = UITableViewAutomaticDimension
@@ -110,44 +115,6 @@ public class MainViewController : UIViewController {
             })
         }
     }
-    
-    // MARK: - check live broadcasting is on
-    
-    private func startCheckLiveTimer() {
-        // update every minute
-        checkLiveBroadcasting = Timer.scheduledTimer(timeInterval: TimeInterval(CHECK_LIVE_BROADCASTING_IDLE), target: self, selector: #selector(updateLiveBroadCasting), userInfo: nil, repeats: true)
-    }
-    
-    private func stopUpdateTimer() {
-        checkLiveBroadcasting?.invalidate()
-    }
-    
-    func updateLiveBroadCasting() {
-        let now = Date()
-        // show up/down, 1 (sunday)
-        guard Calendar.current.component(.weekday, from: now) == 1 else {
-            self.showLiveBroadCastingView(false)
-            return
-        }
-        
-        // broadcasting time : 8:30 ~ 12:30
-        var startComponents = now.toComponent()
-        startComponents.hour = 8
-        startComponents.minute = 30
-        
-        var endComponents = now.toComponent()
-        endComponents.hour = 12
-        endComponents.minute = 30
-
-        let startDate = Date.toDate(from: startComponents)
-        let endDate = Date.toDate(from: endComponents)
-        
-        if now >= startDate && now < endDate {
-            self.showLiveBroadCastingView(true)
-        } else {
-            self.showLiveBroadCastingView(false)
-        }
-    }
 }
 
 // MARK: - YTPreviewCollectionViewCellDelegate 
@@ -157,39 +124,6 @@ extension MainViewController : YTPreviewCollectionViewCellDelegate {
     func showYoutubeDetail(_ youtubeData: YoutubeData) {
         // open full screen youtube player
         ArNavigationViewController.openYoutubeContentView(self, youtubeData: youtubeData)
-    }
-}
-
-// MARK: - Live broad casting pup-up
-extension MainViewController {
-    
-    func showLiveBroadCastingView(_ show: Bool) {
-        let livePopupViewHeight: CGFloat = 50
-        
-        if liveBroadcastringIsShown == show {
-            return
-        }
-        
-        let showPos = CGRect(x: 0, y: self.view.frame.size.height - livePopupViewHeight, width: self.view.frame.size.width, height: livePopupViewHeight)
-        let hidePos = CGRect(x: 0, y: self.view.frame.size.height, width: self.view.frame.size.width, height: livePopupViewHeight)
-        
-        if show == true && liveBroadcastingView == nil {
-            liveBroadcastingView = UIStoryboard.loadLiveBroadCastingViewController()
-            liveBroadcastingView!.view.frame = hidePos
-            self.view.addSubview(liveBroadcastingView!.view)
-        }
-        
-        guard let livePopup = liveBroadcastingView else { return }
-        
-        let startPos = show ? hidePos : showPos
-        let endPos = show ? showPos : hidePos
-        
-        livePopup.view.frame = startPos
-        UIView.animate(withDuration: 0.25, animations: {
-            // show/hide
-            livePopup.view.frame = endPos
-            self.liveBroadcastringIsShown = show
-        })
     }
 }
 
