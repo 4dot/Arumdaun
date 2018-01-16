@@ -21,6 +21,11 @@ class YoutubeData : NSObject {
     var desc: String = ""
     var thumbnailURL: String = ""
     
+    
+    override init() {
+        super.init()
+    }
+    
     required init( item: [String : Any]) {
         super.init()
         
@@ -33,6 +38,10 @@ class YoutubeData : NSObject {
     required init(json item: [String : Any], _ imgQuality: String = "default") {
         super.init()
         
+        if let ids = item["id"] as? [String : Any] {
+            videoId = ids["videoId"] as? String ?? ""
+        }
+        
         if let movieInfo = item["snippet"] as? [String : Any] {
             playListId = movieInfo["playlistId"] as? String ?? ""
             title = movieInfo["title"] as? String ?? ""
@@ -40,15 +49,26 @@ class YoutubeData : NSObject {
             desc = movieInfo["description"] as? String ?? ""
             thumbnailURL = ""
             
+            // default thumbnail img
             if let thumbnails = movieInfo["thumbnails"] as? [String: Any],
                 let defaultImg = thumbnails[imgQuality]  as? [String: Any] {
                 thumbnailURL = defaultImg["url"] as? String ?? ""
             }
-            
-            if let resourceId = movieInfo["resourceId"] as? [String : Any] {
-                videoId = resourceId["videoId"] as? String ?? ""
-            }
         }
+    }
+    
+    func copyWithZone(_ zone: NSZone?) -> Any {
+        let copy = YoutubeData()
+        
+        copy.playListId = playListId
+        copy.videoId = videoId
+        copy.title = title
+        copy.desc = desc
+        copy.subTitle = subTitle
+        copy.desc = desc
+        copy.thumbnailURL = thumbnailURL
+        
+        return copy
     }
 }
 

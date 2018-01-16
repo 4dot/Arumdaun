@@ -25,9 +25,11 @@ public class MainViewController : UIViewController {
     // live broadcasting view
     @IBOutlet weak var liveBroadCastingView: UIView!
     @IBOutlet weak var liveBroadCastingViewBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var liveStreamingTitleLbl: UILabel!
     
     var liveStreamingModel = LiveStreamingViewModel()
     var liveBroadcastringIsShown: Bool = false
+    var liveStreamingData: YoutubeData?
     
     // live broadcasting timer
     var checkLiveBroadcasting: Timer?

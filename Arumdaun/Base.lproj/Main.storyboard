@@ -755,7 +755,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인터넷 생방송 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wi9-5a-Jhp">
-                                        <rect key="frame" x="66" y="16.5" width="93" height="17.5"/>
+                                        <rect key="frame" x="66" y="14" width="93" height="17.5"/>
                                         <fontDescription key="fontDescription" name="NanumGothicBold" family="NanumGothic" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -763,6 +763,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gox-TL-e9k">
                                         <rect key="frame" x="251" y="10" width="103" height="30"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="103" id="fAD-OM-wn0"/>
                                             <constraint firstAttribute="height" constant="30" id="ijv-ax-BlX"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="NanumGothicExtraBold" family="NanumGothic" pointSize="12"/>
@@ -780,6 +781,12 @@
                                             <constraint firstAttribute="height" constant="21" id="x1f-jH-fqR"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tx7-Jj-C4j">
+                                        <rect key="frame" x="66" y="46" width="177" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="9"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -788,10 +795,13 @@
                                     <constraint firstItem="hlv-Df-gah" firstAttribute="leading" secondItem="Gox-TL-e9k" secondAttribute="trailing" constant="4" id="6Db-cy-3GT"/>
                                     <constraint firstItem="Gox-TL-e9k" firstAttribute="centerY" secondItem="EQn-fQ-jcc" secondAttribute="centerY" id="9vZ-v6-yQG"/>
                                     <constraint firstItem="hlv-Df-gah" firstAttribute="centerY" secondItem="EQn-fQ-jcc" secondAttribute="centerY" id="EZp-zQ-RMG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tx7-Jj-C4j" secondAttribute="bottom" constant="4" id="KyV-J9-HOk"/>
                                     <constraint firstAttribute="height" constant="50" id="OCj-Gu-BON"/>
+                                    <constraint firstItem="Wi9-5a-Jhp" firstAttribute="top" secondItem="EQn-fQ-jcc" secondAttribute="top" constant="14" id="SHW-0I-kQa"/>
                                     <constraint firstAttribute="trailing" secondItem="hlv-Df-gah" secondAttribute="trailing" constant="9" id="W0F-an-9nG"/>
-                                    <constraint firstItem="Wi9-5a-Jhp" firstAttribute="centerY" secondItem="iJl-jR-JKW" secondAttribute="centerY" id="ZI3-WF-53c"/>
                                     <constraint firstItem="Wi9-5a-Jhp" firstAttribute="leading" secondItem="iJl-jR-JKW" secondAttribute="trailing" constant="12" id="iiy-cg-znX"/>
+                                    <constraint firstItem="Gox-TL-e9k" firstAttribute="leading" secondItem="Tx7-Jj-C4j" secondAttribute="trailing" constant="8" id="ks5-Bw-Pfc"/>
+                                    <constraint firstItem="Tx7-Jj-C4j" firstAttribute="leading" secondItem="iJl-jR-JKW" secondAttribute="trailing" constant="12" id="zHI-s4-RhP"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -813,6 +823,7 @@
                     <connections>
                         <outlet property="liveBroadCastingView" destination="EQn-fQ-jcc" id="gjH-eC-5qm"/>
                         <outlet property="liveBroadCastingViewBottomConstraint" destination="SMo-Lz-98V" id="DZs-m1-GeW"/>
+                        <outlet property="liveStreamingTitleLbl" destination="Tx7-Jj-C4j" id="y5Y-bO-f9u"/>
                         <outlet property="mainModel" destination="oS7-97-aWY" id="7zX-ix-Dr4"/>
                         <outlet property="tableView" destination="Z41-aj-FjA" id="11a-vs-3ms"/>
                     </connections>
@@ -825,7 +836,7 @@
                 </customObject>
                 <customObject id="Vvy-b5-7Mr" customClass="MainAPIClient" customModule="Arumdaun" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="-2634" y="-609"/>
+            <point key="canvasLocation" x="-2634.4000000000001" y="-609.44527736131943"/>
         </scene>
         <!--설교 말씀-->
         <scene sceneID="jol-ve-78q">
