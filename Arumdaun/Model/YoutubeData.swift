@@ -54,6 +54,10 @@ class YoutubeData : NSObject {
                 let defaultImg = thumbnails[imgQuality]  as? [String: Any] {
                 thumbnailURL = defaultImg["url"] as? String ?? ""
             }
+            
+            if let resourceId = movieInfo["resourceId"] as? [String : Any] {
+                videoId = resourceId["videoId"] as? String ?? ""
+            }
         }
     }
     

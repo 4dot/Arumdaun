@@ -35,8 +35,16 @@ class MorningQTData : NSObject {
         
         // split name by "\""
         // ex. 2017.09.11 - 딤전 6:11-21 \"믿음의 선한 싸움을 싸우라\".mp3
-        let names = fullName.components(separatedBy: "\"")
-        name = names.getElementBy(1) ?? fullName
+        // ex. 2017.09.11 - 딤전 6:11-21 “믿음의 선한 싸움을 싸우라“.mp3
+        
+        // remove file extension
+        let withoutExt = fullName.fileName()
+        var names = withoutExt.components(separatedBy: "\"")
+        if names.count < 2 {
+            names = withoutExt.components(separatedBy: "“")
+        }
+        name = names.getElementBy(1) ?? withoutExt
         subName = (names.first != nil) ? (names.first?.components(separatedBy: " - ").getElementBy(1) ?? "") : ""
+        subName = subName.trim
     }
 }

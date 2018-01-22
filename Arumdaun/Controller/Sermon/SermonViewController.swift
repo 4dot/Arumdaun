@@ -225,7 +225,7 @@ extension SermonViewController : UITableViewDelegate {
         }
 
         // open full screen web player
-        ArNavigationViewController.openAudioContentView(self, audioId: audio.id, audioName: audio.name)
+        ArNavigationViewController.openAudioContentView(self, audioId: audio.id, audioName: audio.subName + " " + audio.name)
     }
 }
 

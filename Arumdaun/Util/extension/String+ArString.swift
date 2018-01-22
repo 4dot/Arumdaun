@@ -22,9 +22,11 @@ extension String {
     
     // get filename only(exclue file extension)
     func fileName() -> String {
-        var extCnt = fileExtension().count
-        extCnt = extCnt > 0 ? extCnt + 1 : 0
-        return String(characters.dropLast(extCnt))
+        if let fileNameWithoutExtension = NSURL(fileURLWithPath: self).deletingPathExtension?.lastPathComponent {
+            return fileNameWithoutExtension
+        } else {
+            return ""
+        }
     }
     
     // get file extension

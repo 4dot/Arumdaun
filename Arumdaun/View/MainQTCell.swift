@@ -61,7 +61,7 @@ class MainQTCell : UITableViewCell, Reusable {
         qtDetailLabel.text = subTitle
         
         qtPreviewValue = value
-        qtPreviewName = title
+        qtPreviewName = subTitle + " " + title
         contentType = type
     }
     
