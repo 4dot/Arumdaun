@@ -1,12 +1,12 @@
 # Arumdaun Church
 Arumdaun Church(swfit, ios)
 
-https://itunes.apple.com/US/app/id1324081450?mt=8
+- iTuens: https://itunes.apple.com/US/app/id1324081450?mt=8 
 # README #
 
 - iPhone app with Swift.
 - Development environment: Xcode 9.2, iOS9 and later
-- 3rd Party Libraries
+- 3rd Party Libraries (Podfile)
 
 ```` code
 use_frameworks!
