@@ -9,4 +9,4 @@ https://itunes.apple.com/US/app/id1324081450?mt=8
 
 # ScreenShot
 
-![ScreenShot](https://raw.github.com/4dot/Arumdaun/master/doc/iTuens_ScreenShot.jpeg)
+![ScreenShot](https://raw.github.com/4dot/Arumdaun/master/doc/iTunes_ScreenShot.jpeg)
