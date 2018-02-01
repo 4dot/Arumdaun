@@ -1,5 +1,5 @@
 # Arumdaun Church
-Arumdaun Church(swfit, ios)
+Arumdaun Church(swift, ios)
 
 - iTuens: https://itunes.apple.com/US/app/id1324081450?mt=8 
 # README #
