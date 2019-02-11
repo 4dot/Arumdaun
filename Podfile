@@ -2,7 +2,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'Arumdaun' do
-  pod 'Kanna', '~> 2.1.0'
+  pod 'Kanna', '~> 4.0.0'
   pod 'Alamofire', '~> 4.4'
   pod 'AlamofireImage', '~> 3.1'
   pod 'CCBottomRefreshControl'

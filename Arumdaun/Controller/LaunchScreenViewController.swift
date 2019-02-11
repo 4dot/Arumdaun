@@ -106,7 +106,7 @@ extension LaunchScreenViewController {
     func loadBGImgFromWeb(_ complete: @escaping (_ sesonalImg: String)->Void) {
         ArNetwork.loadWebPage(AR_MAIN_PAGE) { (html) in
             // parse to html ducument
-            if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+            if let doc = try? Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
                 
                 // find first sesonal images link from html doc
                 if let component = doc.xpath("//img[contains(@class, 'ls-bg')]").first {

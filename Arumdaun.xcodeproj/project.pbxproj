@@ -12,7 +12,7 @@
 		102B787E1F6A33B400837CF1 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787D1F6A33B400837CF1 /* AudioViewController.swift */; };
 		102B78801F6E10C700837CF1 /* DailyQTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */; };
 		102B78851F72366C00837CF1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 102B78821F72366C00837CF1 /* Assets.bundle */; };
-		102B78861F72366C00837CF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102B78831F72366C00837CF1 /* Info.plist */; };
+		102B78861F72366C00837CF1 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102B78831F72366C00837CF1 /* info.plist */; };
 		102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B78881F7236B100837CF1 /* YTPlayerView.m */; };
 		10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */; };
 		10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */; };
@@ -144,7 +144,7 @@
 		102B787D1F6A33B400837CF1 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioViewController.swift; path = Arumdaun/Controller/Sermon/AudioViewController.swift; sourceTree = SOURCE_ROOT; };
 		102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyQTViewController.swift; path = QT/DailyQTViewController.swift; sourceTree = "<group>"; };
 		102B78821F72366C00837CF1 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
-		102B78831F72366C00837CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102B78831F72366C00837CF1 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeiOSPlayerHelper.h; sourceTree = "<group>"; };
 		102B78871F7236B100837CF1 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		102B78881F7236B100837CF1 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		CB73F8811F6870FA00EFEC8D /* String+ArString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ArString.swift"; sourceTree = "<group>"; };
 		CB75FC4C1FFFE8F900D1A1DE /* ArumdaunNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArumdaunNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		CB75FC501FFFE8FA00D1A1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB75FC501FFFE8FA00D1A1DE /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
 		CB8A59BE1F69D23800C33EA4 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
 		CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArStoryBoard.swift; sourceTree = "<group>"; };
@@ -307,7 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				102B78821F72366C00837CF1 /* Assets.bundle */,
-				102B78831F72366C00837CF1 /* Info.plist */,
+				102B78831F72366C00837CF1 /* info.plist */,
 				102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */,
 				102B78871F7236B100837CF1 /* YTPlayerView.h */,
 				102B78881F7236B100837CF1 /* YTPlayerView.m */,
@@ -577,7 +577,7 @@
 			isa = PBXGroup;
 			children = (
 				CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */,
-				CB75FC501FFFE8FA00D1A1DE /* Info.plist */,
+				CB75FC501FFFE8FA00D1A1DE /* info.plist */,
 			);
 			path = ArumdaunNotificationExtension;
 			sourceTree = "<group>";
@@ -754,7 +754,6 @@
 				CB75FC481FFFE8F900D1A1DE /* Sources */,
 				CB75FC491FFFE8F900D1A1DE /* Frameworks */,
 				CB75FC4A1FFFE8F900D1A1DE /* Resources */,
-				2A7DF139A988F896EA4006B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -840,7 +839,7 @@
 				CB3C00C81F607AA500D750B3 /* NanumGothic.ttf in Resources */,
 				102B78851F72366C00837CF1 /* Assets.bundle in Resources */,
 				CB3C00CA1F607AA500D750B3 /* NanumGothicExtraBold.ttf in Resources */,
-				102B78861F72366C00837CF1 /* Info.plist in Resources */,
+				102B78861F72366C00837CF1 /* info.plist in Resources */,
 				CB0F84431EFAEA0F0024A15E /* LaunchScreen.storyboard in Resources */,
 				CB8A5AC61F6C610500C33EA4 /* Assets in Resources */,
 				CB3C00CC1F607AA500D750B3 /* NanumMyeongjoBold.ttf in Resources */,
@@ -912,30 +911,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/HockeySDK/HockeySDKResources.bundle,
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A7DF139A988F896EA4006B9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4520D983BDE2470A43C0BA9D /* [CP] Check Pods Manifest.lock */ = {
@@ -1219,7 +1203,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6J4VT574EH;
 				INFOPLIST_FILE = Arumdaun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1242,7 +1226,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6J4VT574EH;
 				INFOPLIST_FILE = Arumdaun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

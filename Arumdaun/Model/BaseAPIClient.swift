@@ -90,7 +90,7 @@ class BaseAPIClient : NSObject {
         
         ArNetwork.loadWebPage(NEWS_WEB_PAGE) { (html) in
             // parse to html ducument
-            if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+            if let doc = try? Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
                 
                 // find pdf link from html doc
                 if let component = doc.xpath("//a[contains(@href,'https://www.arumdaunchurch.org/web/wp-content/uploads/')]").first {
@@ -142,7 +142,7 @@ class BaseAPIClient : NSObject {
         
         ArNetwork.loadWebPage(SU_DAILY_QT_URL) { (html) in
             // parse to html ducument
-            if let doc = Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
+            if let doc = try? Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
                 complete(doc)
                 return
             }
