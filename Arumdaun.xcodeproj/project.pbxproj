@@ -12,7 +12,7 @@
 		102B787E1F6A33B400837CF1 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787D1F6A33B400837CF1 /* AudioViewController.swift */; };
 		102B78801F6E10C700837CF1 /* DailyQTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */; };
 		102B78851F72366C00837CF1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 102B78821F72366C00837CF1 /* Assets.bundle */; };
-		102B78861F72366C00837CF1 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102B78831F72366C00837CF1 /* info.plist */; };
+		102B78861F72366C00837CF1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102B78831F72366C00837CF1 /* Info.plist */; };
 		102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B78881F7236B100837CF1 /* YTPlayerView.m */; };
 		10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */; };
 		10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */; };
@@ -20,8 +20,7 @@
 		10C8A3631EFCCDE300202579 /* ArDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A3621EFCCDE300202579 /* ArDefine.swift */; };
 		10C8A36B1F0201EA00202579 /* ArUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A36A1F0201EA00202579 /* ArUtils.swift */; };
 		10C8A36E1F02110000202579 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */; };
-		1AB98DADF769B165D4F7E328 /* Pods_Arumdaun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */; };
-		824D9DADC975BFFADE61E6C1 /* Pods_ArumdaunNotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B41C9EB8ACB6A56452214C /* Pods_ArumdaunNotificationExtension.framework */; };
+		5C34DF5933FD4C2703E13551 /* Pods_Arumdaun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F78FD1A218A51646D803F31 /* Pods_Arumdaun.framework */; };
 		CB0667CC1F4CA50C008996D1 /* UIButton+ArButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */; };
 		CB0667CD1F4CA50C008996D1 /* UIColor+ArColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667C91F4CA50C008996D1 /* UIColor+ArColor.swift */; };
 		CB0667CE1F4CA50C008996D1 /* UIImage+ArImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0667CA1F4CA50C008996D1 /* UIImage+ArImage.swift */; };
@@ -98,6 +97,7 @@
 		CBD7E5141F91036600AA106D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD7E5131F91036600AA106D /* libstdc++.tbd */; };
 		CBDCF82F1F01452200D038C4 /* SMTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDCF8271F01452200D038C4 /* SMTabbar.swift */; };
 		CBDCF83D1F01A21B00D038C4 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDCF83C1F01A21B00D038C4 /* LaunchScreenViewController.swift */; };
+		F075BB62F330CE5527555F3B /* Pods_ArumdaunNotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F59959FE08624B62812685 /* Pods_ArumdaunNotificationExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,12 +139,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01737BB00B605100C42113E6 /* Pods-Arumdaun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.release.xcconfig"; sourceTree = "<group>"; };
 		102500DE1F5A74A000B49C7B /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		102500DF1F5A74A000B49C7B /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		102B787D1F6A33B400837CF1 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioViewController.swift; path = Arumdaun/Controller/Sermon/AudioViewController.swift; sourceTree = SOURCE_ROOT; };
 		102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyQTViewController.swift; path = QT/DailyQTViewController.swift; sourceTree = "<group>"; };
 		102B78821F72366C00837CF1 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
-		102B78831F72366C00837CF1 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		102B78831F72366C00837CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeiOSPlayerHelper.h; sourceTree = "<group>"; };
 		102B78871F7236B100837CF1 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		102B78881F7236B100837CF1 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
@@ -154,11 +155,10 @@
 		10C8A3621EFCCDE300202579 /* ArDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArDefine.swift; sourceTree = "<group>"; };
 		10C8A36A1F0201EA00202579 /* ArUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArUtils.swift; sourceTree = "<group>"; };
 		10C8A36D1F02110000202579 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
-		16B41C9EB8ACB6A56452214C /* Pods_ArumdaunNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArumdaunNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.debug.xcconfig"; sourceTree = "<group>"; };
-		39994CB8D61B7235C65C22DB /* Pods-ArumdaunNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArumdaunNotificationExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arumdaun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.release.xcconfig"; sourceTree = "<group>"; };
+		12F59959FE08624B62812685 /* Pods_ArumdaunNotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArumdaunNotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F78FD1A218A51646D803F31 /* Pods_Arumdaun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arumdaun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B666A514F06ACFD85BA3A80 /* Pods-Arumdaun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arumdaun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun.debug.xcconfig"; sourceTree = "<group>"; };
+		6A04EA67AF1A23AF01C5BDC0 /* Pods-ArumdaunNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArumdaunNotificationExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
 		CB0667C81F4CA50C008996D1 /* UIButton+ArButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+ArButton.swift"; sourceTree = "<group>"; };
 		CB0667C91F4CA50C008996D1 /* UIColor+ArColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ArColor.swift"; sourceTree = "<group>"; };
 		CB0667CA1F4CA50C008996D1 /* UIImage+ArImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ArImage.swift"; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		CB73F8811F6870FA00EFEC8D /* String+ArString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ArString.swift"; sourceTree = "<group>"; };
 		CB75FC4C1FFFE8F900D1A1DE /* ArumdaunNotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArumdaunNotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		CB75FC501FFFE8FA00D1A1DE /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		CB75FC501FFFE8FA00D1A1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8A59BE1F69D23800C33EA4 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
 		CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArStoryBoard.swift; sourceTree = "<group>"; };
@@ -255,7 +255,7 @@
 		CBD7E5151F91048500AA106D /* Arumdaun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arumdaun.entitlements; sourceTree = "<group>"; };
 		CBDCF8271F01452200D038C4 /* SMTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTabbar.swift; sourceTree = "<group>"; };
 		CBDCF83C1F01A21B00D038C4 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreenViewController.swift; path = ../LaunchScreenViewController.swift; sourceTree = "<group>"; };
-		F790850321579A724CC27724 /* Pods-ArumdaunNotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArumdaunNotificationExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		FAF2053D1BF093A60D7C37EE /* Pods-ArumdaunNotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArumdaunNotificationExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArumdaunNotificationExtension/Pods-ArumdaunNotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,7 +265,7 @@
 			files = (
 				CBD7E5141F91036600AA106D /* libstdc++.tbd in Frameworks */,
 				CBD7E5121F91035500AA106D /* libz.tbd in Frameworks */,
-				1AB98DADF769B165D4F7E328 /* Pods_Arumdaun.framework in Frameworks */,
+				5C34DF5933FD4C2703E13551 /* Pods_Arumdaun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824D9DADC975BFFADE61E6C1 /* Pods_ArumdaunNotificationExtension.framework in Frameworks */,
+				F075BB62F330CE5527555F3B /* Pods_ArumdaunNotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				102B78821F72366C00837CF1 /* Assets.bundle */,
-				102B78831F72366C00837CF1 /* info.plist */,
+				102B78831F72366C00837CF1 /* Info.plist */,
 				102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */,
 				102B78871F7236B100837CF1 /* YTPlayerView.h */,
 				102B78881F7236B100837CF1 /* YTPlayerView.m */,
@@ -373,27 +373,27 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		1D01E6D1FB0FFC7BACD2DCB3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */,
-				56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */,
-				39994CB8D61B7235C65C22DB /* Pods-ArumdaunNotificationExtension.debug.xcconfig */,
-				F790850321579A724CC27724 /* Pods-ArumdaunNotificationExtension.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		1E9C98B1BAAC1EB15F706C78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CBD7E5131F91036600AA106D /* libstdc++.tbd */,
 				CBD7E5111F91035500AA106D /* libz.tbd */,
 				CBB9A5D91F6C6EF10081F689 /* WebKit.framework */,
-				451E3B2438A8E9DF5A2F67A3 /* Pods_Arumdaun.framework */,
-				16B41C9EB8ACB6A56452214C /* Pods_ArumdaunNotificationExtension.framework */,
+				3F78FD1A218A51646D803F31 /* Pods_Arumdaun.framework */,
+				12F59959FE08624B62812685 /* Pods_ArumdaunNotificationExtension.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28B4F3C177A807EBCEDC1CBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B666A514F06ACFD85BA3A80 /* Pods-Arumdaun.debug.xcconfig */,
+				01737BB00B605100C42113E6 /* Pods-Arumdaun.release.xcconfig */,
+				FAF2053D1BF093A60D7C37EE /* Pods-ArumdaunNotificationExtension.debug.xcconfig */,
+				6A04EA67AF1A23AF01C5BDC0 /* Pods-ArumdaunNotificationExtension.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CB0667C71F4CA50C008996D1 /* extension */ = {
@@ -431,8 +431,8 @@
 				CB0F84571EFAEA0F0024A15E /* ArumdaunUITests */,
 				CB75FC4D1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */,
 				CB0F84361EFAEA0F0024A15E /* Products */,
-				1D01E6D1FB0FFC7BACD2DCB3 /* Pods */,
 				1E9C98B1BAAC1EB15F706C78 /* Frameworks */,
+				28B4F3C177A807EBCEDC1CBB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -577,7 +577,7 @@
 			isa = PBXGroup;
 			children = (
 				CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */,
-				CB75FC501FFFE8FA00D1A1DE /* info.plist */,
+				CB75FC501FFFE8FA00D1A1DE /* Info.plist */,
 			);
 			path = ArumdaunNotificationExtension;
 			sourceTree = "<group>";
@@ -692,13 +692,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "Arumdaun" */;
 			buildPhases = (
-				7434C6C678E706D42F3FA207 /* [CP] Check Pods Manifest.lock */,
+				6FA7FBC86C733E27652F0AE3 /* [CP] Check Pods Manifest.lock */,
 				CB0F84311EFAEA0F0024A15E /* Sources */,
 				CB0F84321EFAEA0F0024A15E /* Frameworks */,
 				CB0F84331EFAEA0F0024A15E /* Resources */,
-				08EE4D57BC21E72F49702433 /* [CP] Embed Pods Frameworks */,
-				0A55D529F26C5E41D04D1C38 /* [CP] Copy Pods Resources */,
 				CB75FC571FFFE8FA00D1A1DE /* Embed App Extensions */,
+				BC15AD69A3749588C1D4E626 /* [CP] Embed Pods Frameworks */,
+				2BB860AC2D04EDAAD1E639A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -750,7 +750,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB75FC561FFFE8FA00D1A1DE /* Build configuration list for PBXNativeTarget "ArumdaunNotificationExtension" */;
 			buildPhases = (
-				4520D983BDE2470A43C0BA9D /* [CP] Check Pods Manifest.lock */,
+				9FDD97CA31D12E02B4E39F78 /* [CP] Check Pods Manifest.lock */,
 				CB75FC481FFFE8F900D1A1DE /* Sources */,
 				CB75FC491FFFE8F900D1A1DE /* Frameworks */,
 				CB75FC4A1FFFE8F900D1A1DE /* Resources */,
@@ -839,7 +839,7 @@
 				CB3C00C81F607AA500D750B3 /* NanumGothic.ttf in Resources */,
 				102B78851F72366C00837CF1 /* Assets.bundle in Resources */,
 				CB3C00CA1F607AA500D750B3 /* NanumGothicExtraBold.ttf in Resources */,
-				102B78861F72366C00837CF1 /* info.plist in Resources */,
+				102B78861F72366C00837CF1 /* Info.plist in Resources */,
 				CB0F84431EFAEA0F0024A15E /* LaunchScreen.storyboard in Resources */,
 				CB8A5AC61F6C610500C33EA4 /* Assets in Resources */,
 				CB3C00CC1F607AA500D750B3 /* NanumMyeongjoBold.ttf in Resources */,
@@ -874,10 +874,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08EE4D57BC21E72F49702433 /* [CP] Embed Pods Frameworks */ = {
+		2BB860AC2D04EDAAD1E639A5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FA7FBC86C733E27652F0AE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arumdaun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FDD97CA31D12E02B4E39F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArumdaunNotificationExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC15AD69A3749588C1D4E626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-frameworks.sh",
@@ -890,6 +958,8 @@
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
@@ -902,60 +972,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0A55D529F26C5E41D04D1C38 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4520D983BDE2470A43C0BA9D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArumdaunNotificationExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7434C6C678E706D42F3FA207 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Arumdaun-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1195,7 +1211,7 @@
 		};
 		CB0F845E1EFAEA0F0024A15E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21E478F5A87D6ED902E47644 /* Pods-Arumdaun.debug.xcconfig */;
+			baseConfigurationReference = 4B666A514F06ACFD85BA3A80 /* Pods-Arumdaun.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1203,7 +1219,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6J4VT574EH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Arumdaun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1218,7 +1234,7 @@
 		};
 		CB0F845F1EFAEA0F0024A15E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56B98EEA8A3E3143D2428035 /* Pods-Arumdaun.release.xcconfig */;
+			baseConfigurationReference = 01737BB00B605100C42113E6 /* Pods-Arumdaun.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1226,7 +1242,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6J4VT574EH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Arumdaun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1295,7 +1311,7 @@
 		};
 		CB75FC541FFFE8FA00D1A1DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39994CB8D61B7235C65C22DB /* Pods-ArumdaunNotificationExtension.debug.xcconfig */;
+			baseConfigurationReference = FAF2053D1BF093A60D7C37EE /* Pods-ArumdaunNotificationExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -1324,7 +1340,7 @@
 		};
 		CB75FC551FFFE8FA00D1A1DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F790850321579A724CC27724 /* Pods-ArumdaunNotificationExtension.release.xcconfig */;
+			baseConfigurationReference = 6A04EA67AF1A23AF01C5BDC0 /* Pods-ArumdaunNotificationExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;

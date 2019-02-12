@@ -19,7 +19,7 @@ DEPENDENCIES:
   - HockeySDK
   - Kanna (~> 4.0.0)
   - lottie-ios
-  - OneSignal (< 3.0, >= 2.5.2)
+  - OneSignal (< 3.0, >= 2.6.2)
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
   - Woopra
 
@@ -54,6 +54,6 @@ SPEC CHECKSUMS:
   SwiftyXMLParser: b2e0b0dd0e0fb1ac39869dd4a0c6181847af2945
   Woopra: 1e0e6eefe0b7965e251c52c198c20bad95e90e0c
 
-PODFILE CHECKSUM: d671924ff6af3e218392c2d65e0351f023bfa77b
+PODFILE CHECKSUM: 93f3897da171784b2c605c3b8499665dd98451eb
 
 COCOAPODS: 1.5.3
