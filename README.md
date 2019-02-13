@@ -1,10 +1,10 @@
-# Arumdaun Church
-Arumdaun Church(swift, ios)
+# Arumdaun Church Mobile App
+Arumdaun Church(swift 4.0, ios 9+)
 
 - iTuens: https://itunes.apple.com/US/app/id1324081450?mt=8 
 # README #
 
-- iPhone app with Swift 3.0
+- iPhone app with Swift 4.0
 - Development environment: Xcode 9.2, iOS9 and later
 - 3rd Party Libraries (Podfile)
 
@@ -12,7 +12,12 @@ Arumdaun Church(swift, ios)
 
 - Display Youtube on the WebView using javascript
 - Integrate Lotte Lib(https://airbnb.design/lottie/)
-- Loading Webpage Source and parse
+- Parse/loading Webpage Source
+- MVC, MVVM architect design
+- 3rd party libraries
+  - Kanna : xml prase
+  - lottie-ios : loading 'After Effects' animation data
+  - OneSignal : Free push-notification
 
 ```` code
 use_frameworks!
