@@ -2,7 +2,7 @@
 Arumdaun Church(swift 4.0, ios 9+)
 
 - iTuens: https://itunes.apple.com/US/app/id1324081450?mt=8 
-# README #
+# Requirements #
 
 - iPhone app with Swift 4.0
 - Development environment: Xcode 9.2, iOS9 and later
@@ -47,3 +47,7 @@ post_install do |installer|
 # ScreenShot
 
 ![ScreenShot](https://raw.github.com/4dot/Arumdaun/master/docs/iTunes_ScreenShot.jpeg)
+
+## License
+
+**APC** is under MIT license. See the [LICENSE](LICENSE) file for more info.
