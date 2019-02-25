@@ -9,7 +9,7 @@
 import Foundation
 
 // main page link
-let AR_MAIN_PAGE = "https://www.arumdaunchurch.org/web/"
+let AR_MAIN_PAGE = "https://www.arumdaunchurch.org/"
 
 // News web page
 let NEWS_WEB_PAGE = AR_MAIN_PAGE + "%EA%B3%B5%EB%8F%99%EC%B2%B4%EC%99%80%EA%B5%90%EC%9C%A1/%EA%B5%90%ED%9A%8C%EC%86%8C%EC%8B%9D/" //공동체와교육/교회소식
@@ -33,8 +33,8 @@ let GOOGLE_DRIVE_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id=
 // ex. download url : https://drive.google.com/uc?export=download&id=0B8tfjhHvC9vdd3hHbTNWMHJ2M00
 
 // church news url, xml feed
-// ex. https://www.arumdaunchurch.org/web/category/church-news/feed/?paged=1
-let AR_NEWSFEED_URL = "https://www.arumdaunchurch.org/web/category/church-news/feed/"
+// ex. https://www.arumdaunchurch.org/category/church-news/feed/?paged=1
+let AR_NEWSFEED_URL = AR_MAIN_PAGE + "category/church-news/feed/"
 
 // Daily QT webppage, first page
 let SU_DAILY_QT_URL = "http://www.su.or.kr/03bible/daily/qtView.do?qtType=QT1"

@@ -93,7 +93,8 @@ class BaseAPIClient : NSObject {
             if let doc = try? Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
                 
                 // find pdf link from html doc
-                if let component = doc.xpath("//a[contains(@href,'https://www.arumdaunchurch.org/web/wp-content/uploads/')]").first {
+                let pdfPath = AR_MAIN_PAGE + "wp-content/uploads/"
+                if let component = doc.xpath("//a[contains(@href,'\(pdfPath)')]").first {
                     print(component["href"] ?? "")
                     complete(component["href"] ?? "")
                     return
