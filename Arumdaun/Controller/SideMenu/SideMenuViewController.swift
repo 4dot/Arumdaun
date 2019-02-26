@@ -15,7 +15,7 @@ import Alamofire
 // side menu list
 enum SideMenuType : Int {
     case HomeScreen, Sermon, Worship, QT, News
-    case OpenPDF, OpenWeb
+    case OpenPDF, OpenWeb, PrivacyPolicy
     case Count
     
     static var count: Int { return SideMenuType.Count.rawValue }
@@ -28,6 +28,7 @@ enum SideMenuType : Int {
         case .News: return "교회소식"
         case .OpenPDF: return "(이번주 주보 보기(PDF)"
         case .OpenWeb: return "arumdaunchurch.org"
+        case .PrivacyPolicy: return "Privacy Policy"
         default: return ""
         }
     }
@@ -304,7 +305,7 @@ extension SideMenuViewController : ExpandableDelegate {
             cell.headerColorView.backgroundColor = menuType.headerColor
             return cell
             
-        case .OpenPDF, .OpenWeb:
+        case .OpenPDF, .OpenWeb, .PrivacyPolicy:
             let cell = expandableTableView.dequeueReusable(cellClass: SideMenuTableButtonCell.self)
             cell.delegate = self
             cell.actionButton.setTitle(menuType.desc, for: .normal)
@@ -324,7 +325,7 @@ extension SideMenuViewController : ExpandableDelegate {
         guard let menuType = SideMenuType(rawValue: indexPath.row) else { return 0 }
         
         switch menuType {
-        case .OpenPDF, .OpenWeb: return 40
+        case .OpenPDF, .OpenWeb, .PrivacyPolicy: return 40
         default: return cellHeight
         }
     }
@@ -357,6 +358,11 @@ extension SideMenuViewController : SideMenuTableButtonCellDelegate {
         case .OpenWeb:
             // open safari
             UIApplication.shared.openURL(URL(string: AR_MAIN_PAGE)!)
+            
+        case .PrivacyPolicy:
+            // open safari
+            UIApplication.shared.openURL(URL(string: AR_MAIN_PAGE + "privacy-policy")!)
+            
         default:
             break
         }
