@@ -195,7 +195,7 @@ class SideMenuViewController : UIViewController {
     // MARK: private 
     
     // MARK: TapGestureRecognizer
-    func handleGradientAreaTapped(_ sender: UITapGestureRecognizer) {
+    @objc func handleGradientAreaTapped(_ sender: UITapGestureRecognizer) {
         // close
         open(false)
     }
@@ -361,7 +361,7 @@ extension SideMenuViewController : SideMenuTableButtonCellDelegate {
             
         case .PrivacyPolicy:
             // open safari
-            UIApplication.shared.openURL(URL(string: AR_MAIN_PAGE + "privacy-policy")!)
+            UIApplication.shared.openURL(URL(string: PRIVACY_POLICY_URL)!)
             
         default:
             break

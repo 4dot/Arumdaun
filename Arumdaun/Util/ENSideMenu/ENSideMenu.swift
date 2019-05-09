@@ -37,19 +37,19 @@ public extension UIViewController {
     /**
     Changes current state of side menu view.
     */
-    public func toggleSideMenuView () {
+    func toggleSideMenuView () {
         sideMenuController()?.sideMenu?.toggleMenu()
     }
     /**
     Hides the side menu view.
     */
-    public func hideSideMenuView () {
+    func hideSideMenuView () {
         sideMenuController()?.sideMenu?.hideSideMenu()
     }
     /**
     Shows the side menu view.
     */
-    public func showSideMenuView () {
+    func showSideMenuView () {
 
         sideMenuController()?.sideMenu?.showSideMenu()
     }
@@ -59,7 +59,7 @@ public extension UIViewController {
 
     :returns: BOOL value
     */
-    public func isSideMenuOpen () -> Bool {
+    func isSideMenuOpen () -> Bool {
         let sieMenuOpen = self.sideMenuController()?.sideMenu?.isMenuOpen
         return sieMenuOpen!
     }
@@ -79,7 +79,7 @@ public extension UIViewController {
 
     :returns: A `UIViewController`responding to `ENSideMenuProtocol` protocol
     */
-    public func sideMenuController () -> ENSideMenuProtocol? {
+    func sideMenuController () -> ENSideMenuProtocol? {
         var iteration : UIViewController? = self.parent
         if (iteration == nil) {
             return topMostController()
@@ -118,7 +118,7 @@ public extension UIViewController {
         }
     }
     
-    public func createMenuListButton() {
+    func createMenuListButton() {
         
         let button = UIButton.init(type: .custom)
         //set image for button
@@ -133,7 +133,7 @@ public extension UIViewController {
     }
     
     //This method will call when you press button.
-    public func openMenuList() {
+    @objc func openMenuList() {
         print("openMenuList")
         sideMenuController()?.sideMenu?.showSideMenu()
     }
@@ -438,12 +438,12 @@ open class ENSideMenu : NSObject, UIGestureRecognizerDelegate {
         return true
     }
 
-    internal func handleGesture(_ gesture: UISwipeGestureRecognizer) {
+    @objc internal func handleGesture(_ gesture: UISwipeGestureRecognizer) {
         toggleMenu((self.menuPosition == .right && gesture.direction == .left)
                 || (self.menuPosition == .left && gesture.direction == .right))
     }
 
-    internal func handlePan(_ recognizer : UIPanGestureRecognizer){
+    @objc internal func handlePan(_ recognizer : UIPanGestureRecognizer){
 
         let leftToRight = recognizer.velocity(in: recognizer.view).x > 0
 

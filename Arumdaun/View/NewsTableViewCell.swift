@@ -77,7 +77,7 @@ class NewsTableViewCell : UITableViewCell, Reusable {
         let style = NSMutableParagraphStyle()
         style.lineSpacing = 8
         //style.minimumLineHeight = 10
-        attrDesc.addAttribute(NSParagraphStyleAttributeName, value: style, range: NSRange(location: 0, length: desc.utf16.count))
+        attrDesc.addAttribute(NSAttributedStringKey.paragraphStyle, value: style, range: NSRange(location: 0, length: desc.utf16.count))
         descLabel.attributedText = attrDesc
         descLabel.numberOfLines = isExpand ? 0 : 1
     }

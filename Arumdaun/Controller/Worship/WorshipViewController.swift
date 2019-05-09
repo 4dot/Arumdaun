@@ -92,7 +92,7 @@ class WorshipViewController : LottieHUDViewController {
     /**
      * @desc refresh control for collection view
      */
-    func refreshMovieList() {
+    @objc func refreshMovieList() {
         if worshipModel.worshipDataTotalCount(by: selectedType) <= worshipModel.worshipDataCount(by: selectedType) {
             worshipCollectionView.bottomRefreshControl?.endRefreshing()
             return

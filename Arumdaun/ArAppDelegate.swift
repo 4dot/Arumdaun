@@ -86,7 +86,7 @@ extension ArAppDelegate : BITHockeyManagerDelegate {
         //
         // Set HockeyApp SDK
         //
-        BITHockeyManager.shared().configure(withIdentifier: "5865b525e1e4461b8d7d573ca105d7bc")
+        BITHockeyManager.shared().configure(withIdentifier: HOCKEYAPP_ID)
         
         // This line is obsolete in the crash only build
         BITHockeyManager.shared().authenticator.authenticateInstallation()
@@ -109,7 +109,7 @@ extension ArAppDelegate {
         
         // Replace 'YOUR_APP_ID' with your OneSignal App ID.
         OneSignal.initWithLaunchOptions(launchOptions,
-                                        appId: "908b6d2c-7d75-4d3d-ad24-02904d8581a0",
+                                        appId: ONESIGNAL_ID,
                                         handleNotificationAction: nil,
                                         settings: onesignalInitSettings)
         

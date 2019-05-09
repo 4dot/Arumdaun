@@ -122,7 +122,7 @@ class SMTabbar: UIScrollView {
         let size = CGSize(width: CGFloat.greatestFiniteMagnitude, height: self.frame.height - self.lineHeight)
         let nsstring = NSStringDrawingOptions.usesFontLeading.union(.usesLineFragmentOrigin)
         
-        return NSString(string: text).boundingRect(with: size, options: nsstring, attributes: [NSFontAttributeName : DEFAULT_FONT ?? UIFont.systemFont(ofSize: self.fontSize)], context: nil)
+        return NSString(string: text).boundingRect(with: size, options: nsstring, attributes: [NSAttributedStringKey.font : DEFAULT_FONT ?? UIFont.systemFont(ofSize: self.fontSize)], context: nil)
     }
     
     private func addButtons() {

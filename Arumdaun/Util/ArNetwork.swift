@@ -71,17 +71,31 @@ class ArNetwork {
      * @param pageURL
      * @return complete with html string
      */
-    static func loadWebPage(_ pageURL: String, complete:@escaping (String)->Void) {
+    static func loadWebPage(_ pageURL: String, complete: @escaping (String) -> Void) {
+        guard let url = URL(string: pageURL) else {
+            print("Error: \(pageURL) doesn't seem to be a valid URL")
+            complete("")
+            return
+        }
         
-        // request
-        ArNetwork.manager.request(ArNetwork.urlRequest(pageURL)).responseString { response in
-            print("\(response.result.isSuccess)")
-            
-            if let html = response.result.value {
-                complete(html)
-                return
-            }
+        do {
+            let htmlString = try String(contentsOf: url, encoding: .utf8)
+            print("HTML : \(htmlString)")
+            complete(htmlString)
+        } catch let error {
+            print("Error: \(error)")
             complete("")
         }
+        
+        // request
+//        ArNetwork.manager.request(ArNetwork.urlRequest(pageURL)).responseString { response in
+//            print("\(response.result.isSuccess)")
+//
+//            if let html = response.result.value {
+//                complete(html)
+//                return
+//            }
+//            complete("")
+//        }
     }
 }

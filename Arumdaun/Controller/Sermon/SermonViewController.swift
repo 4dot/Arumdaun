@@ -99,7 +99,7 @@ class SermonViewController : LottieHUDViewController {
     /**
      * @desc refresh control for collection view
      */
-    func refreshMovieList() {
+    @objc func refreshMovieList() {
         if sermonModel.sermonDataTotalCount(by: selectedType) <= sermonModel.sermonDataCount(by: selectedType) {
             sermonCollectionView.bottomRefreshControl?.endRefreshing()
             return

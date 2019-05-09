@@ -29,7 +29,7 @@ extension MainViewController {
         checkLiveBroadcasting?.invalidate()
     }
     
-    func updateLiveBroadCasting() {
+    @objc func updateLiveBroadCasting() {
         // live streaming was on?
         liveStreamingModel.loadLiveStreamingContent { (streamings) in
             guard let streaming = streamings.first else {
