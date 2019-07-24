@@ -47,7 +47,7 @@ extension UIView
 
 extension UIView {
     // MARK: - blur
-    func makeBlurEffectView(style:UIBlurEffectStyle? = nil) -> UIVisualEffectView {
+    func makeBlurEffectView(style: UIBlurEffect.Style? = nil) -> UIVisualEffectView {
         let blurEffectView = UIVisualEffectView()
         
         if let style = style {
@@ -65,7 +65,7 @@ extension UIView {
         self.addSubview(blurEffectView)
         
         if sendBack {
-            self.sendSubview(toBack: blurEffectView)
+            self.sendSubviewToBack(blurEffectView)
         }
     }
 }

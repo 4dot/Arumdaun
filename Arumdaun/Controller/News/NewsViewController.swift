@@ -27,7 +27,7 @@ class NewsViewController : LottieHUDViewController {
         super.viewDidLoad()
         
         contentTableView.estimatedRowHeight = 100
-        contentTableView.rowHeight = UITableViewAutomaticDimension
+        contentTableView.rowHeight = UITableView.automaticDimension
         contentTableView.tableFooterView = UIView()
         
         // create sidemenu
@@ -50,7 +50,7 @@ extension NewsViewController : UITableViewDelegate {
     
     // MARK: - UITableViewDelegate
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

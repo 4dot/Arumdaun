@@ -32,7 +32,7 @@ extension MainViewController : UITableViewDelegate {
             return tableView.frame.size.width * 0.38
             
         case .News:
-            return UITableViewAutomaticDimension
+            return UITableView.automaticDimension
         }
     }
     /**

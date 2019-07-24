@@ -12,7 +12,7 @@ import UIKit
 
 extension UIVisualEffectView {
     
-    func fadeInEffect(_ style:UIBlurEffectStyle = .light, withDuration duration: TimeInterval = 1.0, complete: @escaping ()->Void) {
+    func fadeInEffect(_ style:UIBlurEffect.Style = .light, withDuration duration: TimeInterval = 1.0, complete: @escaping ()->Void) {
         if #available(iOS 10.0, *) {
             let animator = UIViewPropertyAnimator(duration: duration, curve: .easeIn) {
                 self.effect = UIBlurEffect(style: style)

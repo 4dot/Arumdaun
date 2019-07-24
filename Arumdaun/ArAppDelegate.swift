@@ -19,7 +19,7 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         // init hockeyapp
         initHockeyApp()
@@ -43,7 +43,7 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
         
         do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
         } catch {
             // Handle setCategory failure
             print(error)
@@ -104,7 +104,7 @@ extension ArAppDelegate : BITHockeyManagerDelegate {
 }
 
 extension ArAppDelegate {
-    func initPushNotification(launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
+    func initPushNotification(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
         let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
         
         // Replace 'YOUR_APP_ID' with your OneSignal App ID.

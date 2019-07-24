@@ -146,7 +146,7 @@ class ExpandableProcessor {
     
     func expandedCell(at indexPath: IndexPath) -> UITableViewCell? {
         for expandableData in expandableDatas {
-            if let index = expandableData.expandedIndexPaths.index(of: indexPath) {
+            if let index = expandableData.expandedIndexPaths.firstIndex(of: indexPath) {
                 return expandableData.expandedCells[index]
             }
         }
@@ -156,7 +156,7 @@ class ExpandableProcessor {
     
     func expandedHeight(at indexPath: IndexPath) -> CGFloat? {
         for expandableData in expandableDatas {
-            if let index = expandableData.expandedIndexPaths.index(of: indexPath) {
+            if let index = expandableData.expandedIndexPaths.firstIndex(of: indexPath) {
                 return expandableData.expandedHeights[index]
             }
         }

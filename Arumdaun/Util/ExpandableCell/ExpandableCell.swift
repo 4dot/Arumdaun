@@ -11,7 +11,7 @@ import UIKit
 open class ExpandableCell: UITableViewCell {
     open var arrowImageView: UIImageView!
     
-    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         initView()

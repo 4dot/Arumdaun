@@ -66,7 +66,7 @@ public class MainViewController : UIViewController {
         // init UI
         self.tableView.tableFooterView = UIView()
         self.tableView.estimatedRowHeight = 100
-        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.rowHeight = UITableView.automaticDimension
         
         // create sidemenu
         createMenuListButton()
@@ -103,7 +103,7 @@ public class MainViewController : UIViewController {
         self.navigationController?.view.addSubview(launch.view)
         
         launch.showSplashViewController {
-            UIView.animate(withDuration: 0.5, delay: 0.25, options: UIViewAnimationOptions.curveEaseIn, animations: {
+            UIView.animate(withDuration: 0.5, delay: 0.25, options: UIView.AnimationOptions.curveEaseIn, animations: {
                 launch.view.alpha = 0
             }, completion: { finished in
                 
