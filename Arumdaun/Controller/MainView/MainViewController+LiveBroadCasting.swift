@@ -10,7 +10,7 @@ import Foundation
 
 
 let CHECK_LIVE_BROADCASTING_IDLE = 30    // sec
-
+let LIVE_BOARD_CASTINGVIEW_HEIGHT: CGFloat = 50
 
 // live broad casting view
 extension MainViewController {
@@ -18,6 +18,9 @@ extension MainViewController {
     @IBAction func watchNowButtonTapped(_ sender: Any) {
         openLiveStreamingContent(target: self)
     }
+    
+    
+    
     
     // MARK: - check live broadcasting timer
     func startCheckLiveTimer() {
@@ -32,6 +35,7 @@ extension MainViewController {
     @objc func updateLiveBroadCasting() {
         // live streaming was on?
         liveStreamingModel.loadLiveStreamingContent { (streamings) in
+            
             guard let streaming = streamings.first else {
                 // hide
                 self.showLiveBroadCastingView(false)
@@ -58,13 +62,13 @@ extension MainViewController {
         
         self.liveStreamingTitleLbl.text = title
         
-        let startPos = show ? -self.liveBroadCastingView.frame.size.height : 0
-        let endPos = show ? 0 : -self.liveBroadCastingView.frame.size.height
+        let startHeight = show ? 0 : LIVE_BOARD_CASTINGVIEW_HEIGHT
+        let endHeight = show ? LIVE_BOARD_CASTINGVIEW_HEIGHT : 0
         
-        self.liveBroadCastingViewBottomConstraint.constant = startPos
+        self.liveBroadCastingViewHeightConstraint.constant = startHeight
         UIView.animate(withDuration: 0.25, animations: {
             // show/hide
-            self.liveBroadCastingViewBottomConstraint.constant = endPos
+            self.liveBroadCastingViewHeightConstraint.constant = endHeight
             self.liveBroadcastringIsShown = show
             self.liveBroadCastingView.updateFocusIfNeeded()
         })

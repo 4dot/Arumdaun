@@ -25,6 +25,7 @@ public class MainViewController : UIViewController {
     // live broadcasting view
     @IBOutlet weak var liveBroadCastingView: UIView!
     @IBOutlet weak var liveBroadCastingViewBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var liveBroadCastingViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var liveStreamingTitleLbl: UILabel!
     
     var liveStreamingModel = LiveStreamingViewModel()
