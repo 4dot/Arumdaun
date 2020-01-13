@@ -60,8 +60,10 @@ class YoutubeData : NSObject {
             }
         }
     }
-    
-    func copyWithZone(_ zone: NSZone?) -> Any {
+}
+
+extension YoutubeData : NSCopying {
+    func copy(with zone: NSZone? = nil) -> Any {
         let copy = YoutubeData()
         
         copy.playListId = playListId
