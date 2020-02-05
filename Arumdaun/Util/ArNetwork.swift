@@ -28,7 +28,7 @@ class ArNetwork {
         let configuration: URLSessionConfiguration = {
             let configuration = URLSessionConfiguration.default
             configuration.httpAdditionalHeaders = SessionManager.defaultHTTPHeaders
-            configuration.requestCachePolicy = .useProtocolCachePolicy
+            configuration.requestCachePolicy = .reloadIgnoringLocalCacheData
             configuration.urlCache = ArNetwork.urlCache
             
             return configuration
