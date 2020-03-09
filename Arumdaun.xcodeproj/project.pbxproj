@@ -67,6 +67,7 @@
 		CB8A59C11F6AE15800C33EA4 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */; };
 		CB8A59C31F6AF65800C33EA4 /* ArStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */; };
 		CB8A5AC61F6C610500C33EA4 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = CB8A5AC51F6C610500C33EA4 /* Assets */; };
+		CB8CFB9F2416CA87009C32BD /* ArNetwork+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8CFB9E2416CA87009C32BD /* ArNetwork+Cache.swift */; };
 		CB9582681F71C26900A79A50 /* LottieHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */; };
 		CB9624441FCF3E0D00210D5E /* Bundle+ArBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */; };
 		CB9624641FD06C0E00210D5E /* UIViewController+ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */; };
@@ -212,6 +213,7 @@
 		CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArStoryBoard.swift; sourceTree = "<group>"; };
 		CB8A5AC51F6C610500C33EA4 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		CB8CFB9E2416CA87009C32BD /* ArNetwork+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArNetwork+Cache.swift"; sourceTree = "<group>"; };
 		CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieHUDViewController.swift; sourceTree = "<group>"; };
 		CB9624431FCF3E0D00210D5E /* Bundle+ArBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ArBundle.swift"; sourceTree = "<group>"; };
 		CB9624631FD06C0E00210D5E /* UIViewController+ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ArViewController.swift"; sourceTree = "<group>"; };
@@ -334,6 +336,7 @@
 			children = (
 				10C8A36A1F0201EA00202579 /* ArUtils.swift */,
 				CBA4852C1F55B12E003519C0 /* ArNetwork.swift */,
+				CB8CFB9E2416CA87009C32BD /* ArNetwork+Cache.swift */,
 				CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */,
 				CB0A44E01F71A9200064A9A9 /* ArAnalytics.swift */,
 				CB0667C71F4CA50C008996D1 /* extension */,
@@ -1001,6 +1004,7 @@
 				CB0667CC1F4CA50C008996D1 /* UIButton+ArButton.swift in Sources */,
 				CB9E14051F2FB5AF0055AB01 /* NewsTableViewFooterCell.swift in Sources */,
 				CB0667CF1F4CA50C008996D1 /* UIView+ArView.swift in Sources */,
+				CB8CFB9F2416CA87009C32BD /* ArNetwork+Cache.swift in Sources */,
 				CB43F2FB1F589C9200270282 /* NewsViewController.swift in Sources */,
 				CBB293881F672AD2007BEA85 /* SermonAudioTableViewCell.swift in Sources */,
 				CBB293821F671958007BEA85 /* WorshipViewController.swift in Sources */,
@@ -1235,12 +1239,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 121;
+				CURRENT_PROJECT_VERSION = 122;
 				DEVELOPMENT_TEAM = 6J4VT574EH;
 				INFOPLIST_FILE = Arumdaun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1260,12 +1264,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 121;
+				CURRENT_PROJECT_VERSION = 122;
 				DEVELOPMENT_TEAM = 6J4VT574EH;
 				INFOPLIST_FILE = Arumdaun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

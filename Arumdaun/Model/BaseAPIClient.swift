@@ -28,7 +28,10 @@ class BaseAPIClient : NSObject {
     func loadNewsData(_ includeHeader: Bool = true, _ includeFooter: Bool = true, page: Int = 1, _ complete:@escaping (_ news: [NewsData], _ weeklyPdf: String)->Void) {
         
         // request
-        ArNetwork.manager.request(ArNetwork.urlRequest("\(AR_NEWSFEED_URL)?paged=\(page)", .returnCacheDataElseLoad)).responseString { [weak self] response in
+        let path = "\(AR_NEWSFEED_URL)?paged=\(page)"
+        //Alamofire.clearCache(request: URLRequest(url: URL(fileURLWithPath: path))) // clear cache by URLRequest
+        Alamofire.request(path, refreshCache: true).responseString { [weak self] response in
+        //ArNetwork.manager.request(ArNetwork.urlRequest(path, .returnCacheDataElseLoad)).responseString { [weak self] response in
             if let result = response.result.value {
                 do {
                     // parse xml
