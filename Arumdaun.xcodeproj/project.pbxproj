@@ -715,7 +715,7 @@
 					CB0F84341EFAEA0F0024A15E = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6J4VT574EH;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1156,9 +1156,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Arumdaun/Arumdaun.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Stan Han (JHSVWQE7Q9)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 124;
 				DEVELOPMENT_TEAM = 6J4VT574EH;
 				INFOPLIST_FILE = Arumdaun/Info.plist;
@@ -1168,7 +1168,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "ArumdaunApp Distribution";
 				SWIFT_OBJC_BRIDGING_HEADER = "Arumdaun/Util/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1181,9 +1181,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Arumdaun/Arumdaun.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Arumdaun Presbyterian Church (6J4VT574EH)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 124;
 				DEVELOPMENT_TEAM = 6J4VT574EH;
 				INFOPLIST_FILE = Arumdaun/Info.plist;
@@ -1193,7 +1193,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arumdaunchurch.arumdaunapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "ArumdaunApp Distribution";
 				SWIFT_OBJC_BRIDGING_HEADER = "Arumdaun/Util/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
