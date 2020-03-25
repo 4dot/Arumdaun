@@ -9,7 +9,7 @@
 import Foundation
 
 
-let CHECK_LIVE_BROADCASTING_IDLE = 30    // sec
+let CHECK_LIVE_BROADCASTING_IDLE = 60    // sec
 let LIVE_BOARD_CASTINGVIEW_HEIGHT: CGFloat = 50
 
 // live broad casting view

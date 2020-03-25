@@ -11,6 +11,7 @@ target 'Arumdaun' do
   pod "Woopra"
   pod 'HockeySDK'
   pod 'OneSignal', '>= 2.6.2', '< 3.0'
+  pod 'YoutubeKit'
 end
 
 target 'ArumdaunNotificationExtension' do

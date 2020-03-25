@@ -11,6 +11,7 @@ PODS:
   - OneSignal (2.9.5)
   - SwiftyXMLParser (4.3.0)
   - Woopra (0.0.1)
+  - YoutubeKit (0.4.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
@@ -22,6 +23,7 @@ DEPENDENCIES:
   - OneSignal (< 3.0, >= 2.6.2)
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
   - Woopra
+  - YoutubeKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -33,6 +35,7 @@ SPEC REPOS:
     - lottie-ios
     - OneSignal
     - Woopra
+    - YoutubeKit
 
 EXTERNAL SOURCES:
   SwiftyXMLParser:
@@ -47,13 +50,14 @@ SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
   CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
-  HockeySDK: 15afe6bc0a5bfe3a531fd73dbf082095f37dac3b
+  HockeySDK: c2b7e0afce4587af7b6264ab0fd854f5876afaa6
   Kanna: 0ebbdd0e7e3308f0aafbd569e79c8cadc5eb877c
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
   OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
   SwiftyXMLParser: b2e0b0dd0e0fb1ac39869dd4a0c6181847af2945
   Woopra: 1e0e6eefe0b7965e251c52c198c20bad95e90e0c
+  YoutubeKit: 10c74151790b570001b19403d2c60b2fb540a1fe
 
-PODFILE CHECKSUM: 2e640018aed41c4b5838921e4287736b0b4ea40a
+PODFILE CHECKSUM: 332d3e487a7b5e72d5c50277d682bafe02d82882
 
 COCOAPODS: 1.5.3

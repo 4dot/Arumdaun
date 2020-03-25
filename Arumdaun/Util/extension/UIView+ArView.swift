@@ -70,3 +70,19 @@ extension UIView {
     }
 }
 
+extension UIView {
+// MARK: - auto sizing
+
+    /**
+     * @desc auto resizing with target view, same size
+     * @param parent view
+     */
+    func autoSameSizingWith(_ parent: UIView) {
+        // same size with chartview
+        self.translatesAutoresizingMaskIntoConstraints = false
+        self.leftAnchor.constraint(equalTo: parent.leftAnchor).isActive = true
+        self.topAnchor.constraint(equalTo: parent.topAnchor).isActive = true
+        self.widthAnchor.constraint(equalTo: parent.widthAnchor).isActive = true
+        self.heightAnchor.constraint(equalTo: parent.heightAnchor).isActive = true
+    }
+}

@@ -11,8 +11,6 @@
 		102500E11F5A74A000B49C7B /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102500DF1F5A74A000B49C7B /* ENSideMenuNavigationController.swift */; };
 		102B787E1F6A33B400837CF1 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787D1F6A33B400837CF1 /* AudioViewController.swift */; };
 		102B78801F6E10C700837CF1 /* DailyQTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */; };
-		102B78851F72366C00837CF1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 102B78821F72366C00837CF1 /* Assets.bundle */; };
-		102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B78881F7236B100837CF1 /* YTPlayerView.m */; };
 		10AAF9051F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */; };
 		10AAF9091F60F15E00C8AD46 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */; };
 		10AAF90B1F60F32900C8AD46 /* MainAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */; };
@@ -144,11 +142,6 @@
 		102500DF1F5A74A000B49C7B /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		102B787D1F6A33B400837CF1 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioViewController.swift; path = Arumdaun/Controller/Sermon/AudioViewController.swift; sourceTree = SOURCE_ROOT; };
 		102B787F1F6E10C700837CF1 /* DailyQTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DailyQTViewController.swift; path = QT/DailyQTViewController.swift; sourceTree = "<group>"; };
-		102B78821F72366C00837CF1 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
-		102B78831F72366C00837CF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeiOSPlayerHelper.h; sourceTree = "<group>"; };
-		102B78871F7236B100837CF1 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
-		102B78881F7236B100837CF1 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		10AAF9041F60EF7000C8AD46 /* SermonYoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SermonYoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
 		10AAF9081F60F15E00C8AD46 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		10AAF90A1F60F32900C8AD46 /* MainAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAPIClient.swift; sourceTree = "<group>"; };
@@ -241,16 +234,6 @@
 		CBC2CE381F72C6ED00FA19F2 /* UITableView+ArTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ArTableView.swift"; sourceTree = "<group>"; };
 		CBC2CE3A1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ArCollectionView.swift"; sourceTree = "<group>"; };
 		CBD7A54D1F165F6C0058BF0D /* YoutubeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
-		CBD7A6BC1F87CD3F00962C76 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		CBD7A6BD1F87CD3F00962C76 /* CustomProgressSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressSlider.swift; sourceTree = "<group>"; };
-		CBD7A6BE1F87CD3F00962C76 /* YTFAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFAnimation.swift; sourceTree = "<group>"; };
-		CBD7A6BF1F87CD3F00962C76 /* YTFPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFPlayer.swift; sourceTree = "<group>"; };
-		CBD7A6C01F87CD3F00962C76 /* YTFPlayerControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFPlayerControls.swift; sourceTree = "<group>"; };
-		CBD7A6C11F87CD3F00962C76 /* YTFPopupCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFPopupCloseButton.swift; sourceTree = "<group>"; };
-		CBD7A6C21F87CD3F00962C76 /* YTFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTFViewController.swift; sourceTree = "<group>"; };
-		CBD7A6C41F87CD3F00962C76 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		CBD7A6C51F87CD3F00962C76 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		CBD7A6C61F87CD3F00962C76 /* YTFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YTFViewController.xib; sourceTree = "<group>"; };
 		CBD7E5111F91035500AA106D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CBD7E5131F91036600AA106D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		CBD7E5151F91048500AA106D /* Arumdaun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Arumdaun.entitlements; sourceTree = "<group>"; };
@@ -304,18 +287,6 @@
 			path = ENSideMenu;
 			sourceTree = "<group>";
 		};
-		102B78811F72366C00837CF1 /* youtube-ios-player-helper */ = {
-			isa = PBXGroup;
-			children = (
-				102B78821F72366C00837CF1 /* Assets.bundle */,
-				102B78831F72366C00837CF1 /* Info.plist */,
-				102B78841F72366C00837CF1 /* YouTubeiOSPlayerHelper.h */,
-				102B78871F7236B100837CF1 /* YTPlayerView.h */,
-				102B78881F7236B100837CF1 /* YTPlayerView.m */,
-			);
-			path = "youtube-ios-player-helper";
-			sourceTree = "<group>";
-		};
 		10C8A3591EFCCC0D00202579 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,8 +313,6 @@
 				CB0667C71F4CA50C008996D1 /* extension */,
 				102500DD1F5A74A000B49C7B /* ENSideMenu */,
 				CB0667F71F4F555C008996D1 /* CenterCellCollectionViewFlowLayout */,
-				102B78811F72366C00837CF1 /* youtube-ios-player-helper */,
-				CBD7A6BA1F87CD3F00962C76 /* YouTubeFloatingPlayer */,
 				CB8A5A451F6C506C00C33EA4 /* JPlayer */,
 				CBDCF8261F01452200D038C4 /* SMTabbar */,
 				CB43F2EC1F58586900270282 /* ExpandableCell */,
@@ -646,39 +615,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CBD7A6BA1F87CD3F00962C76 /* YouTubeFloatingPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				CBD7A6BB1F87CD3F00962C76 /* Classes */,
-				CBD7A6C31F87CD3F00962C76 /* Resources */,
-			);
-			path = YouTubeFloatingPlayer;
-			sourceTree = "<group>";
-		};
-		CBD7A6BB1F87CD3F00962C76 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CBD7A6BC1F87CD3F00962C76 /* .gitkeep */,
-				CBD7A6BD1F87CD3F00962C76 /* CustomProgressSlider.swift */,
-				CBD7A6BE1F87CD3F00962C76 /* YTFAnimation.swift */,
-				CBD7A6BF1F87CD3F00962C76 /* YTFPlayer.swift */,
-				CBD7A6C01F87CD3F00962C76 /* YTFPlayerControls.swift */,
-				CBD7A6C11F87CD3F00962C76 /* YTFPopupCloseButton.swift */,
-				CBD7A6C21F87CD3F00962C76 /* YTFViewController.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		CBD7A6C31F87CD3F00962C76 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CBD7A6C41F87CD3F00962C76 /* .gitkeep */,
-				CBD7A6C51F87CD3F00962C76 /* Media.xcassets */,
-				CBD7A6C61F87CD3F00962C76 /* YTFViewController.xib */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		CBDCF8261F01452200D038C4 /* SMTabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -839,7 +775,6 @@
 				CBB08E2C1F5F1D58001C10E5 /* snap_loader_white.json in Resources */,
 				CBB08E2B1F5F1D58001C10E5 /* snap_loader_black.json in Resources */,
 				CB3C00C81F607AA500D750B3 /* NanumGothic.ttf in Resources */,
-				102B78851F72366C00837CF1 /* Assets.bundle in Resources */,
 				CB3C00CA1F607AA500D750B3 /* NanumGothicExtraBold.ttf in Resources */,
 				CB0F84431EFAEA0F0024A15E /* LaunchScreen.storyboard in Resources */,
 				CB8A5AC61F6C610500C33EA4 /* Assets in Resources */,
@@ -880,15 +815,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
 			);
@@ -902,15 +833,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Arumdaun-checkManifestLockResult.txt",
 			);
@@ -924,15 +851,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ArumdaunNotificationExtension-checkManifestLockResult.txt",
 			);
@@ -946,8 +869,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Arumdaun/Pods-Arumdaun-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -956,11 +877,10 @@
 				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
 				"${BUILT_PRODUCTS_DIR}/Woopra/Woopra.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubeKit/YoutubeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
@@ -968,6 +888,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Woopra.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1025,7 +946,6 @@
 				CBC2CE3B1F72CE0E00FA19F2 /* UICollectionView+ArCollectionView.swift in Sources */,
 				CB0667F41F4DDFD5008996D1 /* MainYoutubeCell.swift in Sources */,
 				10C8A36B1F0201EA00202579 /* ArUtils.swift in Sources */,
-				102B78891F7236B100837CF1 /* YTPlayerView.m in Sources */,
 				CB3C00D91F61DFF100D750B3 /* SermonViewModel.swift in Sources */,
 				CB3C00DB1F61E01800D750B3 /* SermonAPIClient.swift in Sources */,
 				CB8A59C11F6AE15800C33EA4 /* Dynamic.swift in Sources */,

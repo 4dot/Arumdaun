@@ -5,7 +5,6 @@
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
 
-#import "YTPlayerView.h"
 #import <CCBottomRefreshControl/UIScrollView+BottomRefreshControl.h>
 #import "Woopra/WTracker.h"
 

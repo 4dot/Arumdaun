@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import YoutubeKit
 
 protocol YTPlayerViewControllerDelegate : NSObjectProtocol {
 }
@@ -16,7 +16,7 @@ protocol YTPlayerViewControllerDelegate : NSObjectProtocol {
 // YTPlayerViewController class
 //
 class YTPlayerViewController : UIViewController {
-    @IBOutlet weak var YTPlayer: YTPlayerView!
+    @IBOutlet weak var YTPlayer: UIView!
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subTitleLabel: UILabel!
@@ -40,8 +40,25 @@ class YTPlayerViewController : UIViewController {
         descTextView.text = videoDesc
         descTextView.scrollRangeToVisible(NSMakeRange(0, 0))
         
-        // youtube moview load using iframe
-        YTPlayer.load(withVideoId: videoId)
+        // Create a new player
+        let player = YTSwiftyPlayer (
+            frame: YTPlayer.bounds,
+            playerVars: [
+                .playsInline(false),
+                .videoID(videoId),
+                .loopVideo(false),
+                .showRelatedVideo(false)
+            ])
+
+        // Enable auto playback when video is loaded
+        player.autoplay = true
+        
+        // Set player view
+        YTPlayer.addSubview(player)
+        player.autoSameSizingWith(YTPlayer)
+
+        // Load video player
+        player.loadPlayer()
         
         // send track event
         ArAnalytics.sendTrackEvent("pv", properties: ["title" : "Youtube Play", "subTitle" : videoTitle ?? ""])
