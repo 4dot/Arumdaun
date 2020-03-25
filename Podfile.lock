@@ -26,7 +26,7 @@ DEPENDENCIES:
   - YoutubeKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AlamofireImage
     - CCBottomRefreshControl
@@ -60,4 +60,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 332d3e487a7b5e72d5c50277d682bafe02d82882
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.3
