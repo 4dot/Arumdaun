@@ -10,12 +10,12 @@ target 'Arumdaun' do
   pod "SwiftyXMLParser", :git => 'https://github.com/yahoojapan/SwiftyXMLParser.git'
   pod "Woopra"
   pod 'HockeySDK'
-  pod 'OneSignal', '>= 2.6.2', '< 3.0'
+  pod 'OneSignal', '>= 2.11.2', '< 3.0'
   pod 'YoutubeKit'
 end
 
 target 'ArumdaunNotificationExtension' do
-  pod 'OneSignal', '>= 2.6.2', '< 3.0'
+  pod 'OneSignal', '>= 2.11.2', '< 3.0'
 end
 
 post_install do |installer|
