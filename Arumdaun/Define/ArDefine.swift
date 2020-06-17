@@ -25,7 +25,7 @@ let PRIVACY_POLICY_URL = AR_MAIN_PAGE + "privacy-policy"
 
 
 // Youtube API ----------------------------------------------------------------
-let YT_API_KEY = "AIzaSyCa7dAbw2Oai90RvbOSpjNrLbwELK78r6M"
+let YT_API_KEY = "AIzaSyDZr8crx9oB6TgLY8P6s9iHGhmz0pK1FeM"//AIzaSyCa7dAbw2Oai90RvbOSpjNrLbwELK78r6M"
 let YT_PLAYLIST_ITEM = "https://www.googleapis.com/youtube/v3/playlistItems"
 
 let YT_SEARCH = "https://www.googleapis.com/youtube/v3/search"
