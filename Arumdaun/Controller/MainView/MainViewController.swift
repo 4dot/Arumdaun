@@ -73,8 +73,8 @@ public class MainViewController : UIViewController {
         createMenuListButton()
         
         // start timer after checking
-        updateLiveBroadCasting()
-        startCheckLiveTimer()
+        //updateLiveBroadCasting()
+        //startCheckLiveTimer()
         
         // start network connection checking
         startNetworkConnectionCheck(self)
