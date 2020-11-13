@@ -25,7 +25,9 @@ let PRIVACY_POLICY_URL = AR_MAIN_PAGE + "privacy-policy"
 
 
 // Youtube API ----------------------------------------------------------------
-let YT_API_KEY = "AIzaSyDZr8crx9oB6TgLY8P6s9iHGhmz0pK1FeM"//AIzaSyCa7dAbw2Oai90RvbOSpjNrLbwELK78r6M"
+// arumdaunweb: "AIzaSyCa7dAbw2Oai90RvbOSpjNrLbwELK78r6M"//
+// arumdaunmobile: "AIzaSyDZr8crx9oB6TgLY8P6s9iHGhmz0pK1FeM"//
+let YT_API_KEY = "AIzaSyDZr8crx9oB6TgLY8P6s9iHGhmz0pK1FeM"
 let YT_PLAYLIST_ITEM = "https://www.googleapis.com/youtube/v3/playlistItems"
 
 let YT_SEARCH = "https://www.googleapis.com/youtube/v3/search"
