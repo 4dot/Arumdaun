@@ -257,11 +257,10 @@ extension MainViewController : UICollectionViewDelegate, UICollectionViewDataSou
         mainModel.loadYoutubePreviewContent(ytPreview.playListId) { (data) in
             
             // modify title, sub title
-            // split by '-'
-            // ex. 아름다운교회 2017/09/03 - 새 일꾼 디모데
+            // display all of title
             data.subTitle = "이번주 " + (YTPlayList.getType(with: ytPreview.playListId)?.ids.title ?? "")
-            let title = data.title.components(separatedBy: "-").getElementBy(1) ?? data.title
-            data.title = title.trim
+            //let title = data.title.components(separatedBy: "-").getElementBy(1) ?? data.title
+            //data.title = title.trim
             
             // upate UI
             DispatchQueue.main.async {

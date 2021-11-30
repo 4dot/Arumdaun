@@ -173,9 +173,9 @@ extension SermonViewController : UICollectionViewDataSource {
         // modify title, sub title
         // split by '-'
         // ex. 아름다운교회 2017/09/03 - 새 일꾼 디모데
-        let names = ytPreview.title.components(separatedBy: "-")
-        ytPreview.subTitle = names.first ?? ""
-        ytPreview.title = (names.getElementBy(1) ?? ytPreview.title).trim
+        //let names = ytPreview.title.components(separatedBy: "-")
+        //ytPreview.subTitle = names.first ?? ""
+        //ytPreview.title = (names.getElementBy(1) ?? ytPreview.title).trim
         
         cell.setPreviewData(ytPreview)
         

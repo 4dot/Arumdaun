@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -120,7 +120,7 @@
                                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableViewCellID" id="W61-eS-Wrm" customClass="SideMenuTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W61-eS-Wrm" id="vp9-Fp-wlt">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -161,7 +161,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableViewExpandedCellID" id="uL5-Q4-G4a" customClass="SideMenuTableViewExpandedCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="78" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="94.5" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uL5-Q4-G4a" id="pdJ-j9-9db">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -191,7 +191,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableViewExpandableCellID" id="QAs-og-XVY" customClass="SideMenuTableViewExpandableCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="128" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="144.5" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QAs-og-XVY" id="ElV-Re-lz2">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -232,13 +232,13 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableButtonCellID" id="jf6-Dz-NxX" customClass="SideMenuTableButtonCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="178" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="194.5" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jf6-Dz-NxX" id="qAE-DG-f3b">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPg-mi-uLW">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPg-mi-uLW">
                                                             <rect key="frame" x="95.5" y="10" width="140" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="NXE-dq-O6e"/>
@@ -337,7 +337,7 @@
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainYoutubeCellID" rowHeight="320" id="FiH-mr-pCU" customClass="MainYoutubeCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="55.5" width="414" height="320"/>
+                                        <rect key="frame" x="0.0" y="49.5" width="414" height="320"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FiH-mr-pCU" id="sg5-JF-MnJ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
@@ -395,7 +395,7 @@
                                                                         <rect key="frame" x="0.0" y="167" width="278" height="111"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이번주 주일설교" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c82-2K-AvY">
-                                                                                <rect key="frame" x="8" y="8" width="82.5" height="21"/>
+                                                                                <rect key="frame" x="8" y="8" width="262" height="21"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="height" constant="21" id="B5w-ai-4ib"/>
                                                                                 </constraints>
@@ -403,20 +403,19 @@
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구원이 작정된 자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="PCo-Pb-wpF">
-                                                                                <rect key="frame" x="8" y="30" width="262" height="21"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="PCo-Pb-wpF">
+                                                                                <rect key="frame" x="8" y="30" width="262" height="30"/>
                                                                                 <constraints>
-                                                                                    <constraint firstAttribute="height" constant="21" id="Af3-fA-Rmw"/>
+                                                                                    <constraint firstAttribute="height" constant="30" id="Af3-fA-Rmw"/>
                                                                                 </constraints>
+                                                                                <string key="text">구원이 작정된 자
+구원이 작정된 자</string>
                                                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zeg-Dp-mKZ">
-                                                                                <rect key="frame" x="8" y="58" width="61.5" height="45"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="45" id="SGq-gH-AiD"/>
-                                                                                </constraints>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zeg-Dp-mKZ">
+                                                                                <rect key="frame" x="8" y="64" width="262" height="39"/>
                                                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="calibratedWhite"/>
                                                                                 <nil key="highlightedColor"/>
@@ -424,9 +423,12 @@
                                                                         </subviews>
                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                         <constraints>
+                                                                            <constraint firstAttribute="trailing" secondItem="Zeg-Dp-mKZ" secondAttribute="trailing" constant="8" id="6NK-u1-OEA"/>
+                                                                            <constraint firstAttribute="bottom" secondItem="Zeg-Dp-mKZ" secondAttribute="bottom" constant="8" id="73x-Y6-kl9"/>
                                                                             <constraint firstItem="c82-2K-AvY" firstAttribute="leading" secondItem="eIY-Db-zBn" secondAttribute="leading" constant="8" id="7fD-Zv-UPv"/>
                                                                             <constraint firstItem="PCo-Pb-wpF" firstAttribute="top" secondItem="c82-2K-AvY" secondAttribute="bottom" constant="1" id="7hi-Ah-BC1"/>
-                                                                            <constraint firstItem="Zeg-Dp-mKZ" firstAttribute="top" secondItem="PCo-Pb-wpF" secondAttribute="bottom" constant="7" id="MGD-q1-h5z"/>
+                                                                            <constraint firstAttribute="trailing" secondItem="c82-2K-AvY" secondAttribute="trailing" constant="8" id="8qK-ag-aWH"/>
+                                                                            <constraint firstItem="Zeg-Dp-mKZ" firstAttribute="top" secondItem="PCo-Pb-wpF" secondAttribute="bottom" constant="4" id="MGD-q1-h5z"/>
                                                                             <constraint firstItem="c82-2K-AvY" firstAttribute="top" secondItem="eIY-Db-zBn" secondAttribute="top" constant="8" id="boZ-Sm-N9P"/>
                                                                             <constraint firstItem="Zeg-Dp-mKZ" firstAttribute="leading" secondItem="eIY-Db-zBn" secondAttribute="leading" constant="8" id="hE4-Cj-zC8"/>
                                                                             <constraint firstAttribute="trailing" secondItem="PCo-Pb-wpF" secondAttribute="trailing" constant="8" id="j0K-jY-3OT"/>
@@ -473,7 +475,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainQTCellID" rowHeight="150" id="hyV-Za-YFK" customClass="MainQTCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="375.5" width="414" height="150"/>
+                                        <rect key="frame" x="0.0" y="369.5" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hyV-Za-YFK" id="EFz-M6-bcF">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
@@ -494,7 +496,7 @@
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9z-nZ-8dy">
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9z-nZ-8dy">
                                                                     <rect key="frame" x="47" y="112" width="100" height="28"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="100" id="9TU-7U-PpR"/>
@@ -556,7 +558,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewHeaderCellID" rowHeight="40" id="Kvy-AX-3ew" customClass="NewsTableViewHeaderCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="525.5" width="414" height="40"/>
+                                        <rect key="frame" x="0.0" y="519.5" width="414" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kvy-AX-3ew" id="EIq-vw-1gi">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
@@ -615,13 +617,13 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewFooterCellID" rowHeight="35" id="w9l-4c-3CL" customClass="NewsTableViewFooterCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="565.5" width="414" height="35"/>
+                                        <rect key="frame" x="0.0" y="559.5" width="414" height="35"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w9l-4c-3CL" id="r0k-AU-c3m">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neD-vc-ILt">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neD-vc-ILt">
                                                     <rect key="frame" x="137" y="2.5" width="140" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="F12-mM-gYy"/>
@@ -647,7 +649,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewCellID" rowHeight="70" id="M9E-I8-iiC" customClass="NewsTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="600.5" width="414" height="70"/>
+                                        <rect key="frame" x="0.0" y="594.5" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M9E-I8-iiC" id="Sq5-Oi-igP">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
@@ -695,7 +697,7 @@
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstItem="6ia-3c-D3M" firstAttribute="leading" secondItem="zDm-bJ-Vol" secondAttribute="leading" constant="20" id="FqP-1M-kuF"/>
                                                         <constraint firstItem="6ia-3c-D3M" firstAttribute="top" secondItem="z0Z-qA-at2" secondAttribute="bottom" constant="4" id="NCK-Kd-Yzm"/>
@@ -746,7 +748,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gox-TL-e9k">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gox-TL-e9k">
                                         <rect key="frame" x="290" y="-15" width="103" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="103" id="fAD-OM-wn0"/>
@@ -844,7 +846,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
                                     </scrollView>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="6Z3-J3-sZ3" secondAttribute="bottom" id="3LX-S2-7Ae"/>
                                     <constraint firstItem="6Z3-J3-sZ3" firstAttribute="top" secondItem="36P-je-8Sn" secondAttribute="top" id="DX7-7z-VKg"/>
@@ -858,7 +860,7 @@
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Axi-dw-i0s">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="5" id="Stf-5f-Xko">
                                             <size key="itemSize" width="160" height="220"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -883,7 +885,7 @@
                                                                         <constraint firstAttribute="width" secondItem="HX9-BJ-goH" secondAttribute="height" multiplier="279:209" id="tIH-qw-70f"/>
                                                                     </constraints>
                                                                 </imageView>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwP-7M-jWT">
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwP-7M-jWT">
                                                                     <rect key="frame" x="59" y="45" width="42" height="42"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="42" id="1U5-hg-wrQ"/>
@@ -908,25 +910,25 @@
                                                             <rect key="frame" x="0.0" y="132" width="160" height="88"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017년 7월 30일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RsB-0a-TYn">
-                                                                    <rect key="frame" x="8" y="4" width="67" height="21"/>
+                                                                    <rect key="frame" x="8" y="4" width="144" height="16"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="21" id="sdL-Ya-Bn0"/>
+                                                                        <constraint firstAttribute="height" constant="16" id="sdL-Ya-Bn0"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구원이 작정된 자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eOJ-Wd-eRM">
-                                                                    <rect key="frame" x="8" y="26" width="144" height="21"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구원이 작정된 자" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="eOJ-Wd-eRM">
+                                                                    <rect key="frame" x="8" y="21" width="144" height="30"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="21" id="xsp-6A-k3i"/>
+                                                                        <constraint firstAttribute="height" constant="30" id="xsp-6A-k3i"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FI-1f-qJC">
-                                                                    <rect key="frame" x="8" y="54" width="144" height="26"/>
+                                                                    <rect key="frame" x="8" y="55" width="144" height="29"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -935,10 +937,11 @@
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <constraints>
                                                                 <constraint firstItem="RsB-0a-TYn" firstAttribute="leading" secondItem="XDG-li-UIC" secondAttribute="leading" constant="8" id="1U8-Wz-A5w"/>
-                                                                <constraint firstAttribute="bottom" secondItem="2FI-1f-qJC" secondAttribute="bottom" constant="8" id="4gM-Yj-U9Q"/>
+                                                                <constraint firstAttribute="trailing" secondItem="RsB-0a-TYn" secondAttribute="trailing" constant="8" id="2tJ-hE-45V"/>
+                                                                <constraint firstAttribute="bottom" secondItem="2FI-1f-qJC" secondAttribute="bottom" constant="4" id="4gM-Yj-U9Q"/>
                                                                 <constraint firstItem="eOJ-Wd-eRM" firstAttribute="leading" secondItem="XDG-li-UIC" secondAttribute="leading" constant="8" id="5Gg-Lb-fV7"/>
                                                                 <constraint firstAttribute="trailing" secondItem="eOJ-Wd-eRM" secondAttribute="trailing" constant="8" id="CJD-MU-cNi"/>
-                                                                <constraint firstItem="2FI-1f-qJC" firstAttribute="top" secondItem="eOJ-Wd-eRM" secondAttribute="bottom" constant="7" id="Fxm-i4-i09"/>
+                                                                <constraint firstItem="2FI-1f-qJC" firstAttribute="top" secondItem="eOJ-Wd-eRM" secondAttribute="bottom" constant="4" id="Fxm-i4-i09"/>
                                                                 <constraint firstAttribute="trailing" secondItem="2FI-1f-qJC" secondAttribute="trailing" constant="8" id="K8w-a6-Syc"/>
                                                                 <constraint firstItem="RsB-0a-TYn" firstAttribute="top" secondItem="XDG-li-UIC" secondAttribute="top" constant="4" id="SBg-As-WS8"/>
                                                                 <constraint firstItem="2FI-1f-qJC" firstAttribute="leading" secondItem="XDG-li-UIC" secondAttribute="leading" constant="8" id="exI-4d-TqM"/>
@@ -975,11 +978,11 @@
                                     </collectionView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="52" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7x3-Wh-kKB">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SermonAudioTableViewCellID" id="drf-tk-io0" customClass="SermonAudioTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="52"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="414" height="52"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="drf-tk-io0" id="0eg-9r-Cmz">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
@@ -1001,7 +1004,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailingMargin" secondItem="TeV-TY-JIt" secondAttribute="trailing" constant="13" id="1Rk-mu-05t"/>
                                                         <constraint firstItem="TeV-TY-JIt" firstAttribute="centerY" secondItem="0eg-9r-Cmz" secondAttribute="centerY" id="Fdn-Xc-Hch"/>
@@ -1036,7 +1039,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nhu-aP-dJt" firstAttribute="leading" secondItem="wmW-8E-WYJ" secondAttribute="leading" id="1At-p7-ILN"/>
                             <constraint firstAttribute="trailing" secondItem="36P-je-8Sn" secondAttribute="trailing" id="3BS-Dn-o8V"/>
@@ -1085,7 +1088,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
                                     </scrollView>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="2dU-So-6Zi"/>
                                     <constraint firstAttribute="bottom" secondItem="vmW-4D-fDb" secondAttribute="bottom" id="9cS-di-wWd"/>
@@ -1099,7 +1102,7 @@
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UFw-5E-0T9">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="5" id="6I6-qI-0iQ">
                                             <size key="itemSize" width="160" height="220"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -1149,25 +1152,27 @@
                                                             <rect key="frame" x="0.0" y="132" width="160" height="88"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017년 7월 30일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLV-77-srj">
-                                                                    <rect key="frame" x="8" y="4" width="67" height="16"/>
+                                                                    <rect key="frame" x="8" y="4" width="144" height="12"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="16" id="6FO-kG-6ps"/>
+                                                                        <constraint firstAttribute="height" constant="12" id="6FO-kG-6ps"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="구원이 작정된 자" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AGB-Lm-HVZ">
-                                                                    <rect key="frame" x="8" y="21" width="144" height="30"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="AGB-Lm-HVZ">
+                                                                    <rect key="frame" x="8" y="17" width="144" height="32"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="30" id="PHE-pE-FdC"/>
+                                                                        <constraint firstAttribute="height" constant="32" id="PHE-pE-FdC"/>
                                                                     </constraints>
+                                                                    <string key="text">구원이 작정된 자
+구원이 작정된 자</string>
                                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVa-jK-VqH">
-                                                                    <rect key="frame" x="8" y="55" width="144" height="25"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="황인철 목사 행 12:42-52" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVa-jK-VqH">
+                                                                    <rect key="frame" x="8" y="53" width="144" height="27"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <nil key="highlightedColor"/>
@@ -1182,6 +1187,7 @@
                                                                 <constraint firstAttribute="trailing" secondItem="AGB-Lm-HVZ" secondAttribute="trailing" constant="8" id="dW3-L3-z8T"/>
                                                                 <constraint firstAttribute="trailing" secondItem="AVa-jK-VqH" secondAttribute="trailing" constant="8" id="hmR-iG-JT8"/>
                                                                 <constraint firstItem="AVa-jK-VqH" firstAttribute="leading" secondItem="4gj-ri-WOm" secondAttribute="leading" constant="8" id="jYE-71-reW"/>
+                                                                <constraint firstAttribute="trailing" secondItem="MLV-77-srj" secondAttribute="trailing" constant="8" id="sPy-J2-zwL"/>
                                                                 <constraint firstItem="AGB-Lm-HVZ" firstAttribute="top" secondItem="MLV-77-srj" secondAttribute="bottom" constant="1" id="zmy-a5-00p"/>
                                                                 <constraint firstItem="MLV-77-srj" firstAttribute="leading" secondItem="4gj-ri-WOm" secondAttribute="leading" constant="8" id="zrl-Hm-y76"/>
                                                             </constraints>
@@ -1224,7 +1230,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="m5g-cv-vi6" secondAttribute="trailing" id="1s2-8h-XvV"/>
                             <constraint firstItem="w7O-M0-8MW" firstAttribute="top" secondItem="ISf-cs-YZB" secondAttribute="bottom" id="Chi-qu-rmp"/>
@@ -1424,7 +1430,7 @@
                                         <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewHeaderCellID" rowHeight="40" id="j8a-FZ-SiF" customClass="NewsTableViewHeaderCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="40"/>
+                                                <rect key="frame" x="0.0" y="44.5" width="414" height="40"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j8a-FZ-SiF" id="kcx-hO-vS3">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
@@ -1474,7 +1480,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewCellID" rowHeight="70" id="glh-mK-D3z" customClass="NewsTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="68" width="414" height="70"/>
+                                                <rect key="frame" x="0.0" y="84.5" width="414" height="70"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="glh-mK-D3z" id="Qkl-yi-nDy">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
@@ -1522,7 +1528,7 @@
                                                                     </connections>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                            <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                                             <constraints>
                                                                 <constraint firstItem="oyx-DW-uOc" firstAttribute="leading" secondItem="mOE-WJ-FuC" secondAttribute="trailing" constant="10" id="5c0-bk-eaa"/>
                                                                 <constraint firstAttribute="bottom" secondItem="641-ko-QeW" secondAttribute="bottom" constant="8" id="64P-U4-7Fy"/>
@@ -1552,13 +1558,13 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewFooterCellID" rowHeight="35" id="sAZ-rn-1Jh" customClass="NewsTableViewFooterCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="138" width="414" height="35"/>
+                                                <rect key="frame" x="0.0" y="154.5" width="414" height="35"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sAZ-rn-1Jh" id="pXZ-TX-lzc">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwV-jp-FNb">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwV-jp-FNb">
                                                             <rect key="frame" x="137" y="2.5" width="140" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="BVv-lJ-r6N"/>
@@ -1758,7 +1764,7 @@
                                             <outlet property="delegate" destination="6fh-MX-vCr" id="sgB-0D-II0"/>
                                         </connections>
                                     </webView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-g4-tfK">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-g4-tfK">
                                         <rect key="frame" x="137.5" y="210" width="100" height="28"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="1p6-kc-oN9"/>
@@ -1883,5 +1889,8 @@
         <image name="splash_bg" width="288" height="512"/>
         <image name="video_placeholder" width="250" height="167.5"/>
         <image name="weekly news_title" width="320" height="58"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

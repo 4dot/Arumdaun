@@ -31,7 +31,7 @@ open class ExpandableCell: UITableViewCell {
         let width = self.contentView.frame.width
         let height = self.contentView.frame.height
         
-        arrowImageView = UIImageView(frame: CGRect(x: width - 24, y: (height - 22)/2, width: 11, height: 22))
+        arrowImageView = UIImageView(frame: CGRect(x: width - 38, y: (height - 22)/2, width: 11, height: 22))
         arrowImageView.image = UIImage(named: "icon_arrow", in: Bundle(for: ExpandableCell.self), compatibleWith: nil)
         self.contentView.addSubview(arrowImageView)
         
