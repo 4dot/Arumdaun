@@ -9,7 +9,6 @@ target 'Arumdaun' do
   pod 'lottie-ios'
   pod "SwiftyXMLParser", :git => 'https://github.com/yahoojapan/SwiftyXMLParser.git'
   pod "Woopra"
-  pod 'HockeySDK'
   pod 'OneSignal', '>= 2.11.2', '< 3.0'
   pod 'YoutubeKit'
 end

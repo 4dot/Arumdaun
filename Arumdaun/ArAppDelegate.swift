@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import HockeySDK
 import OneSignal
 import UserNotifications
 import AVFoundation
@@ -20,9 +19,6 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        // init hockeyapp
-        initHockeyApp()
         
         // init tracker
         ArAnalytics.initWoopra()
@@ -77,29 +73,6 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
             return UIInterfaceOrientationMask.portrait;
             
         }
-    }
-}
-
-extension ArAppDelegate : BITHockeyManagerDelegate {
-    // MARK: - HockeyApp
-    func initHockeyApp() {
-        //
-        // Set HockeyApp SDK
-        //
-        BITHockeyManager.shared().configure(withIdentifier: HOCKEYAPP_ID)
-        
-        // This line is obsolete in the crash only build
-        BITHockeyManager.shared().authenticator.authenticateInstallation()
-        
-        BITHockeyManager.shared().logLevel = .debug
-        
-        // AutoSend Crash Report to HockeyApp
-        BITHockeyManager.shared().crashManager.crashManagerStatus = .autoSend
-        
-        // Enable In-App updated notification
-        BITHockeyManager.shared().isStoreUpdateManagerEnabled = true
-        
-        BITHockeyManager.shared().start()
     }
 }
 

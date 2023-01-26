@@ -50,7 +50,7 @@ public class MainViewController : UIViewController {
     }
     
     var reachabilityMgr = NetworkReachabilityManager()
-    var lottieAnimation: LOTAnimationView?
+    var lottieAnimation: LottieAnimationView?
     
     
     // MARK: - override functions

@@ -10,7 +10,7 @@ import Foundation
 import Lottie
 
 
-protocol NewsTableViewCellDelegate : class {
+protocol NewsTableViewCellDelegate : AnyObject {
     func expandNewsCell(_ idxPath: IndexPath, _ isExpand: Bool)
 }
 
@@ -28,7 +28,7 @@ class NewsTableViewCell : UITableViewCell, Reusable {
     @IBOutlet weak var expandButton: UIButton!
     
     var currIdxPath = IndexPath(row: 0, section: 0)
-    var loadingAnimation: LOTAnimationView?
+    var loadingAnimation: LottieAnimationView?
     
     weak var delegate: NewsTableViewCellDelegate?
     

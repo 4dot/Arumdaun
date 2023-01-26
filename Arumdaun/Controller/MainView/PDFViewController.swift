@@ -20,7 +20,7 @@ class PDFViewController : UIViewController {
     @IBOutlet weak var webView: UIWebView!
     
     var webLink: String = ""
-    var loadingAnimation: LOTAnimationView?
+    var loadingAnimation: LottieAnimationView?
     
     weak var delegate: PDFViewControllerDelegate?
     

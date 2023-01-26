@@ -26,13 +26,13 @@ class ArUtils {
     /**
      * @desc lottie animation
      */
-    static func getLottieAnimation(_ target: UIView, name: String, size: CGSize = CGSize(width: 30, height: 30) , loop: Bool = true)->LOTAnimationView {
+    static func getLottieAnimation(_ target: UIView, name: String, size: CGSize = CGSize(width: 30, height: 30) , loop: Bool = true) -> LottieAnimationView {
         // show after effect animation
-        let animationView = LOTAnimationView(name: name)
+        let animationView = LottieAnimationView(name: name)
         
         // center
         animationView.frame = CGRect(x: target.frame.size.width/2 - size.width/2, y: target.frame.size.height/2 - size.height/2, width: size.width, height: size.height)
-        animationView.loopAnimation = true
+        animationView.loopMode = .loop
         animationView.play()
         
         return animationView

@@ -1,0 +1,6 @@
+framework module Woopra {
+  umbrella header "Woopra-umbrella.h"
+
+  export *
+  module * { export * }
+}

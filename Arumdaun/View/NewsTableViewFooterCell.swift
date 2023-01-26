@@ -33,7 +33,7 @@ class NewsTableViewFooterCell : UITableViewCell, Reusable {
     var idxPath: IndexPath = IndexPath.init(row: 0, section: 0)
     var footerType: NewsFooterCellType = .ShowPDF
     
-    var loadingAnimation: LOTAnimationView?
+    var loadingAnimation: LottieAnimationView?
     
     weak var delegate: NewsTableViewFooterCellDelegate?
     

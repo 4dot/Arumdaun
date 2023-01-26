@@ -24,7 +24,7 @@ enum LottieAnimationType : String {
 // LottieHUDViewController
 //
 class LottieHUDViewController : UIViewController {
-    var lottieAnimation: LOTAnimationView?
+    var lottieAnimation: LottieAnimationView?
     var currentAnimationType: LottieAnimationType = .loadingWhite
     
     
