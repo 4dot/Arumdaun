@@ -44,14 +44,15 @@ enum SideMenuType : Int {
         }
     }
     enum SermonSub : Int {
-        case Weekend, MorningQT, Friday
+        case Weekend, MorningQT, Friday, Special
         
-        static var count: Int { return SermonSub.Friday.rawValue + 1 }
+        static var count: Int { return SermonSub.Special.rawValue + 1 }
         var desc: String {
             switch self {
             case .Weekend: return YTPlayList.WeekendSermon.ids.title // "주일예배 설교"
             case .MorningQT: return "새벽기도 QT 말씀"
             case .Friday: return YTPlayList.FridaySermon.ids.title //"금요예배 설교"
+            case .Special: return YTPlayList.SpecialSermon.ids.title //"특별예배 설교"
             }
         }
     }
@@ -273,11 +274,6 @@ extension SideMenuViewController : ExpandableDelegate {
             print("cell: \(normalCell.id)")
             selectSideMenu(normalCell.id, normalCell.id)
         }
-        
-//        if let _ = cell as? SideMenuTableViewExpandableCell {
-//            // close all
-//            menuTable.closeAll()
-//        }
     }
     
     func expandableTableView(_ expandableTableView: ExpandableTableView, didSelectExpandedRowAt indexPath: IndexPath) {

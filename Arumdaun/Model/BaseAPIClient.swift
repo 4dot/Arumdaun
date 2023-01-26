@@ -41,8 +41,11 @@ class BaseAPIClient : NSObject {
                     for element in xml["rss", "channel", "item"] {
                         var date = element["pubDate"].text ?? ""
                         let title = element["title"].text ?? ""
-                        let descHtml = element["content:encoded"].text ?? ""
-                        var desc = descHtml.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
+                        var descHtml = element["content:encoded"].text
+                        if descHtml == nil, let data = element["content:encoded"].element?.CDATA {
+                            descHtml = String(data: data, encoding: .utf8) ?? ""
+                        }
+                        var desc = descHtml?.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil) ?? ""
                         // remove after 'The Post'
                         if let removeRange = desc.range(of: "The post") {
                             desc.removeSubrange(removeRange.lowerBound..<desc.endIndex)
