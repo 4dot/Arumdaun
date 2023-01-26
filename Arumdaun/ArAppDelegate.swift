@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import OneSignal
 import UserNotifications
 import AVFoundation
 
@@ -22,9 +21,6 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
         
         // init tracker
         ArAnalytics.initWoopra()
-        
-        // init OpenSignal
-        initPushNotification(launchOptions: launchOptions)
         
         return true
     }
@@ -73,35 +69,5 @@ class ArAppDelegate: UIResponder, UIApplicationDelegate {
             return UIInterfaceOrientationMask.portrait;
             
         }
-    }
-}
-
-extension ArAppDelegate {
-    func initPushNotification(launchOptions: [UIApplication.LaunchOptionsKey: Any]?) {
-        let onesignalInitSettings = [kOSSettingsKeyAutoPrompt: false]
-        
-        // Replace 'YOUR_APP_ID' with your OneSignal App ID.
-        OneSignal.initWithLaunchOptions(launchOptions,
-                                        appId: ONESIGNAL_ID,
-                                        handleNotificationAction: nil,
-                                        settings: onesignalInitSettings)
-        
-        OneSignal.inFocusDisplayType = OSNotificationDisplayType.notification;
-        
-        // Recommend moving the below line to prompt for push after informing the user about
-        //   how your app will use them.
-        OneSignal.promptForPushNotifications(userResponse: { accepted in
-            print("User accepted notifications: \(accepted)")
-        })
-        
-        // Sync hashed email if you have a login system or collect it.
-        //   Will be used to reach the user at the most optimal time of day.
-        // OneSignal.syncHashedEmail(userEmail)
-    }
-    
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        let   tokenString = deviceToken.reduce("", {$0 + String(format: "%02X",    $1)})
-        // kDeviceToken=tokenString
-        print("deviceToken: \(tokenString)")
     }
 }

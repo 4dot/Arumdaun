@@ -44,5 +44,3 @@ let GOOGLE_DRIVE_VIEW_URL = "https://drive.google.com/file/d/"
 let GOOGLE_DRIVE_DOWNLOAD_URL = "https://drive.google.com/uc?export=download&id="
 // ex. download url : https://drive.google.com/uc?export=download&id=0B8tfjhHvC9vdd3hHbTNWMHJ2M00
 
-// OneSignal Id --------------------------------------------------------------
-let ONESIGNAL_ID = "908b6d2c-7d75-4d3d-ad24-02904d8581a0"

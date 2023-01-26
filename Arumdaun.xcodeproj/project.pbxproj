@@ -186,8 +186,6 @@
 		CB43F3041F59C3A800270282 /* ArNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArNavigationViewController.swift; sourceTree = "<group>"; };
 		CB4F34601F50BFC0006680B8 /* Array+ArArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+ArArray.swift"; sourceTree = "<group>"; };
 		CB73F8811F6870FA00EFEC8D /* String+ArString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ArString.swift"; sourceTree = "<group>"; };
-		CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		CB75FC501FFFE8FA00D1A1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB8A59BE1F69D23800C33EA4 /* empty_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty_status.json; sourceTree = "<group>"; };
 		CB8A59C01F6AE15800C33EA4 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 		CB8A59C21F6AF65800C33EA4 /* ArStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArStoryBoard.swift; sourceTree = "<group>"; };
@@ -374,7 +372,6 @@
 				CB0F84371EFAEA0F0024A15E /* Arumdaun */,
 				CB0F844C1EFAEA0F0024A15E /* ArumdaunTests */,
 				CB0F84571EFAEA0F0024A15E /* ArumdaunUITests */,
-				CB75FC4D1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */,
 				CB0F84361EFAEA0F0024A15E /* Products */,
 				1E9C98B1BAAC1EB15F706C78 /* Frameworks */,
 				28B4F3C177A807EBCEDC1CBB /* Pods */,
@@ -515,15 +512,6 @@
 				CB9582671F71C26900A79A50 /* LottieHUDViewController.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		CB75FC4D1FFFE8F900D1A1DE /* ArumdaunNotificationExtension */ = {
-			isa = PBXGroup;
-			children = (
-				CB75FC4E1FFFE8F900D1A1DE /* NotificationService.swift */,
-				CB75FC501FFFE8FA00D1A1DE /* Info.plist */,
-			);
-			path = ArumdaunNotificationExtension;
 			sourceTree = "<group>";
 		};
 		CB8A5A451F6C506C00C33EA4 /* JPlayer */ = {

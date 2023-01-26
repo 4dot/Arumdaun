@@ -5,7 +5,6 @@ PODS:
   - CCBottomRefreshControl (0.5.2)
   - Kanna (4.0.3)
   - lottie-ios (4.1.2)
-  - OneSignal (2.16.7)
   - SwiftyXMLParser (5.5.0)
   - Woopra (0.0.1)
   - YoutubeKit (0.8.0)
@@ -16,7 +15,6 @@ DEPENDENCIES:
   - CCBottomRefreshControl
   - Kanna (~> 4.0.0)
   - lottie-ios
-  - OneSignal (< 3.0, >= 2.11.2)
   - SwiftyXMLParser (from `https://github.com/yahoojapan/SwiftyXMLParser.git`)
   - Woopra
   - YoutubeKit
@@ -28,7 +26,6 @@ SPEC REPOS:
     - CCBottomRefreshControl
     - Kanna
     - lottie-ios
-    - OneSignal
     - Woopra
     - YoutubeKit
 
@@ -47,11 +44,10 @@ SPEC CHECKSUMS:
   CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
   Kanna: 0ebbdd0e7e3308f0aafbd569e79c8cadc5eb877c
   lottie-ios: b3846a9fa8ca1a1a3bebfa256ebe8b6fd4aaaaad
-  OneSignal: 67a3cf1d1edf2a9c22ba846e8d2eee2bf8cdb525
   SwiftyXMLParser: 027d9e6fb54a38d95dccec025bcea9693f699c47
   Woopra: 1e0e6eefe0b7965e251c52c198c20bad95e90e0c
   YoutubeKit: 22d35bb9f52bf403cecf37424c67e3399ca4d412
 
-PODFILE CHECKSUM: 7c5d2725f8033321d0f47376bfe344898c65518e
+PODFILE CHECKSUM: a0054405fc101c1f8298f9297d3446429ccd5fa9
 
 COCOAPODS: 1.11.3
