@@ -43,10 +43,6 @@ post_install do |installer|
 end
 ````
 
-# ScreenShot
-
-![ScreenShot](https://raw.github.com/4dot/Arumdaun/master/docs/iTunes_ScreenShot.jpeg)
-
 ## License
 
 **APC** is under MIT license. See the [LICENSE](LICENSE) file for more info.
