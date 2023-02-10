@@ -36,9 +36,9 @@
                                 <color key="backgroundColor" red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_arundaun logo" translatesAutoresizingMaskIntoConstraints="NO" id="vLa-pM-Gp7">
-                                <rect key="frame" x="83" y="415.5" width="248" height="65"/>
+                                <rect key="frame" x="83" y="410.5" width="248" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="vLa-pM-Gp7" secondAttribute="height" multiplier="80:21" id="6Yc-oz-GMM"/>
+                                    <constraint firstAttribute="width" secondItem="vLa-pM-Gp7" secondAttribute="height" multiplier="80:24" id="6Yc-oz-GMM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -1885,7 +1885,7 @@
         <image name="icon_close_white" width="32" height="33.5"/>
         <image name="icon_live" width="41.5" height="32"/>
         <image name="icon_playButton" width="128" height="128"/>
-        <image name="splash_arundaun logo" width="400" height="105"/>
+        <image name="splash_arundaun logo" width="400" height="120.5"/>
         <image name="splash_bg" width="288" height="512"/>
         <image name="video_placeholder" width="250" height="167.5"/>
         <image name="weekly news_title" width="320" height="58"/>
