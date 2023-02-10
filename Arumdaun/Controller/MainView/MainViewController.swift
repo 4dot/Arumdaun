@@ -83,9 +83,9 @@ public class MainViewController : UIViewController {
     // MARK: - public functions
     
     func createMainView() {
-        // title image 0.23 0.56
+        // logo image
         let imgW = self.view.frame.size.width * 0.23
-        let imgH = imgW * 0.4
+        let imgH = imgW * (21/80)
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: imgW, height: imgH))
         imageView.contentMode = .scaleAspectFit
         let image = UIImage(named: "arumdaun_logo")

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -36,9 +36,9 @@
                                 <color key="backgroundColor" red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_arundaun logo" translatesAutoresizingMaskIntoConstraints="NO" id="vLa-pM-Gp7">
-                                <rect key="frame" x="83" y="398.5" width="248" height="99"/>
+                                <rect key="frame" x="83" y="415.5" width="248" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="vLa-pM-Gp7" secondAttribute="height" multiplier="10:4" id="6Yc-oz-GMM"/>
+                                    <constraint firstAttribute="width" secondItem="vLa-pM-Gp7" secondAttribute="height" multiplier="80:21" id="6Yc-oz-GMM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -120,7 +120,7 @@
                                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableViewCellID" id="W61-eS-Wrm" customClass="SideMenuTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.5" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="50" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W61-eS-Wrm" id="vp9-Fp-wlt">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -161,7 +161,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableViewExpandedCellID" id="uL5-Q4-G4a" customClass="SideMenuTableViewExpandedCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="94.5" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="100" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uL5-Q4-G4a" id="pdJ-j9-9db">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -191,7 +191,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableViewExpandableCellID" id="QAs-og-XVY" customClass="SideMenuTableViewExpandableCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="144.5" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="150" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QAs-og-XVY" id="ElV-Re-lz2">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -232,7 +232,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SideMenuTableButtonCellID" id="jf6-Dz-NxX" customClass="SideMenuTableButtonCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="194.5" width="331" height="50"/>
+                                                <rect key="frame" x="0.0" y="200" width="331" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jf6-Dz-NxX" id="qAE-DG-f3b">
                                                     <rect key="frame" x="0.0" y="0.0" width="331" height="50"/>
@@ -325,7 +325,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="featured_video_bg" translatesAutoresizingMaskIntoConstraints="NO" id="a50-pN-IIH">
-                                <rect key="frame" x="0.0" y="88" width="414" height="224"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="224"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="224" id="XGe-Xf-wLL"/>
@@ -337,7 +337,7 @@
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainYoutubeCellID" rowHeight="320" id="FiH-mr-pCU" customClass="MainYoutubeCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="49.5" width="414" height="320"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="320"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FiH-mr-pCU" id="sg5-JF-MnJ">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
@@ -475,7 +475,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainQTCellID" rowHeight="150" id="hyV-Za-YFK" customClass="MainQTCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="369.5" width="414" height="150"/>
+                                        <rect key="frame" x="0.0" y="375.5" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hyV-Za-YFK" id="EFz-M6-bcF">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
@@ -558,7 +558,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewHeaderCellID" rowHeight="40" id="Kvy-AX-3ew" customClass="NewsTableViewHeaderCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="519.5" width="414" height="40"/>
+                                        <rect key="frame" x="0.0" y="525.5" width="414" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kvy-AX-3ew" id="EIq-vw-1gi">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
@@ -617,7 +617,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewFooterCellID" rowHeight="35" id="w9l-4c-3CL" customClass="NewsTableViewFooterCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="559.5" width="414" height="35"/>
+                                        <rect key="frame" x="0.0" y="565.5" width="414" height="35"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w9l-4c-3CL" id="r0k-AU-c3m">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
@@ -649,7 +649,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewCellID" rowHeight="70" id="M9E-I8-iiC" customClass="NewsTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="594.5" width="414" height="70"/>
+                                        <rect key="frame" x="0.0" y="600.5" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M9E-I8-iiC" id="Sq5-Oi-igP">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
@@ -840,7 +840,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36P-je-8Sn">
-                                <rect key="frame" x="0.0" y="44" width="414" height="52"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="52"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Z3-J3-sZ3" customClass="SMTabbar" customModule="Arumdaun" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
@@ -856,10 +856,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhu-aP-dJt">
-                                <rect key="frame" x="0.0" y="97" width="414" height="765"/>
+                                <rect key="frame" x="0.0" y="101" width="414" height="761"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Axi-dw-i0s">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="761"/>
                                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="5" id="Stf-5f-Xko">
                                             <size key="itemSize" width="160" height="220"/>
@@ -977,12 +977,12 @@
                                         </connections>
                                     </collectionView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="52" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7x3-Wh-kKB">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="761"/>
                                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SermonAudioTableViewCellID" id="drf-tk-io0" customClass="SermonAudioTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.5" width="414" height="52"/>
+                                                <rect key="frame" x="0.0" y="50" width="414" height="52"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="drf-tk-io0" id="0eg-9r-Cmz">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
@@ -1082,7 +1082,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5g-cv-vi6">
-                                <rect key="frame" x="0.0" y="44" width="414" height="52"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="52"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vmW-4D-fDb" customClass="SMTabbar" customModule="Arumdaun" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
@@ -1098,10 +1098,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ISf-cs-YZB">
-                                <rect key="frame" x="0.0" y="97" width="414" height="765"/>
+                                <rect key="frame" x="0.0" y="101" width="414" height="761"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="UFw-5E-0T9">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="765"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="761"/>
                                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="5" id="6I6-qI-0iQ">
                                             <size key="itemSize" width="160" height="220"/>
@@ -1272,7 +1272,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRL-4G-mkM" userLabel="body">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZR-hJ-d7r">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1297,7 +1297,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHb-x5-9qu" userLabel="youtube view">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="563"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="559"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고난과 함께 전해진 복음" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-ms-N53">
                                                 <rect key="frame" x="20" y="301.5" width="335" height="23.5"/>
@@ -1328,7 +1328,7 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="말씀: 황인철 목사 날짜: 2017년 9월 3일 성경: 행 16:1~5  1 바울이 더베와 루스드라에도 이르매 거기 디모데라 하는 제자가 있으니 그 어머니는 믿는 유대 여자요 아버지는 헬라인이라" translatesAutoresizingMaskIntoConstraints="NO" id="IV7-Ea-ue6">
-                                                <rect key="frame" x="20" y="370" width="335" height="185"/>
+                                                <rect key="frame" x="20" y="370" width="335" height="181"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
@@ -1398,7 +1398,7 @@
             <objects>
                 <navigationController id="ttm-6E-FHM" customClass="ArNavigationViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="UHm-LD-8Vn">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -1430,7 +1430,7 @@
                                         <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewHeaderCellID" rowHeight="40" id="j8a-FZ-SiF" customClass="NewsTableViewHeaderCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.5" width="414" height="40"/>
+                                                <rect key="frame" x="0.0" y="50" width="414" height="40"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j8a-FZ-SiF" id="kcx-hO-vS3">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
@@ -1480,7 +1480,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewCellID" rowHeight="70" id="glh-mK-D3z" customClass="NewsTableViewCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="84.5" width="414" height="70"/>
+                                                <rect key="frame" x="0.0" y="90" width="414" height="70"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="glh-mK-D3z" id="Qkl-yi-nDy">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
@@ -1558,7 +1558,7 @@
                                                 </connections>
                                             </tableViewCell>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsTableViewFooterCellID" rowHeight="35" id="sAZ-rn-1Jh" customClass="NewsTableViewFooterCell" customModule="Arumdaun" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="154.5" width="414" height="35"/>
+                                                <rect key="frame" x="0.0" y="160" width="414" height="35"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sAZ-rn-1Jh" id="pXZ-TX-lzc">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
@@ -1643,7 +1643,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WD-8p-Jho" userLabel="body">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTH-gC-8ah" userLabel="header">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1668,10 +1668,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edu-Qg-chp" userLabel="pdf view">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="563"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="559"/>
                                         <subviews>
                                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olY-xu-AtJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="563"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="1zL-sH-Whv" id="0OQ-38-W4l"/>
@@ -1733,7 +1733,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4aB-F8-lEl" userLabel="body">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAa-8j-rfQ" userLabel="header">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1758,7 +1758,7 @@
                                         </constraints>
                                     </view>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTW-Tq-N07">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="563"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="559"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="delegate" destination="6fh-MX-vCr" id="sgB-0D-II0"/>
@@ -1825,13 +1825,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOO-vW-K3C" userLabel="body">
-                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QD7-ub-nR2" userLabel="pdf view">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="619"/>
                                         <subviews>
                                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oze-Yy-vgJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="619"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="JZI-oG-lnK" id="46W-NW-DVO"/>
@@ -1885,7 +1885,7 @@
         <image name="icon_close_white" width="32" height="33.5"/>
         <image name="icon_live" width="41.5" height="32"/>
         <image name="icon_playButton" width="128" height="128"/>
-        <image name="splash_arundaun logo" width="300" height="118"/>
+        <image name="splash_arundaun logo" width="400" height="105"/>
         <image name="splash_bg" width="288" height="512"/>
         <image name="video_placeholder" width="250" height="167.5"/>
         <image name="weekly news_title" width="320" height="58"/>
