@@ -148,7 +148,7 @@
 		CB0667FC1F506AD2008996D1 /* NewsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		CB0A44E01F71A9200064A9A9 /* ArAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArAnalytics.swift; sourceTree = "<group>"; };
 		CB0A44E21F71B6180064A9A9 /* Date+ArDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+ArDate.swift"; sourceTree = "<group>"; };
-		CB0F84351EFAEA0F0024A15E /*  .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " .app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0F84351EFAEA0F0024A15E /* Arumdaun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arumdaun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0F84381EFAEA0F0024A15E /* ArAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArAppDelegate.swift; sourceTree = "<group>"; };
 		CB0F843D1EFAEA0F0024A15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB0F843F1EFAEA0F0024A15E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Arumdaun/Assets.xcassets; sourceTree = "<group>"; };
@@ -381,7 +381,7 @@
 		CB0F84361EFAEA0F0024A15E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB0F84351EFAEA0F0024A15E /*  .app */,
+				CB0F84351EFAEA0F0024A15E /* Arumdaun.app */,
 				CB0F84491EFAEA0F0024A15E /* ArumdaunTests.xctest */,
 				CB0F84541EFAEA0F0024A15E /* ArumdaunUITests.xctest */,
 			);
@@ -587,9 +587,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB0F84341EFAEA0F0024A15E /*   */ = {
+		CB0F84341EFAEA0F0024A15E /* Arumdaun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget " " */;
+			buildConfigurationList = CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "Arumdaun" */;
 			buildPhases = (
 				6FA7FBC86C733E27652F0AE3 /* [CP] Check Pods Manifest.lock */,
 				CB0F84311EFAEA0F0024A15E /* Sources */,
@@ -602,9 +602,9 @@
 			);
 			dependencies = (
 			);
-			name = " ";
+			name = Arumdaun;
 			productName = Arumdaun;
-			productReference = CB0F84351EFAEA0F0024A15E /*  .app */;
+			productReference = CB0F84351EFAEA0F0024A15E /* Arumdaun.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CB0F84481EFAEA0F0024A15E /* ArumdaunTests */ = {
@@ -691,7 +691,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB0F84341EFAEA0F0024A15E /*   */,
+				CB0F84341EFAEA0F0024A15E /* Arumdaun */,
 				CB0F84481EFAEA0F0024A15E /* ArumdaunTests */,
 				CB0F84531EFAEA0F0024A15E /* ArumdaunUITests */,
 			);
@@ -885,12 +885,12 @@
 /* Begin PBXTargetDependency section */
 		CB0F844B1EFAEA0F0024A15E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB0F84341EFAEA0F0024A15E /*   */;
+			target = CB0F84341EFAEA0F0024A15E /* Arumdaun */;
 			targetProxy = CB0F844A1EFAEA0F0024A15E /* PBXContainerItemProxy */;
 		};
 		CB0F84561EFAEA0F0024A15E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB0F84341EFAEA0F0024A15E /*   */;
+			target = CB0F84341EFAEA0F0024A15E /* Arumdaun */;
 			targetProxy = CB0F84551EFAEA0F0024A15E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1144,7 +1144,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget " " */ = {
+		CB0F845D1EFAEA0F0024A15E /* Build configuration list for PBXNativeTarget "Arumdaun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB0F845E1EFAEA0F0024A15E /* Debug */,
