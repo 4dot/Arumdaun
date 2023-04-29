@@ -23,6 +23,8 @@ let SU_DAILY_QT_URL = "http://www.su.or.kr/03bible/daily/qtView.do?qtType=QT1"
 
 let PRIVACY_POLICY_URL = AR_MAIN_PAGE + "privacy-policy"
 
+// Weekly Bulletin
+let WEEKLY_BULLETIN = "https://www.arumdaunchurch.org/weekly-bulletin/"
 
 // Youtube API ----------------------------------------------------------------
 // arumdaunweb: "AIzaSyCa7dAbw2Oai90RvbOSpjNrLbwELK78r6M"//

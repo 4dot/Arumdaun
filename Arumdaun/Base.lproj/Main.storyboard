@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ttm-6E-FHM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -20,8 +20,8 @@
             <objects>
                 <viewController storyboardIdentifier="LaunchScreenViewController" id="RQV-w9-Ggh" customClass="LaunchScreenViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="M72-a2-Unb"/>
-                        <viewControllerLayoutGuide type="bottom" id="A7U-wv-rTD"/>
+                        <viewControllerLayoutGuide type="top" id="4C0-x6-CsM"/>
+                        <viewControllerLayoutGuide type="bottom" id="eJa-fg-28k"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jK8-9a-kvs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -48,8 +48,8 @@
                             <constraint firstItem="vLa-pM-Gp7" firstAttribute="centerX" secondItem="jK8-9a-kvs" secondAttribute="centerX" id="6ja-Ss-Dwy"/>
                             <constraint firstItem="cGX-fl-ri9" firstAttribute="leading" secondItem="jK8-9a-kvs" secondAttribute="leading" id="9fl-rW-GO1"/>
                             <constraint firstItem="vLa-pM-Gp7" firstAttribute="width" secondItem="jK8-9a-kvs" secondAttribute="width" multiplier="0.6:1" id="GOE-uB-n2L"/>
-                            <constraint firstItem="A7U-wv-rTD" firstAttribute="top" secondItem="40M-vW-E8f" secondAttribute="bottom" id="UG2-oB-6hI"/>
-                            <constraint firstItem="A7U-wv-rTD" firstAttribute="top" secondItem="cGX-fl-ri9" secondAttribute="bottom" id="W7i-9R-5sI"/>
+                            <constraint firstItem="eJa-fg-28k" firstAttribute="top" secondItem="40M-vW-E8f" secondAttribute="bottom" id="UG2-oB-6hI"/>
+                            <constraint firstItem="eJa-fg-28k" firstAttribute="top" secondItem="cGX-fl-ri9" secondAttribute="bottom" id="W7i-9R-5sI"/>
                             <constraint firstAttribute="trailing" secondItem="cGX-fl-ri9" secondAttribute="trailing" id="jdT-jJ-qNW"/>
                             <constraint firstItem="40M-vW-E8f" firstAttribute="top" secondItem="jK8-9a-kvs" secondAttribute="top" id="lfx-CJ-5XR"/>
                             <constraint firstAttribute="trailing" secondItem="40M-vW-E8f" secondAttribute="trailing" id="nYJ-lN-ghZ"/>
@@ -71,8 +71,8 @@
             <objects>
                 <viewController storyboardIdentifier="SideMenuViewController" id="t3A-VI-778" customClass="SideMenuViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9nQ-wb-Cyw"/>
-                        <viewControllerLayoutGuide type="bottom" id="rO7-rN-qew"/>
+                        <viewControllerLayoutGuide type="top" id="dBg-zI-Fux"/>
+                        <viewControllerLayoutGuide type="bottom" id="9KG-2H-qdw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fab-Dn-cqa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -298,8 +298,8 @@
                             <constraint firstAttribute="trailing" secondItem="NRQ-pU-HLO" secondAttribute="trailing" id="VpZ-b7-iHq"/>
                             <constraint firstItem="Sin-Vt-otI" firstAttribute="top" secondItem="Fab-Dn-cqa" secondAttribute="top" id="id0-Wh-PZ6"/>
                             <constraint firstItem="NRQ-pU-HLO" firstAttribute="leading" secondItem="Sin-Vt-otI" secondAttribute="trailing" id="lTP-4i-4vV"/>
-                            <constraint firstItem="rO7-rN-qew" firstAttribute="top" secondItem="Sin-Vt-otI" secondAttribute="bottom" id="nlE-v2-rDp"/>
-                            <constraint firstItem="rO7-rN-qew" firstAttribute="top" secondItem="NRQ-pU-HLO" secondAttribute="bottom" id="vhx-Vu-qwU"/>
+                            <constraint firstItem="9KG-2H-qdw" firstAttribute="top" secondItem="Sin-Vt-otI" secondAttribute="bottom" id="nlE-v2-rDp"/>
+                            <constraint firstItem="9KG-2H-qdw" firstAttribute="top" secondItem="NRQ-pU-HLO" secondAttribute="bottom" id="vhx-Vu-qwU"/>
                         </constraints>
                     </view>
                     <connections>
@@ -317,8 +317,8 @@
             <objects>
                 <viewController storyboardIdentifier="MainViewController" title="Arumdaun Church" id="Rzd-kP-Def" customClass="MainViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ob9-V9-i64"/>
-                        <viewControllerLayoutGuide type="bottom" id="oHx-Xx-fpJ"/>
+                        <viewControllerLayoutGuide type="top" id="tLB-Xd-cMP"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Jd-dU-je6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Iu4-lh-3xy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -332,7 +332,7 @@
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z41-aj-FjA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -795,14 +795,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="a50-pN-IIH" firstAttribute="top" secondItem="Ob9-V9-i64" secondAttribute="bottom" id="8ig-9k-aOD"/>
+                            <constraint firstItem="a50-pN-IIH" firstAttribute="top" secondItem="tLB-Xd-cMP" secondAttribute="bottom" id="8ig-9k-aOD"/>
                             <constraint firstAttribute="trailing" secondItem="Z41-aj-FjA" secondAttribute="trailing" id="GPC-nP-kR8"/>
-                            <constraint firstItem="oHx-Xx-fpJ" firstAttribute="top" secondItem="EQn-fQ-jcc" secondAttribute="bottom" id="SMo-Lz-98V"/>
+                            <constraint firstItem="7Jd-dU-je6" firstAttribute="top" secondItem="EQn-fQ-jcc" secondAttribute="bottom" id="SMo-Lz-98V"/>
                             <constraint firstItem="EQn-fQ-jcc" firstAttribute="leading" secondItem="Iu4-lh-3xy" secondAttribute="leading" id="dQ3-Me-jlm"/>
+                            <constraint firstItem="Z41-aj-FjA" firstAttribute="top" secondItem="tLB-Xd-cMP" secondAttribute="bottom" id="hNv-pD-D87"/>
                             <constraint firstItem="a50-pN-IIH" firstAttribute="leading" secondItem="Iu4-lh-3xy" secondAttribute="leading" id="hje-7q-G13"/>
                             <constraint firstAttribute="trailing" secondItem="a50-pN-IIH" secondAttribute="trailing" id="hkd-Vt-3LT"/>
                             <constraint firstAttribute="trailing" secondItem="EQn-fQ-jcc" secondAttribute="trailing" id="nVD-9n-q4y"/>
-                            <constraint firstItem="Z41-aj-FjA" firstAttribute="top" secondItem="Iu4-lh-3xy" secondAttribute="top" id="qNc-JF-Hdh"/>
                             <constraint firstItem="Z41-aj-FjA" firstAttribute="leading" secondItem="Iu4-lh-3xy" secondAttribute="leading" id="uzl-LR-0Wi"/>
                             <constraint firstItem="EQn-fQ-jcc" firstAttribute="top" secondItem="Z41-aj-FjA" secondAttribute="bottom" id="xD9-7Q-KoG"/>
                         </constraints>
@@ -825,15 +825,15 @@
                 </customObject>
                 <customObject id="Vvy-b5-7Mr" customClass="MainAPIClient" customModule="Arumdaun" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="-2634.4000000000001" y="-609.44527736131943"/>
+            <point key="canvasLocation" x="-2634.7826086956525" y="-610.04464285714278"/>
         </scene>
         <!--설교 말씀-->
         <scene sceneID="jol-ve-78q">
             <objects>
                 <viewController storyboardIdentifier="SermonViewController" title="설교 말씀" id="5BI-Hs-GhH" customClass="SermonViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="W5M-6y-SJR"/>
-                        <viewControllerLayoutGuide type="bottom" id="Qay-RD-Hv1"/>
+                        <viewControllerLayoutGuide type="top" id="i3I-3s-YfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="BLw-Fq-Y6I"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wmW-8E-WYJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -1044,9 +1044,9 @@
                             <constraint firstItem="nhu-aP-dJt" firstAttribute="leading" secondItem="wmW-8E-WYJ" secondAttribute="leading" id="1At-p7-ILN"/>
                             <constraint firstAttribute="trailing" secondItem="36P-je-8Sn" secondAttribute="trailing" id="3BS-Dn-o8V"/>
                             <constraint firstItem="36P-je-8Sn" firstAttribute="leading" secondItem="wmW-8E-WYJ" secondAttribute="leading" id="Pv4-jm-Wsp"/>
-                            <constraint firstItem="Qay-RD-Hv1" firstAttribute="top" secondItem="nhu-aP-dJt" secondAttribute="bottom" id="dQe-uF-J9I"/>
+                            <constraint firstItem="BLw-Fq-Y6I" firstAttribute="top" secondItem="nhu-aP-dJt" secondAttribute="bottom" id="dQe-uF-J9I"/>
                             <constraint firstItem="nhu-aP-dJt" firstAttribute="top" secondItem="36P-je-8Sn" secondAttribute="bottom" constant="1" id="gBx-Ak-QoG"/>
-                            <constraint firstItem="36P-je-8Sn" firstAttribute="top" secondItem="W5M-6y-SJR" secondAttribute="bottom" id="sKy-xH-4pF"/>
+                            <constraint firstItem="36P-je-8Sn" firstAttribute="top" secondItem="i3I-3s-YfC" secondAttribute="bottom" id="sKy-xH-4pF"/>
                             <constraint firstAttribute="trailing" secondItem="nhu-aP-dJt" secondAttribute="trailing" id="vnK-k7-hPf"/>
                         </constraints>
                     </view>
@@ -1074,8 +1074,8 @@
             <objects>
                 <viewController storyboardIdentifier="WorshipViewController" title="찬양" id="mfA-SQ-tr9" customClass="WorshipViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KVz-UQ-oUg"/>
-                        <viewControllerLayoutGuide type="bottom" id="w7O-M0-8MW"/>
+                        <viewControllerLayoutGuide type="top" id="HO6-61-U3m"/>
+                        <viewControllerLayoutGuide type="bottom" id="kuD-Yf-NOd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nBb-XY-666">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -1233,12 +1233,12 @@
                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="m5g-cv-vi6" secondAttribute="trailing" id="1s2-8h-XvV"/>
-                            <constraint firstItem="w7O-M0-8MW" firstAttribute="top" secondItem="ISf-cs-YZB" secondAttribute="bottom" id="Chi-qu-rmp"/>
+                            <constraint firstItem="kuD-Yf-NOd" firstAttribute="top" secondItem="ISf-cs-YZB" secondAttribute="bottom" id="Chi-qu-rmp"/>
                             <constraint firstAttribute="trailing" secondItem="ISf-cs-YZB" secondAttribute="trailing" id="NFD-SI-5qI"/>
                             <constraint firstItem="m5g-cv-vi6" firstAttribute="leading" secondItem="nBb-XY-666" secondAttribute="leading" id="Nd2-Ba-oma"/>
                             <constraint firstItem="ISf-cs-YZB" firstAttribute="top" secondItem="m5g-cv-vi6" secondAttribute="bottom" constant="1" id="f8e-b7-qWD"/>
                             <constraint firstItem="ISf-cs-YZB" firstAttribute="leading" secondItem="nBb-XY-666" secondAttribute="leading" id="hUw-rX-Eny"/>
-                            <constraint firstItem="m5g-cv-vi6" firstAttribute="top" secondItem="KVz-UQ-oUg" secondAttribute="bottom" id="uVt-xa-Efg"/>
+                            <constraint firstItem="m5g-cv-vi6" firstAttribute="top" secondItem="HO6-61-U3m" secondAttribute="bottom" id="uVt-xa-Efg"/>
                         </constraints>
                     </view>
                     <connections>
@@ -1264,15 +1264,15 @@
             <objects>
                 <viewController storyboardIdentifier="YTPlayerViewController" id="a2h-TZ-38p" customClass="YTPlayerViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qKz-gx-Up6"/>
-                        <viewControllerLayoutGuide type="bottom" id="315-Nu-qEJ"/>
+                        <viewControllerLayoutGuide type="top" id="YpS-yG-exh"/>
+                        <viewControllerLayoutGuide type="bottom" id="yqy-Ap-SHc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nKX-hJ-yHV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRL-4G-mkM" userLabel="body">
-                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="585"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZR-hJ-d7r">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1297,7 +1297,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHb-x5-9qu" userLabel="youtube view">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="559"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="525"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고난과 함께 전해진 복음" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucl-ms-N53">
                                                 <rect key="frame" x="20" y="301.5" width="335" height="23.5"/>
@@ -1328,7 +1328,7 @@
                                                 </constraints>
                                             </view>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" text="말씀: 황인철 목사 날짜: 2017년 9월 3일 성경: 행 16:1~5  1 바울이 더베와 루스드라에도 이르매 거기 디모데라 하는 제자가 있으니 그 어머니는 믿는 유대 여자요 아버지는 헬라인이라" translatesAutoresizingMaskIntoConstraints="NO" id="IV7-Ea-ue6">
-                                                <rect key="frame" x="20" y="370" width="335" height="181"/>
+                                                <rect key="frame" x="20" y="370" width="335" height="147"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
@@ -1370,10 +1370,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="WRL-4G-mkM" firstAttribute="top" secondItem="qKz-gx-Up6" secondAttribute="bottom" id="3Zq-gc-5DK"/>
+                            <constraint firstItem="WRL-4G-mkM" firstAttribute="top" secondItem="YpS-yG-exh" secondAttribute="bottom" id="3Zq-gc-5DK"/>
                             <constraint firstItem="WRL-4G-mkM" firstAttribute="leading" secondItem="nKX-hJ-yHV" secondAttribute="leading" id="7D5-3d-anz"/>
-                            <constraint firstItem="WRL-4G-mkM" firstAttribute="bottom" secondItem="315-Nu-qEJ" secondAttribute="top" id="A5p-17-vRS"/>
-                            <constraint firstItem="yZR-hJ-d7r" firstAttribute="top" secondItem="qKz-gx-Up6" secondAttribute="bottom" id="Diy-i7-s0S"/>
+                            <constraint firstItem="WRL-4G-mkM" firstAttribute="bottom" secondItem="yqy-Ap-SHc" secondAttribute="top" id="A5p-17-vRS"/>
+                            <constraint firstItem="yZR-hJ-d7r" firstAttribute="top" secondItem="YpS-yG-exh" secondAttribute="bottom" id="Diy-i7-s0S"/>
                             <constraint firstAttribute="trailing" secondItem="WRL-4G-mkM" secondAttribute="trailing" id="IzF-S4-OEK"/>
                         </constraints>
                     </view>
@@ -1414,8 +1414,8 @@
             <objects>
                 <viewController storyboardIdentifier="NewsViewController" title="교회소식" id="3Zg-N9-Nk1" customClass="NewsViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zPA-ZI-xbQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="aWq-cA-RVf"/>
+                        <viewControllerLayoutGuide type="top" id="r6C-9t-heR"/>
+                        <viewControllerLayoutGuide type="bottom" id="FUI-M3-1fB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ayf-vV-sa3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -1611,7 +1611,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="kEG-GA-ajO" secondAttribute="trailing" id="EJI-EZ-fRs"/>
                             <constraint firstItem="kEG-GA-ajO" firstAttribute="top" secondItem="Ayf-vV-sa3" secondAttribute="top" id="hhN-1u-9T4"/>
-                            <constraint firstItem="aWq-cA-RVf" firstAttribute="top" secondItem="kEG-GA-ajO" secondAttribute="bottom" id="qHI-Fh-iKf"/>
+                            <constraint firstItem="FUI-M3-1fB" firstAttribute="top" secondItem="kEG-GA-ajO" secondAttribute="bottom" id="qHI-Fh-iKf"/>
                             <constraint firstItem="kEG-GA-ajO" firstAttribute="leading" secondItem="Ayf-vV-sa3" secondAttribute="leading" id="sKh-qD-Jnd"/>
                         </constraints>
                     </view>
@@ -1635,15 +1635,15 @@
             <objects>
                 <viewController storyboardIdentifier="PDFViewController" title="PDF View" id="1zL-sH-Whv" customClass="PDFViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Nu4-37-dFQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="1cY-yv-9qe"/>
+                        <viewControllerLayoutGuide type="top" id="0Ar-xR-oro"/>
+                        <viewControllerLayoutGuide type="bottom" id="uN9-Ck-u8c"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wbx-qn-iq9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6WD-8p-Jho" userLabel="body">
-                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="585"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTH-gC-8ah" userLabel="header">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1668,10 +1668,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Edu-Qg-chp" userLabel="pdf view">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="559"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="525"/>
                                         <subviews>
                                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olY-xu-AtJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="1zL-sH-Whv" id="0OQ-38-W4l"/>
@@ -1701,10 +1701,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6WD-8p-Jho" firstAttribute="bottom" secondItem="1cY-yv-9qe" secondAttribute="top" id="LIZ-6C-p5t"/>
+                            <constraint firstItem="6WD-8p-Jho" firstAttribute="bottom" secondItem="uN9-Ck-u8c" secondAttribute="top" id="LIZ-6C-p5t"/>
                             <constraint firstAttribute="trailing" secondItem="6WD-8p-Jho" secondAttribute="trailing" id="Ok4-iE-1qQ"/>
                             <constraint firstItem="6WD-8p-Jho" firstAttribute="leading" secondItem="wbx-qn-iq9" secondAttribute="leading" id="ZUS-8u-D2H"/>
-                            <constraint firstItem="6WD-8p-Jho" firstAttribute="top" secondItem="Nu4-37-dFQ" secondAttribute="bottom" id="x7m-n1-PHh"/>
+                            <constraint firstItem="6WD-8p-Jho" firstAttribute="top" secondItem="0Ar-xR-oro" secondAttribute="bottom" id="x7m-n1-PHh"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -1725,15 +1725,15 @@
             <objects>
                 <viewController storyboardIdentifier="AudioViewController" id="6fh-MX-vCr" customClass="AudioViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lQ1-MN-6Rw"/>
-                        <viewControllerLayoutGuide type="bottom" id="hVR-1R-iTz"/>
+                        <viewControllerLayoutGuide type="top" id="UWW-ix-pKQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="qVg-vc-BBD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NIn-0p-rWu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4aB-F8-lEl" userLabel="body">
-                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="585"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAa-8j-rfQ" userLabel="header">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -1758,7 +1758,7 @@
                                         </constraints>
                                     </view>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTW-Tq-N07">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="559"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="525"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="delegate" destination="6fh-MX-vCr" id="sgB-0D-II0"/>
@@ -1792,8 +1792,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4aB-F8-lEl" firstAttribute="bottom" secondItem="hVR-1R-iTz" secondAttribute="top" id="35C-g1-IWG"/>
-                            <constraint firstItem="4aB-F8-lEl" firstAttribute="top" secondItem="lQ1-MN-6Rw" secondAttribute="bottom" id="BAJ-mU-Bjf"/>
+                            <constraint firstItem="4aB-F8-lEl" firstAttribute="bottom" secondItem="qVg-vc-BBD" secondAttribute="top" id="35C-g1-IWG"/>
+                            <constraint firstItem="4aB-F8-lEl" firstAttribute="top" secondItem="UWW-ix-pKQ" secondAttribute="bottom" id="BAJ-mU-Bjf"/>
                             <constraint firstAttribute="trailing" secondItem="4aB-F8-lEl" secondAttribute="trailing" id="QCr-vF-dnZ"/>
                             <constraint firstItem="4aB-F8-lEl" firstAttribute="leading" secondItem="NIn-0p-rWu" secondAttribute="leading" id="cJa-Vg-QPm"/>
                         </constraints>
@@ -1817,21 +1817,21 @@
             <objects>
                 <viewController storyboardIdentifier="DailyQTViewController" title="Daily QT" id="JZI-oG-lnK" customClass="DailyQTViewController" customModule="Arumdaun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Kzj-NO-iku"/>
-                        <viewControllerLayoutGuide type="bottom" id="hzp-dE-Sg8"/>
+                        <viewControllerLayoutGuide type="top" id="zbM-YS-juq"/>
+                        <viewControllerLayoutGuide type="bottom" id="pQh-Fw-HbX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ywY-OK-Kf0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOO-vW-K3C" userLabel="body">
-                                <rect key="frame" x="0.0" y="48" width="375" height="619"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="585"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QD7-ub-nR2" userLabel="pdf view">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="619"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="585"/>
                                         <subviews>
                                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oze-Yy-vgJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="619"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="585"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="JZI-oG-lnK" id="46W-NW-DVO"/>
@@ -1858,10 +1858,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="YOO-vW-K3C" firstAttribute="bottom" secondItem="hzp-dE-Sg8" secondAttribute="top" id="aIP-gA-Bb7"/>
+                            <constraint firstItem="YOO-vW-K3C" firstAttribute="bottom" secondItem="pQh-Fw-HbX" secondAttribute="top" id="aIP-gA-Bb7"/>
                             <constraint firstAttribute="trailing" secondItem="YOO-vW-K3C" secondAttribute="trailing" id="hBd-dr-2cK"/>
                             <constraint firstItem="YOO-vW-K3C" firstAttribute="leading" secondItem="ywY-OK-Kf0" secondAttribute="leading" id="jqo-a6-buZ"/>
-                            <constraint firstItem="YOO-vW-K3C" firstAttribute="top" secondItem="Kzj-NO-iku" secondAttribute="bottom" id="or7-NR-JAa"/>
+                            <constraint firstItem="YOO-vW-K3C" firstAttribute="top" secondItem="zbM-YS-juq" secondAttribute="bottom" id="or7-NR-JAa"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>

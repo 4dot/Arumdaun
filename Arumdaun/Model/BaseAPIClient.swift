@@ -25,7 +25,7 @@ class BaseAPIClient : NSObject {
     /**
      * @desc load news data from rss feed
      */
-    func loadNewsData(_ includeHeader: Bool = true, _ includeFooter: Bool = true, page: Int = 1, _ complete:@escaping (_ news: [NewsData], _ weeklyPdf: String)->Void) {
+    func loadNewsData(_ includeHeader: Bool = true, _ includeFooter: Bool = true, page: Int = 1, _ complete: @escaping (_ news: [NewsData], _ weeklyPdf: String)->Void) {
         
         // request
         let path = "\(AR_NEWSFEED_URL)?paged=\(page)"
@@ -70,43 +70,12 @@ class BaseAPIClient : NSObject {
                                                         "dataType" : NewsDataType.Header.rawValue]), at: 0)
                     }
                     
-                    if includeFooter {
-                        self?.loadNewsPDFFromWeb({ (pdfUrl) in
-                            //add footer data
-                            newsData.append(NewsData(json: ["extraData" : pdfUrl,
-                                                            "dataType" : NewsDataType.Footer.rawValue]))
-                            complete(newsData, pdfUrl)
-                        })
-                    } else {
-                        complete(newsData, "")
-                    }
+                    complete(newsData, WEEKLY_BULLETIN)
                     
                 } catch {
-                    complete([], "")
+                    complete([], WEEKLY_BULLETIN)
                 }
             }
-        }
-    }
-    
-    /**
-     * @desc find pdf url from url
-     * @param url web page
-     */
-    func loadNewsPDFFromWeb(_ complete:@escaping (_ pdf: String)->Void) {
-        
-        ArNetwork.loadWebPage(NEWS_WEB_PAGE) { (html) in
-            // parse to html ducument
-            if let doc = try? Kanna.HTML(html: html, encoding: String.Encoding.utf8) {
-                
-                // find pdf link from html doc
-                let pdfPath = AR_MAIN_PAGE + "wp-content/uploads/"
-                if let component = doc.xpath("//a[contains(@href,'\(pdfPath)')]").first {
-                    print(component["href"] ?? "")
-                    complete(component["href"] ?? "")
-                    return
-                }
-            }
-            complete("")
         }
     }
     
