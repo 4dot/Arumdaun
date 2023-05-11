@@ -14,13 +14,17 @@ enum QTContentType : Int{
     case DailyQT
 }
 
-// total : 12
+// total : 14
 enum YTPlayList : String {
     case WeekendSermon = "주일예배 설교"
-    case SpecialWorship = "특별찬양"
+    case WdnesdayVision = "수요비젼 예배"
+    case MissioSaturDei = "토요 Misson Satur Dei"
+    
     case SionWorship = "시온 찬양"
     case KairosWorship = "카이로스 찬양"
     case ImmanuelWorship = "임마누엘 찬양"
+    case SpecialWorship = "특별찬양"
+    
     case KoreanSchool = "한국학교"
     case MissionBomb = "전도폭발"
     case StudentTraning = "제자교육"
@@ -34,6 +38,8 @@ enum YTPlayList : String {
             var id: String = ""
             switch self {
             case .WeekendSermon: id = "PL9906CBD305FAD6DB"
+            case .WdnesdayVision: id = "PLgbL6IzlppTUjtULoQ1ksMmCRSykw1MH_"
+            case .MissioSaturDei: id = "PLgbL6IzlppTWAMDcOGkGFq3fOC3H9f1Lg"
             case .SpecialWorship: id = "PL99649D9F1BE8CA80"
             case .SionWorship: id = "PL3844EAE62711F3AB"
             case .KairosWorship: id = "PL125330946A5A0030"
@@ -60,7 +66,7 @@ enum YTPlayList : String {
     }
     
     static let YTPlayListAll : [YTPlayList] =
-        [.WeekendSermon, .SpecialWorship, .SionWorship, .KairosWorship, .ImmanuelWorship, .KoreanSchool, .MissionBomb, .StudentTraning, .FridaySermon, .SpecialSermon, .WomansChorus, .MansChorus]
+    [.WeekendSermon, .WdnesdayVision, .MissioSaturDei, .SpecialWorship, .SionWorship, .KairosWorship, .ImmanuelWorship, .KoreanSchool, .MissionBomb, .StudentTraning, .FridaySermon, .SpecialSermon, .WomansChorus, .MansChorus]
 }
 
 //

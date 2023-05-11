@@ -44,14 +44,15 @@ enum SideMenuType : Int {
         }
     }
     enum SermonSub : Int {
-        case Weekend, MorningQT, Friday, Special
+        case Weekend, WdnesdayVision, MissioSaturDei, MorningQT, Special
         
         static var count: Int { return SermonSub.Special.rawValue + 1 }
         var desc: String {
             switch self {
             case .Weekend: return YTPlayList.WeekendSermon.ids.title // "주일예배 설교"
+            case .WdnesdayVision: return YTPlayList.WdnesdayVision.ids.title // "수요비젼 예배"
+            case .MissioSaturDei: return YTPlayList.MissioSaturDei.ids.title // "토요 Misson Satur Dei"
             case .MorningQT: return "새벽기도 QT 말씀"
-            case .Friday: return YTPlayList.FridaySermon.ids.title //"금요예배 설교"
             case .Special: return YTPlayList.SpecialSermon.ids.title //"특별예배 설교"
             }
         }
