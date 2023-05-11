@@ -18,7 +18,7 @@ enum QTContentType : Int{
 enum YTPlayList : String {
     case WeekendSermon = "주일예배 설교"
     case WdnesdayVision = "수요비젼 예배"
-    case MissioSaturDei = "토요 Misson Satur Dei"
+    case MissioSaturDei = "토요 Missio Satur Dei"
     
     case SionWorship = "시온 찬양"
     case KairosWorship = "카이로스 찬양"

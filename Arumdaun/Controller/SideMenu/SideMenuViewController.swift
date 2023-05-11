@@ -51,7 +51,7 @@ enum SideMenuType : Int {
             switch self {
             case .Weekend: return YTPlayList.WeekendSermon.ids.title // "주일예배 설교"
             case .WdnesdayVision: return YTPlayList.WdnesdayVision.ids.title // "수요비젼 예배"
-            case .MissioSaturDei: return YTPlayList.MissioSaturDei.ids.title // "토요 Misson Satur Dei"
+            case .MissioSaturDei: return YTPlayList.MissioSaturDei.ids.title // "토요 Missio Satur Dei"
             case .MorningQT: return "새벽기도 QT 말씀"
             case .Special: return YTPlayList.SpecialSermon.ids.title //"특별예배 설교"
             }
