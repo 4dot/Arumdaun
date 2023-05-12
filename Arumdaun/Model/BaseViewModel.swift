@@ -24,6 +24,7 @@ enum YTPlayList : String {
     case KairosWorship = "카이로스 찬양"
     case ImmanuelWorship = "임마누엘 찬양"
     case SpecialWorship = "특별찬양"
+    case joyfullPraise = "기쁨으로 찬양팀"
     
     case KoreanSchool = "한국학교"
     case MissionBomb = "전도폭발"
@@ -51,6 +52,7 @@ enum YTPlayList : String {
             case .SpecialSermon: id = "PL036E2AD638172D83"
             case .WomansChorus: id = "PLE006ADEC2ACE185F"
             case .MansChorus: id = "PL8BD24C4ADB10A595"
+            case .joyfullPraise: id = "PLgbL6IzlppTU02vQkpDIv51arswV--QtQ"
             }
             return (id, self.rawValue)
         }
@@ -66,7 +68,7 @@ enum YTPlayList : String {
     }
     
     static let YTPlayListAll : [YTPlayList] =
-    [.WeekendSermon, .WdnesdayVision, .MissioSaturDei, .SpecialWorship, .SionWorship, .KairosWorship, .ImmanuelWorship, .KoreanSchool, .MissionBomb, .StudentTraning, .FridaySermon, .SpecialSermon, .WomansChorus, .MansChorus]
+    [.WeekendSermon, .WdnesdayVision, .MissioSaturDei, .SpecialWorship, .SionWorship, .KairosWorship, .joyfullPraise, .ImmanuelWorship, .KoreanSchool, .MissionBomb, .StudentTraning, .FridaySermon, .SpecialSermon, .WomansChorus, .MansChorus]
 }
 
 //

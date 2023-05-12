@@ -59,13 +59,13 @@ enum SideMenuType : Int {
     }
     
     enum WorshipSub : Int {
-        case Sion, Kairos, Immanuel, Special
+        case Sion, joyfull, Immanuel, Special
         
         static var count: Int { return WorshipSub.Special.rawValue + 1 }
         var desc: String {
             switch self {
             case .Sion: return YTPlayList.SionWorship.ids.title // "시온 찬양대"
-            case .Kairos: return YTPlayList.KairosWorship.ids.title // "카이로스 찬양대"
+            case .joyfull: return YTPlayList.joyfullPraise.ids.title // "기쁨으로 찬양팀"
             case .Immanuel: return YTPlayList.ImmanuelWorship.ids.title // "임마누엘 찬양대"
             case .Special: return YTPlayList.SpecialWorship.ids.title // "특별찬양"
             }
